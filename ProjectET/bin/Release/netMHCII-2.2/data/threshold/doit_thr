@@ -1,0 +1,28 @@
+#! /bin/tcsh
+
+foreach a ( `ls -ltr ../random/*.pred | gawk '$5 > 20000000' | args 9 | gawk -F "/" '{print $NF}' | gawk -F "." '{print $1}' ` )
+
+if ( ! -e $a.thr ) then
+
+cat ../random/$a.pred | gawk '$NF=="PEPLIST"' | args 3,5 | gawk '{printf( "%s %f\n", $1,$2)}' | sort -nrk2 > $$.sort
+
+echo $a `wc $$.sort | args 1`
+
+touch $a.thr
+rm -f $a.thr
+
+foreach f ( 0.01 0.05 0.1 0.15 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.25 1.5 2 4 8 16 32 50 )
+
+set N = `echo $f | gawk '{print ($1*200000)/100}' `
+
+set line = `cat $$.sort | head -$N | tail -1`
+
+echo $a $f $line >> $a.thr
+
+end
+
+rm -f $$.sort
+
+endif
+
+end

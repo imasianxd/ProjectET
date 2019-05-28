@@ -1,0 +1,382 @@
+# NetMHCIIpan version 3.0
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+
+
+
+# Allele: DRB1*01:01
+-------------------------------------------------------------------------------------------------------------------------------------------
+   pos                 Allele           peptide    Identity  Pos         Core 1-log50k(aff)  Affinity(nM)  %Rank   BindingLevel
+-------------------------------------------------------------------------------------------------------------------------------------------
+     0             DRB1*01:01     STAGKVIKCKAAVLW  ADHB_HUMAN    5    VIKCKAAVL         0.644         47.25  16.00  <=SB
+     1             DRB1*01:01     TAGKVIKCKAAVLWE  ADHB_HUMAN    4    VIKCKAAVL         0.672         34.82  15.00  <=SB
+     2             DRB1*01:01     AGKVIKCKAAVLWEV  ADHB_HUMAN    3    VIKCKAAVL         0.705         24.31   9.00  <=SB
+     3             DRB1*01:01     GKVIKCKAAVLWEVK  ADHB_HUMAN    2    VIKCKAAVL         0.673         34.28  15.00  <=SB
+     4             DRB1*01:01     KVIKCKAAVLWEVKK  ADHB_HUMAN    1    VIKCKAAVL         0.629         55.27  32.00  <=WB
+     5             DRB1*01:01     VIKCKAAVLWEVKKP  ADHB_HUMAN    0    VIKCKAAVL         0.549        131.98  50.00  <=WB
+     6             DRB1*01:01     IKCKAAVLWEVKKPF  ADHB_HUMAN    0    IKCKAAVLW         0.418        542.39  50.00  
+     7             DRB1*01:01     KCKAAVLWEVKKPFS  ADHB_HUMAN    1    CKAAVLWEV         0.371        900.44  50.00  
+     8             DRB1*01:01     CKAAVLWEVKKPFSI  ADHB_HUMAN    6    WEVKKPFSI         0.445        404.42  50.00  <=WB
+     9             DRB1*01:01     KAAVLWEVKKPFSIE  ADHB_HUMAN    5    WEVKKPFSI         0.463        334.01  50.00  <=WB
+    10             DRB1*01:01     AAVLWEVKKPFSIED  ADHB_HUMAN    4    WEVKKPFSI         0.465        327.17  50.00  <=WB
+    11             DRB1*01:01     AVLWEVKKPFSIEDV  ADHB_HUMAN    3    WEVKKPFSI         0.502        218.60  50.00  <=WB
+    12             DRB1*01:01     VLWEVKKPFSIEDVE  ADHB_HUMAN    2    WEVKKPFSI         0.457        357.06  50.00  <=WB
+    13             DRB1*01:01     LWEVKKPFSIEDVEV  ADHB_HUMAN    1    WEVKKPFSI         0.411        585.39  50.00  
+    14             DRB1*01:01     WEVKKPFSIEDVEVA  ADHB_HUMAN    0    WEVKKPFSI         0.401        655.18  50.00  
+    15             DRB1*01:01     EVKKPFSIEDVEVAP  ADHB_HUMAN    5    FSIEDVEVA         0.372        891.10  50.00  
+    16             DRB1*01:01     VKKPFSIEDVEVAPP  ADHB_HUMAN    4    FSIEDVEVA         0.392        721.74  50.00  
+    17             DRB1*01:01     KKPFSIEDVEVAPPK  ADHB_HUMAN    3    FSIEDVEVA         0.419        538.80  50.00  
+    18             DRB1*01:01     KPFSIEDVEVAPPKA  ADHB_HUMAN    2    FSIEDVEVA         0.374        869.48  50.00  
+    19             DRB1*01:01     PFSIEDVEVAPPKAY  ADHB_HUMAN    1    FSIEDVEVA         0.363        987.32  50.00  
+    20             DRB1*01:01     FSIEDVEVAPPKAYE  ADHB_HUMAN    0    FSIEDVEVA         0.350       1129.25  50.00  
+    21             DRB1*01:01     SIEDVEVAPPKAYEV  ADHB_HUMAN    4    VEVAPPKAY         0.397        681.76  50.00  
+    22             DRB1*01:01     IEDVEVAPPKAYEVR  ADHB_HUMAN    3    VEVAPPKAY         0.425        503.78  50.00  
+    23             DRB1*01:01     EDVEVAPPKAYEVRI  ADHB_HUMAN    2    VEVAPPKAY         0.389        743.50  50.00  
+    24             DRB1*01:01     DVEVAPPKAYEVRIK  ADHB_HUMAN    1    VEVAPPKAY         0.386        767.73  50.00  
+    25             DRB1*01:01     VEVAPPKAYEVRIKM  ADHB_HUMAN    2    VAPPKAYEV         0.364        969.87  50.00  
+    26             DRB1*01:01     EVAPPKAYEVRIKMV  ADHB_HUMAN    6    AYEVRIKMV         0.396        687.29  50.00  
+    27             DRB1*01:01     VAPPKAYEVRIKMVA  ADHB_HUMAN    5    AYEVRIKMV         0.441        423.88  50.00  <=WB
+    28             DRB1*01:01     APPKAYEVRIKMVAV  ADHB_HUMAN    4    AYEVRIKMV         0.499        226.15  50.00  <=WB
+    29             DRB1*01:01     PPKAYEVRIKMVAVG  ADHB_HUMAN    3    AYEVRIKMV         0.523        173.89  50.00  <=WB
+    30             DRB1*01:01     PKAYEVRIKMVAVGI  ADHB_HUMAN    6    RIKMVAVGI         0.583         91.04  32.00  <=WB
+    31             DRB1*01:01     KAYEVRIKMVAVGIC  ADHB_HUMAN    5    RIKMVAVGI         0.602         74.38  32.00  <=WB
+    32             DRB1*01:01     AYEVRIKMVAVGICR  ADHB_HUMAN    4    RIKMVAVGI         0.632         53.41  32.00  <=WB
+    33             DRB1*01:01     YEVRIKMVAVGICRT  ADHB_HUMAN    3    RIKMVAVGI         0.667         36.66  15.00  <=SB
+    34             DRB1*01:01     EVRIKMVAVGICRTD  ADHB_HUMAN    2    RIKMVAVGI         0.642         48.10  32.00  <=SB
+    35             DRB1*01:01     VRIKMVAVGICRTDD  ADHB_HUMAN    1    RIKMVAVGI         0.621         60.31  32.00  <=WB
+    36             DRB1*01:01     RIKMVAVGICRTDDH  ADHB_HUMAN    0    RIKMVAVGI         0.593         81.68  32.00  <=WB
+    37             DRB1*01:01     IKMVAVGICRTDDHV  ADHB_HUMAN    2    MVAVGICRT         0.474        295.04  50.00  <=WB
+    38             DRB1*01:01     KMVAVGICRTDDHVV  ADHB_HUMAN    1    MVAVGICRT         0.407        609.54  50.00  
+    39             DRB1*01:01     MVAVGICRTDDHVVS  ADHB_HUMAN    0    MVAVGICRT         0.334       1347.51  50.00  
+    40             DRB1*01:01     VAVGICRTDDHVVSG  ADHB_HUMAN    4    ICRTDDHVV         0.292       2132.30  50.00  
+    41             DRB1*01:01     AVGICRTDDHVVSGN  ADHB_HUMAN    3    ICRTDDHVV         0.309       1765.82  50.00  
+    42             DRB1*01:01     VGICRTDDHVVSGNL  ADHB_HUMAN    2    ICRTDDHVV         0.296       2026.93  50.00  
+    43             DRB1*01:01     GICRTDDHVVSGNLV  ADHB_HUMAN    6    DHVVSGNLV         0.348       1154.28  50.00  
+    44             DRB1*01:01     ICRTDDHVVSGNLVT  ADHB_HUMAN    5    DHVVSGNLV         0.383        789.30  50.00  
+    45             DRB1*01:01     CRTDDHVVSGNLVTP  ADHB_HUMAN    4    DHVVSGNLV         0.389        745.16  50.00  
+    46             DRB1*01:01     RTDDHVVSGNLVTPL  ADHB_HUMAN    3    DHVVSGNLV         0.466        324.05  50.00  <=WB
+    47             DRB1*01:01     TDDHVVSGNLVTPLP  ADHB_HUMAN    2    DHVVSGNLV         0.435        452.79  50.00  <=WB
+    48             DRB1*01:01     DDHVVSGNLVTPLPV  ADHB_HUMAN    1    DHVVSGNLV         0.462        338.91  50.00  <=WB
+    49             DRB1*01:01     DHVVSGNLVTPLPVI  ADHB_HUMAN    3    VSGNLVTPL         0.518        184.88  50.00  <=WB
+    50             DRB1*01:01     HVVSGNLVTPLPVIL  ADHB_HUMAN    4    GNLVTPLPV         0.583         91.30  32.00  <=WB
+    51             DRB1*01:01     VVSGNLVTPLPVILG  ADHB_HUMAN    3    GNLVTPLPV         0.620         61.14  32.00  <=WB
+    52             DRB1*01:01     VSGNLVTPLPVILGH  ADHB_HUMAN    4    LVTPLPVIL         0.640         49.00  32.00  <=SB
+    53             DRB1*01:01     SGNLVTPLPVILGHE  ADHB_HUMAN    3    LVTPLPVIL         0.641         48.57  32.00  <=SB
+    54             DRB1*01:01     GNLVTPLPVILGHEA  ADHB_HUMAN    3    VTPLPVILG         0.636         51.18  32.00  <=WB
+    55             DRB1*01:01     NLVTPLPVILGHEAA  ADHB_HUMAN    2    VTPLPVILG         0.594         80.71  32.00  <=WB
+    56             DRB1*01:01     LVTPLPVILGHEAAG  ADHB_HUMAN    1    VTPLPVILG         0.548        133.04  50.00  <=WB
+    57             DRB1*01:01     VTPLPVILGHEAAGI  ADHB_HUMAN    3    LPVILGHEA         0.590         84.48  32.00  <=WB
+    58             DRB1*01:01     TPLPVILGHEAAGIV  ADHB_HUMAN    5    ILGHEAAGI         0.632         53.65  32.00  <=WB
+    59             DRB1*01:01     PLPVILGHEAAGIVE  ADHB_HUMAN    4    ILGHEAAGI         0.651         43.66  15.00  <=SB
+    60             DRB1*01:01     LPVILGHEAAGIVES  ADHB_HUMAN    3    ILGHEAAGI         0.679         32.12  15.00  <=SB
+    61             DRB1*01:01     PVILGHEAAGIVESV  ADHB_HUMAN    2    ILGHEAAGI         0.628         56.02  32.00  <=WB
+    62             DRB1*01:01     VILGHEAAGIVESVG  ADHB_HUMAN    1    ILGHEAAGI         0.577         97.46  32.00  <=WB
+    63             DRB1*01:01     ILGHEAAGIVESVGE  ADHB_HUMAN    0    ILGHEAAGI         0.488        255.36  50.00  <=WB
+    64             DRB1*01:01     LGHEAAGIVESVGEG  ADHB_HUMAN    0    LGHEAAGIV         0.322       1528.29  50.00  
+    65             DRB1*01:01     GHEAAGIVESVGEGV  ADHB_HUMAN    6    IVESVGEGV         0.306       1828.26  50.00  
+    66             DRB1*01:01     HEAAGIVESVGEGVT  ADHB_HUMAN    5    IVESVGEGV         0.344       1213.99  50.00  
+    67             DRB1*01:01     EAAGIVESVGEGVTT  ADHB_HUMAN    4    IVESVGEGV         0.393        711.87  50.00  
+    68             DRB1*01:01     AAGIVESVGEGVTTV  ADHB_HUMAN    3    IVESVGEGV         0.464        331.66  50.00  <=WB
+    69             DRB1*01:01     AGIVESVGEGVTTVK  ADHB_HUMAN    2    IVESVGEGV         0.412        582.55  50.00  
+    70             DRB1*01:01     GIVESVGEGVTTVKP  ADHB_HUMAN    1    IVESVGEGV         0.361       1003.34  50.00  
+    71             DRB1*01:01     IVESVGEGVTTVKPG  ADHB_HUMAN    0    IVESVGEGV         0.322       1527.00  50.00  
+    72             DRB1*01:01     VESVGEGVTTVKPGD  ADHB_HUMAN    2    SVGEGVTTV         0.183       6933.42  50.00  
+    73             DRB1*01:01     ESVGEGVTTVKPGDK  ADHB_HUMAN    1    SVGEGVTTV         0.166       8305.55  50.00  
+    74             DRB1*01:01     SVGEGVTTVKPGDKV  ADHB_HUMAN    0    SVGEGVTTV         0.181       7026.08  50.00  
+    75             DRB1*01:01     VGEGVTTVKPGDKVI  ADHB_HUMAN    4    VTTVKPGDK         0.221       4577.36  50.00  
+    76             DRB1*01:01     GEGVTTVKPGDKVIP  ADHB_HUMAN    3    VTTVKPGDK         0.229       4205.36  50.00  
+    77             DRB1*01:01     EGVTTVKPGDKVIPL  ADHB_HUMAN    3    TTVKPGDKV         0.258       3063.36  50.00  
+    78             DRB1*01:01     GVTTVKPGDKVIPLF  ADHB_HUMAN    3    TVKPGDKVI         0.279       2452.12  50.00  
+    79             DRB1*01:01     VTTVKPGDKVIPLFT  ADHB_HUMAN    6    GDKVIPLFT         0.296       2024.48  50.00  
+    80             DRB1*01:01     TTVKPGDKVIPLFTP  ADHB_HUMAN    5    GDKVIPLFT         0.284       2316.41  50.00  
+    81             DRB1*01:01     TVKPGDKVIPLFTPQ  ADHB_HUMAN    4    GDKVIPLFT         0.327       1450.03  50.00  
+    82             DRB1*01:01     VKPGDKVIPLFTPQC  ADHB_HUMAN    5    KVIPLFTPQ         0.388        753.41  50.00  
+    83             DRB1*01:01     KPGDKVIPLFTPQCG  ADHB_HUMAN    5    VIPLFTPQC         0.419        535.27  50.00  
+    84             DRB1*01:01     PGDKVIPLFTPQCGK  ADHB_HUMAN    4    VIPLFTPQC         0.474        297.79  50.00  <=WB
+    85             DRB1*01:01     GDKVIPLFTPQCGKC  ADHB_HUMAN    3    VIPLFTPQC         0.494        238.18  50.00  <=WB
+    86             DRB1*01:01     DKVIPLFTPQCGKCR  ADHB_HUMAN    2    VIPLFTPQC         0.496        232.62  50.00  <=WB
+    87             DRB1*01:01     KVIPLFTPQCGKCRV  ADHB_HUMAN    1    VIPLFTPQC         0.511        198.32  50.00  <=WB
+    88             DRB1*01:01     VIPLFTPQCGKCRVC  ADHB_HUMAN    4    FTPQCGKCR         0.487        257.85  50.00  <=WB
+    89             DRB1*01:01     IPLFTPQCGKCRVCK  ADHB_HUMAN    3    FTPQCGKCR         0.477        286.56  50.00  <=WB
+    90             DRB1*01:01     PLFTPQCGKCRVCKN  ADHB_HUMAN    2    FTPQCGKCR         0.410        594.10  50.00  
+    91             DRB1*01:01     LFTPQCGKCRVCKNP  ADHB_HUMAN    1    FTPQCGKCR         0.368        928.65  50.00  
+    92             DRB1*01:01     FTPQCGKCRVCKNPE  ADHB_HUMAN    0    FTPQCGKCR         0.258       3071.96  50.00  
+    93             DRB1*01:01     TPQCGKCRVCKNPES  ADHB_HUMAN    6    CRVCKNPES         0.194       6127.20  50.00  
+    94             DRB1*01:01     PQCGKCRVCKNPESN  ADHB_HUMAN    5    CRVCKNPES         0.215       4877.24  50.00  
+    95             DRB1*01:01     QCGKCRVCKNPESNY  ADHB_HUMAN    4    CRVCKNPES         0.274       2590.81  50.00  
+    96             DRB1*01:01     CGKCRVCKNPESNYC  ADHB_HUMAN    3    CRVCKNPES         0.304       1870.61  50.00  
+    97             DRB1*01:01     GKCRVCKNPESNYCL  ADHB_HUMAN    2    CRVCKNPES         0.311       1720.50  50.00  
+    98             DRB1*01:01     KCRVCKNPESNYCLK  ADHB_HUMAN    1    CRVCKNPES         0.315       1657.66  50.00  
+    99             DRB1*01:01     CRVCKNPESNYCLKN  ADHB_HUMAN    4    KNPESNYCL         0.293       2089.68  50.00  
+   100             DRB1*01:01     RVCKNPESNYCLKND  ADHB_HUMAN    3    KNPESNYCL         0.261       2962.10  50.00  
+   101             DRB1*01:01     VCKNPESNYCLKNDL  ADHB_HUMAN    2    KNPESNYCL         0.233       4004.60  50.00  
+   102             DRB1*01:01     CKNPESNYCLKNDLG  ADHB_HUMAN    6    NYCLKNDLG         0.269       2712.87  50.00  
+   103             DRB1*01:01     KNPESNYCLKNDLGN  ADHB_HUMAN    5    NYCLKNDLG         0.302       1900.43  50.00  
+   104             DRB1*01:01     NPESNYCLKNDLGNP  ADHB_HUMAN    4    NYCLKNDLG         0.304       1870.34  50.00  
+   105             DRB1*01:01     PESNYCLKNDLGNPR  ADHB_HUMAN    3    NYCLKNDLG         0.367        943.67  50.00  
+   106             DRB1*01:01     ESNYCLKNDLGNPRG  ADHB_HUMAN    2    NYCLKNDLG         0.374        878.51  50.00  
+   107             DRB1*01:01     SNYCLKNDLGNPRGT  ADHB_HUMAN    1    NYCLKNDLG         0.382        800.91  50.00  
+   108             DRB1*01:01     NYCLKNDLGNPRGTL  ADHB_HUMAN    3    LKNDLGNPR         0.394        702.79  50.00  
+   109             DRB1*01:01     YCLKNDLGNPRGTLQ  ADHB_HUMAN    2    LKNDLGNPR         0.345       1201.64  50.00  
+   110             DRB1*01:01     CLKNDLGNPRGTLQD  ADHB_HUMAN    1    LKNDLGNPR         0.297       2006.01  50.00  
+   111             DRB1*01:01     LKNDLGNPRGTLQDG  ADHB_HUMAN    0    LKNDLGNPR         0.272       2630.92  50.00  
+   112             DRB1*01:01     KNDLGNPRGTLQDGT  ADHB_HUMAN    3    LGNPRGTLQ         0.213       4984.64  50.00  
+   113             DRB1*01:01     NDLGNPRGTLQDGTR  ADHB_HUMAN    2    LGNPRGTLQ         0.175       7498.71  50.00  
+   114             DRB1*01:01     DLGNPRGTLQDGTRR  ADHB_HUMAN    1    LGNPRGTLQ         0.170       7911.62  50.00  
+   115             DRB1*01:01     LGNPRGTLQDGTRRF  ADHB_HUMAN    6    TLQDGTRRF         0.200       5756.87  50.00  
+   116             DRB1*01:01     GNPRGTLQDGTRRFT  ADHB_HUMAN    5    TLQDGTRRF         0.228       4253.87  50.00  
+   117             DRB1*01:01     NPRGTLQDGTRRFTC  ADHB_HUMAN    4    TLQDGTRRF         0.252       3272.76  50.00  
+   118             DRB1*01:01     PRGTLQDGTRRFTCR  ADHB_HUMAN    3    TLQDGTRRF         0.273       2600.02  50.00  
+   119             DRB1*01:01     RGTLQDGTRRFTCRG  ADHB_HUMAN    2    TLQDGTRRF         0.260       3000.09  50.00  
+   120             DRB1*01:01     GTLQDGTRRFTCRGK  ADHB_HUMAN    1    TLQDGTRRF         0.225       4401.40  50.00  
+   121             DRB1*01:01     TLQDGTRRFTCRGKP  ADHB_HUMAN    0    TLQDGTRRF         0.196       6009.80  50.00  
+   122             DRB1*01:01     LQDGTRRFTCRGKPI  ADHB_HUMAN    6    RFTCRGKPI         0.247       3467.87  50.00  
+   123             DRB1*01:01     QDGTRRFTCRGKPIH  ADHB_HUMAN    5    RFTCRGKPI         0.318       1599.60  50.00  
+   124             DRB1*01:01     DGTRRFTCRGKPIHH  ADHB_HUMAN    4    RFTCRGKPI         0.366        951.15  50.00  
+   125             DRB1*01:01     GTRRFTCRGKPIHHF  ADHB_HUMAN    3    RFTCRGKPI         0.457        355.63  50.00  <=WB
+   126             DRB1*01:01     TRRFTCRGKPIHHFL  ADHB_HUMAN    3    FTCRGKPIH         0.502        219.02  50.00  <=WB
+   127             DRB1*01:01     RRFTCRGKPIHHFLG  ADHB_HUMAN    4    CRGKPIHHF         0.501        220.77  50.00  <=WB
+   128             DRB1*01:01     RFTCRGKPIHHFLGT  ADHB_HUMAN    3    CRGKPIHHF         0.491        247.33  50.00  <=WB
+   129             DRB1*01:01     FTCRGKPIHHFLGTS  ADHB_HUMAN    2    CRGKPIHHF         0.459        349.06  50.00  <=WB
+   130             DRB1*01:01     TCRGKPIHHFLGTST  ADHB_HUMAN    6    IHHFLGTST         0.582         91.92  32.00  <=WB
+   131             DRB1*01:01     CRGKPIHHFLGTSTF  ADHB_HUMAN    5    IHHFLGTST         0.661         39.30  15.00  <=SB
+   132             DRB1*01:01     RGKPIHHFLGTSTFS  ADHB_HUMAN    4    IHHFLGTST         0.718         21.08   7.00  <=SB
+   133             DRB1*01:01     GKPIHHFLGTSTFSQ  ADHB_HUMAN    3    IHHFLGTST         0.755         14.16   4.00  <=SB
+   134             DRB1*01:01     KPIHHFLGTSTFSQY  ADHB_HUMAN    2    IHHFLGTST         0.747         15.45   5.00  <=SB
+   135             DRB1*01:01     PIHHFLGTSTFSQYT  ADHB_HUMAN    1    IHHFLGTST         0.728         19.07   6.00  <=SB
+   136             DRB1*01:01     IHHFLGTSTFSQYTV  ADHB_HUMAN    3    FLGTSTFSQ         0.711         22.74   8.00  <=SB
+   137             DRB1*01:01     HHFLGTSTFSQYTVV  ADHB_HUMAN    2    FLGTSTFSQ         0.636         51.55  32.00  <=WB
+   138             DRB1*01:01     HFLGTSTFSQYTVVD  ADHB_HUMAN    1    FLGTSTFSQ         0.578         96.22  32.00  <=WB
+   139             DRB1*01:01     FLGTSTFSQYTVVDE  ADHB_HUMAN    0    FLGTSTFSQ         0.484        264.71  50.00  <=WB
+   140             DRB1*01:01     LGTSTFSQYTVVDEN  ADHB_HUMAN    3    STFSQYTVV         0.363        983.96  50.00  
+   141             DRB1*01:01     GTSTFSQYTVVDENA  ADHB_HUMAN    3    TFSQYTVVD         0.367        939.54  50.00  
+   142             DRB1*01:01     TSTFSQYTVVDENAV  ADHB_HUMAN    3    FSQYTVVDE         0.393        710.27  50.00  
+   143             DRB1*01:01     STFSQYTVVDENAVA  ADHB_HUMAN    5    YTVVDENAV         0.409        601.43  50.00  
+   144             DRB1*01:01     TFSQYTVVDENAVAK  ADHB_HUMAN    4    YTVVDENAV         0.452        375.19  50.00  <=WB
+   145             DRB1*01:01     FSQYTVVDENAVAKI  ADHB_HUMAN    3    YTVVDENAV         0.511        199.28  50.00  <=WB
+   146             DRB1*01:01     SQYTVVDENAVAKID  ADHB_HUMAN    2    YTVVDENAV         0.465        325.47  50.00  <=WB
+   147             DRB1*01:01     QYTVVDENAVAKIDA  ADHB_HUMAN    3    VVDENAVAK         0.461        341.31  50.00  <=WB
+   148             DRB1*01:01     YTVVDENAVAKIDAA  ADHB_HUMAN    3    VDENAVAKI         0.441        422.21  50.00  <=WB
+   149             DRB1*01:01     TVVDENAVAKIDAAS  ADHB_HUMAN    2    VDENAVAKI         0.373        884.03  50.00  
+   150             DRB1*01:01     VVDENAVAKIDAASP  ADHB_HUMAN    1    VDENAVAKI         0.356       1060.53  50.00  
+   151             DRB1*01:01     VDENAVAKIDAASPL  ADHB_HUMAN    5    VAKIDAASP         0.418        541.00  50.00  
+   152             DRB1*01:01     DENAVAKIDAASPLE  ADHB_HUMAN    4    VAKIDAASP         0.456        358.23  50.00  <=WB
+   153             DRB1*01:01     ENAVAKIDAASPLEK  ADHB_HUMAN    3    VAKIDAASP         0.513        193.66  50.00  <=WB
+   154             DRB1*01:01     NAVAKIDAASPLEKV  ADHB_HUMAN    3    AKIDAASPL         0.527        166.90  50.00  <=WB
+   155             DRB1*01:01     AVAKIDAASPLEKVC  ADHB_HUMAN    2    AKIDAASPL         0.513        194.48  50.00  <=WB
+   156             DRB1*01:01     VAKIDAASPLEKVCL  ADHB_HUMAN    3    IDAASPLEK         0.507        208.13  50.00  <=WB
+   157             DRB1*01:01     AKIDAASPLEKVCLI  ADHB_HUMAN    2    IDAASPLEK         0.447        398.78  50.00  <=WB
+   158             DRB1*01:01     KIDAASPLEKVCLIG  ADHB_HUMAN    1    IDAASPLEK         0.388        749.63  50.00  
+   159             DRB1*01:01     IDAASPLEKVCLIGC  ADHB_HUMAN    0    IDAASPLEK         0.318       1605.11  50.00  
+   160             DRB1*01:01     DAASPLEKVCLIGCG  ADHB_HUMAN    3    SPLEKVCLI         0.274       2577.42  50.00  
+   161             DRB1*01:01     AASPLEKVCLIGCGF  ADHB_HUMAN    6    KVCLIGCGF         0.302       1900.51  50.00  
+   162             DRB1*01:01     ASPLEKVCLIGCGFS  ADHB_HUMAN    5    KVCLIGCGF         0.333       1361.61  50.00  
+   163             DRB1*01:01     SPLEKVCLIGCGFST  ADHB_HUMAN    6    CLIGCGFST         0.379        828.88  50.00  
+   164             DRB1*01:01     PLEKVCLIGCGFSTG  ADHB_HUMAN    5    CLIGCGFST         0.394        702.83  50.00  
+   165             DRB1*01:01     LEKVCLIGCGFSTGY  ADHB_HUMAN    4    CLIGCGFST         0.420        528.63  50.00  
+   166             DRB1*01:01     EKVCLIGCGFSTGYG  ADHB_HUMAN    3    CLIGCGFST         0.419        539.97  50.00  
+   167             DRB1*01:01     KVCLIGCGFSTGYGS  ADHB_HUMAN    2    CLIGCGFST         0.417        549.78  50.00  
+   168             DRB1*01:01     VCLIGCGFSTGYGSA  ADHB_HUMAN    1    CLIGCGFST         0.393        714.46  50.00  
+   169             DRB1*01:01     CLIGCGFSTGYGSAV  ADHB_HUMAN    6    FSTGYGSAV         0.479        279.54  50.00  <=WB
+   170             DRB1*01:01     LIGCGFSTGYGSAVN  ADHB_HUMAN    5    FSTGYGSAV         0.508        204.56  50.00  <=WB
+   171             DRB1*01:01     IGCGFSTGYGSAVNV  ADHB_HUMAN    4    FSTGYGSAV         0.576         98.08  32.00  <=WB
+   172             DRB1*01:01     GCGFSTGYGSAVNVA  ADHB_HUMAN    3    FSTGYGSAV         0.621         60.37  32.00  <=WB
+   173             DRB1*01:01     CGFSTGYGSAVNVAK  ADHB_HUMAN    2    FSTGYGSAV         0.598         77.10  32.00  <=WB
+   174             DRB1*01:01     GFSTGYGSAVNVAKV  ADHB_HUMAN    1    FSTGYGSAV         0.605         72.11  32.00  <=WB
+   175             DRB1*01:01     FSTGYGSAVNVAKVT  ADHB_HUMAN    4    YGSAVNVAK         0.622         59.50  32.00  <=WB
+   176             DRB1*01:01     STGYGSAVNVAKVTP  ADHB_HUMAN    3    YGSAVNVAK         0.597         78.03  32.00  <=WB
+   177             DRB1*01:01     TGYGSAVNVAKVTPG  ADHB_HUMAN    2    YGSAVNVAK         0.551        128.71  32.00  <=WB
+   178             DRB1*01:01     GYGSAVNVAKVTPGS  ADHB_HUMAN    1    YGSAVNVAK         0.498        227.55  50.00  <=WB
+   179             DRB1*01:01     YGSAVNVAKVTPGST  ADHB_HUMAN    0    YGSAVNVAK         0.463        334.60  50.00  <=WB
+   180             DRB1*01:01     GSAVNVAKVTPGSTC  ADHB_HUMAN    3    VNVAKVTPG         0.434        454.99  50.00  <=WB
+   181             DRB1*01:01     SAVNVAKVTPGSTCA  ADHB_HUMAN    2    VNVAKVTPG         0.433        462.74  50.00  <=WB
+   182             DRB1*01:01     AVNVAKVTPGSTCAV  ADHB_HUMAN    3    VAKVTPGST         0.457        356.15  50.00  <=WB
+   183             DRB1*01:01     VNVAKVTPGSTCAVF  ADHB_HUMAN    2    VAKVTPGST         0.417        546.01  50.00  
+   184             DRB1*01:01     NVAKVTPGSTCAVFG  ADHB_HUMAN    4    VTPGSTCAV         0.383        796.04  50.00  
+   185             DRB1*01:01     VAKVTPGSTCAVFGL  ADHB_HUMAN    3    VTPGSTCAV         0.400        661.87  50.00  
+   186             DRB1*01:01     AKVTPGSTCAVFGLG  ADHB_HUMAN    2    VTPGSTCAV         0.342       1235.00  50.00  
+   187             DRB1*01:01     KVTPGSTCAVFGLGG  ADHB_HUMAN    1    VTPGSTCAV         0.315       1652.89  50.00  
+   188             DRB1*01:01     VTPGSTCAVFGLGGV  ADHB_HUMAN    3    GSTCAVFGL         0.304       1865.92  50.00  
+   189             DRB1*01:01     TPGSTCAVFGLGGVG  ADHB_HUMAN    4    TCAVFGLGG         0.286       2271.78  50.00  
+   190             DRB1*01:01     PGSTCAVFGLGGVGL  ADHB_HUMAN    6    VFGLGGVGL         0.367        940.19  50.00  
+   191             DRB1*01:01     GSTCAVFGLGGVGLS  ADHB_HUMAN    5    VFGLGGVGL         0.440        426.51  50.00  <=WB
+   192             DRB1*01:01     STCAVFGLGGVGLSA  ADHB_HUMAN    5    FGLGGVGLS         0.496        233.43  50.00  <=WB
+   193             DRB1*01:01     TCAVFGLGGVGLSAV  ADHB_HUMAN    4    FGLGGVGLS         0.551        128.54  32.00  <=WB
+   194             DRB1*01:01     CAVFGLGGVGLSAVM  ADHB_HUMAN    3    FGLGGVGLS         0.583         90.69  32.00  <=WB
+   195             DRB1*01:01     AVFGLGGVGLSAVMG  ADHB_HUMAN    2    FGLGGVGLS         0.582         91.64  32.00  <=WB
+   196             DRB1*01:01     VFGLGGVGLSAVMGC  ADHB_HUMAN    1    FGLGGVGLS         0.553        125.97  32.00  <=WB
+   197             DRB1*01:01     FGLGGVGLSAVMGCK  ADHB_HUMAN    4    GVGLSAVMG         0.529        162.91  50.00  <=WB
+   198             DRB1*01:01     GLGGVGLSAVMGCKA  ADHB_HUMAN    3    GVGLSAVMG         0.566        109.70  32.00  <=WB
+   199             DRB1*01:01     LGGVGLSAVMGCKAA  ADHB_HUMAN    2    GVGLSAVMG         0.569        106.04  32.00  <=WB
+   200             DRB1*01:01     GGVGLSAVMGCKAAG  ADHB_HUMAN    4    LSAVMGCKA         0.560        117.23  32.00  <=WB
+   201             DRB1*01:01     GVGLSAVMGCKAAGA  ADHB_HUMAN    3    LSAVMGCKA         0.600         76.16  32.00  <=WB
+   202             DRB1*01:01     VGLSAVMGCKAAGAA  ADHB_HUMAN    2    LSAVMGCKA         0.594         80.79  32.00  <=WB
+   203             DRB1*01:01     GLSAVMGCKAAGAAR  ADHB_HUMAN    4    VMGCKAAGA         0.603         73.47  32.00  <=WB
+   204             DRB1*01:01     LSAVMGCKAAGAARI  ADHB_HUMAN    6    CKAAGAARI         0.685         30.25  15.00  <=SB
+   205             DRB1*01:01     SAVMGCKAAGAARII  ADHB_HUMAN    5    CKAAGAARI         0.708         23.50   8.00  <=SB
+   206             DRB1*01:01     AVMGCKAAGAARIIA  ADHB_HUMAN    4    CKAAGAARI         0.740         16.62   5.00  <=SB
+   207             DRB1*01:01     VMGCKAAGAARIIAV  ADHB_HUMAN    3    CKAAGAARI         0.765         12.67   4.00  <=SB
+   208             DRB1*01:01     MGCKAAGAARIIAVD  ADHB_HUMAN    2    CKAAGAARI         0.726         19.39   7.00  <=SB
+   209             DRB1*01:01     GCKAAGAARIIAVDI  ADHB_HUMAN    1    CKAAGAARI         0.676         33.27  15.00  <=SB
+   210             DRB1*01:01     CKAAGAARIIAVDIN  ADHB_HUMAN    0    CKAAGAARI         0.614         65.13  32.00  <=WB
+   211             DRB1*01:01     KAAGAARIIAVDINK  ADHB_HUMAN    4    AARIIAVDI         0.428        488.63  50.00  <=WB
+   212             DRB1*01:01     AAGAARIIAVDINKD  ADHB_HUMAN    3    AARIIAVDI         0.415        562.20  50.00  
+   213             DRB1*01:01     AGAARIIAVDINKDK  ADHB_HUMAN    2    AARIIAVDI         0.399        666.33  50.00  
+   214             DRB1*01:01     GAARIIAVDINKDKF  ADHB_HUMAN    4    IIAVDINKD         0.409        596.54  50.00  
+   215             DRB1*01:01     AARIIAVDINKDKFA  ADHB_HUMAN    3    IIAVDINKD         0.423        512.54  50.00  
+   216             DRB1*01:01     ARIIAVDINKDKFAK  ADHB_HUMAN    2    IIAVDINKD         0.373        880.56  50.00  
+   217             DRB1*01:01     RIIAVDINKDKFAKA  ADHB_HUMAN    1    IIAVDINKD         0.356       1060.98  50.00  
+   218             DRB1*01:01     IIAVDINKDKFAKAK  ADHB_HUMAN    3    VDINKDKFA         0.335       1334.15  50.00  
+   219             DRB1*01:01     IAVDINKDKFAKAKE  ADHB_HUMAN    4    INKDKFAKA         0.306       1830.80  50.00  
+   220             DRB1*01:01     AVDINKDKFAKAKEL  ADHB_HUMAN    3    INKDKFAKA         0.380        821.41  50.00  
+   221             DRB1*01:01     VDINKDKFAKAKELG  ADHB_HUMAN    5    DKFAKAKEL         0.388        752.66  50.00  
+   222             DRB1*01:01     DINKDKFAKAKELGA  ADHB_HUMAN    6    FAKAKELGA         0.491        246.47  50.00  <=WB
+   223             DRB1*01:01     INKDKFAKAKELGAT  ADHB_HUMAN    5    FAKAKELGA         0.555        123.02  32.00  <=WB
+   224             DRB1*01:01     NKDKFAKAKELGATE  ADHB_HUMAN    4    FAKAKELGA         0.570        104.68  32.00  <=WB
+   225             DRB1*01:01     KDKFAKAKELGATEC  ADHB_HUMAN    3    FAKAKELGA         0.584         90.56  32.00  <=WB
+   226             DRB1*01:01     DKFAKAKELGATECI  ADHB_HUMAN    2    FAKAKELGA         0.513        193.98  50.00  <=WB
+   227             DRB1*01:01     KFAKAKELGATECIN  ADHB_HUMAN    1    FAKAKELGA         0.474        294.93  50.00  <=WB
+   228             DRB1*01:01     FAKAKELGATECINP  ADHB_HUMAN    0    FAKAKELGA         0.382        799.61  50.00  
+   229             DRB1*01:01     AKAKELGATECINPQ  ADHB_HUMAN    3    KELGATECI         0.290       2178.57  50.00  
+   230             DRB1*01:01     KAKELGATECINPQD  ADHB_HUMAN    2    KELGATECI         0.261       2962.54  50.00  
+   231             DRB1*01:01     AKELGATECINPQDY  ADHB_HUMAN    1    KELGATECI         0.233       4000.96  50.00  
+   232             DRB1*01:01     KELGATECINPQDYK  ADHB_HUMAN    0    KELGATECI         0.219       4676.99  50.00  
+   233             DRB1*01:01     ELGATECINPQDYKK  ADHB_HUMAN    4    TECINPQDY         0.179       7246.51  50.00  
+   234             DRB1*01:01     LGATECINPQDYKKP  ADHB_HUMAN    3    TECINPQDY         0.179       7187.55  50.00  
+   235             DRB1*01:01     GATECINPQDYKKPI  ADHB_HUMAN    2    TECINPQDY         0.176       7481.13  50.00  
+   236             DRB1*01:01     ATECINPQDYKKPIQ  ADHB_HUMAN    3    CINPQDYKK         0.181       7025.55  50.00  
+   237             DRB1*01:01     TECINPQDYKKPIQE  ADHB_HUMAN    2    CINPQDYKK         0.170       7961.51  50.00  
+   238             DRB1*01:01     ECINPQDYKKPIQEV  ADHB_HUMAN    6    DYKKPIQEV         0.180       7102.59  50.00  
+   239             DRB1*01:01     CINPQDYKKPIQEVL  ADHB_HUMAN    6    YKKPIQEVL         0.284       2322.96  50.00  
+   240             DRB1*01:01     INPQDYKKPIQEVLK  ADHB_HUMAN    5    YKKPIQEVL         0.318       1607.55  50.00  
+   241             DRB1*01:01     NPQDYKKPIQEVLKE  ADHB_HUMAN    4    YKKPIQEVL         0.338       1295.42  50.00  
+   242             DRB1*01:01     PQDYKKPIQEVLKEM  ADHB_HUMAN    3    YKKPIQEVL         0.376        851.83  50.00  
+   243             DRB1*01:01     QDYKKPIQEVLKEMT  ADHB_HUMAN    2    YKKPIQEVL         0.362       1000.62  50.00  
+   244             DRB1*01:01     DYKKPIQEVLKEMTD  ADHB_HUMAN    1    YKKPIQEVL         0.334       1340.79  50.00  
+   245             DRB1*01:01     YKKPIQEVLKEMTDG  ADHB_HUMAN    0    YKKPIQEVL         0.322       1529.43  50.00  
+   246             DRB1*01:01     KKPIQEVLKEMTDGG  ADHB_HUMAN    3    IQEVLKEMT         0.251       3304.79  50.00  
+   247             DRB1*01:01     KPIQEVLKEMTDGGV  ADHB_HUMAN    6    LKEMTDGGV         0.305       1850.49  50.00  
+   248             DRB1*01:01     PIQEVLKEMTDGGVD  ADHB_HUMAN    5    LKEMTDGGV         0.308       1786.19  50.00  
+   249             DRB1*01:01     IQEVLKEMTDGGVDF  ADHB_HUMAN    4    LKEMTDGGV         0.370        909.52  50.00  
+   250             DRB1*01:01     QEVLKEMTDGGVDFS  ADHB_HUMAN    3    LKEMTDGGV         0.403        639.85  50.00  
+   251             DRB1*01:01     EVLKEMTDGGVDFSF  ADHB_HUMAN    2    LKEMTDGGV         0.360       1014.05  50.00  
+   252             DRB1*01:01     VLKEMTDGGVDFSFE  ADHB_HUMAN    1    LKEMTDGGV         0.333       1357.10  50.00  
+   253             DRB1*01:01     LKEMTDGGVDFSFEV  ADHB_HUMAN    0    LKEMTDGGV         0.293       2099.77  50.00  
+   254             DRB1*01:01     KEMTDGGVDFSFEVI  ADHB_HUMAN    2    MTDGGVDFS         0.232       4044.93  50.00  
+   255             DRB1*01:01     EMTDGGVDFSFEVIG  ADHB_HUMAN    5    GVDFSFEVI         0.223       4484.71  50.00  
+   256             DRB1*01:01     MTDGGVDFSFEVIGR  ADHB_HUMAN    6    DFSFEVIGR         0.259       3023.59  50.00  
+   257             DRB1*01:01     TDGGVDFSFEVIGRL  ADHB_HUMAN    6    FSFEVIGRL         0.428        484.85  50.00  <=WB
+   258             DRB1*01:01     DGGVDFSFEVIGRLD  ADHB_HUMAN    5    FSFEVIGRL         0.444        410.86  50.00  <=WB
+   259             DRB1*01:01     GGVDFSFEVIGRLDT  ADHB_HUMAN    4    FSFEVIGRL         0.486        259.01  50.00  <=WB
+   260             DRB1*01:01     GVDFSFEVIGRLDTM  ADHB_HUMAN    3    FSFEVIGRL         0.528        165.96  50.00  <=WB
+   261             DRB1*01:01     VDFSFEVIGRLDTMM  ADHB_HUMAN    2    FSFEVIGRL         0.520        179.15  50.00  <=WB
+   262             DRB1*01:01     DFSFEVIGRLDTMMA  ADHB_HUMAN    6    IGRLDTMMA         0.609         68.86  32.00  <=WB
+   263             DRB1*01:01     FSFEVIGRLDTMMAS  ADHB_HUMAN    5    IGRLDTMMA         0.653         42.75  15.00  <=SB
+   264             DRB1*01:01     SFEVIGRLDTMMASL  ADHB_HUMAN    4    IGRLDTMMA         0.718         21.18   7.00  <=SB
+   265             DRB1*01:01     FEVIGRLDTMMASLL  ADHB_HUMAN    3    IGRLDTMMA         0.774         11.56   3.00  <=SB
+   266             DRB1*01:01     EVIGRLDTMMASLLC  ADHB_HUMAN    2    IGRLDTMMA         0.759         13.51   4.00  <=SB
+   267             DRB1*01:01     VIGRLDTMMASLLCC  ADHB_HUMAN    4    LDTMMASLL         0.758         13.78   4.00  <=SB
+   268             DRB1*01:01     IGRLDTMMASLLCCH  ADHB_HUMAN    3    LDTMMASLL         0.749         15.11   5.00  <=SB
+   269             DRB1*01:01     GRLDTMMASLLCCHE  ADHB_HUMAN    2    LDTMMASLL         0.693         27.71  10.00  <=SB
+   270             DRB1*01:01     RLDTMMASLLCCHEA  ADHB_HUMAN    1    LDTMMASLL         0.652         43.24  15.00  <=SB
+   271             DRB1*01:01     LDTMMASLLCCHEAC  ADHB_HUMAN    0    LDTMMASLL         0.550        129.77  50.00  <=WB
+   272             DRB1*01:01     DTMMASLLCCHEACG  ADHB_HUMAN    0    DTMMASLLC         0.397        679.97  50.00  
+   273             DRB1*01:01     TMMASLLCCHEACGT  ADHB_HUMAN    3    ASLLCCHEA         0.366        950.82  50.00  
+   274             DRB1*01:01     MMASLLCCHEACGTS  ADHB_HUMAN    2    ASLLCCHEA         0.359       1031.19  50.00  
+   275             DRB1*01:01     MASLLCCHEACGTSV  ADHB_HUMAN    3    LLCCHEACG         0.392        716.32  50.00  
+   276             DRB1*01:01     ASLLCCHEACGTSVI  ADHB_HUMAN    3    LCCHEACGT         0.428        489.95  50.00  <=WB
+   277             DRB1*01:01     SLLCCHEACGTSVIV  ADHB_HUMAN    4    CHEACGTSV         0.451        379.88  50.00  <=WB
+   278             DRB1*01:01     LLCCHEACGTSVIVG  ADHB_HUMAN    3    CHEACGTSV         0.459        348.07  50.00  <=WB
+   279             DRB1*01:01     LCCHEACGTSVIVGV  ADHB_HUMAN    2    CHEACGTSV         0.412        579.23  50.00  
+   280             DRB1*01:01     CCHEACGTSVIVGVP  ADHB_HUMAN    1    CHEACGTSV         0.351       1116.76  50.00  
+   281             DRB1*01:01     CHEACGTSVIVGVPP  ADHB_HUMAN    0    CHEACGTSV         0.316       1640.14  50.00  
+   282             DRB1*01:01     HEACGTSVIVGVPPA  ADHB_HUMAN    6    SVIVGVPPA         0.323       1519.09  50.00  
+   283             DRB1*01:01     EACGTSVIVGVPPAS  ADHB_HUMAN    6    VIVGVPPAS         0.425        505.37  50.00  
+   284             DRB1*01:01     ACGTSVIVGVPPASQ  ADHB_HUMAN    6    IVGVPPASQ         0.567        108.36  32.00  <=WB
+   285             DRB1*01:01     CGTSVIVGVPPASQN  ADHB_HUMAN    5    IVGVPPASQ         0.629         55.29  32.00  <=WB
+   286             DRB1*01:01     GTSVIVGVPPASQNL  ADHB_HUMAN    4    IVGVPPASQ         0.715         21.84   8.00  <=SB
+   287             DRB1*01:01     TSVIVGVPPASQNLS  ADHB_HUMAN    3    IVGVPPASQ         0.728         18.98   6.00  <=SB
+   288             DRB1*01:01     SVIVGVPPASQNLSI  ADHB_HUMAN    2    IVGVPPASQ         0.687         29.62  15.00  <=SB
+   289             DRB1*01:01     VIVGVPPASQNLSIN  ADHB_HUMAN    1    IVGVPPASQ         0.630         54.92  32.00  <=WB
+   290             DRB1*01:01     IVGVPPASQNLSINP  ADHB_HUMAN    0    IVGVPPASQ         0.489        251.17  50.00  <=WB
+   291             DRB1*01:01     VGVPPASQNLSINPM  ADHB_HUMAN    6    SQNLSINPM         0.319       1580.50  50.00  
+   292             DRB1*01:01     GVPPASQNLSINPML  ADHB_HUMAN    5    SQNLSINPM         0.404        634.69  50.00  
+   293             DRB1*01:01     VPPASQNLSINPMLL  ADHB_HUMAN    6    NLSINPMLL         0.530        161.40  50.00  <=WB
+   294             DRB1*01:01     PPASQNLSINPMLLL  ADHB_HUMAN    5    NLSINPMLL         0.607         70.05  32.00  <=WB
+   295             DRB1*01:01     PASQNLSINPMLLLT  ADHB_HUMAN    3    QNLSINPML         0.638         50.35  32.00  <=WB
+   296             DRB1*01:01     ASQNLSINPMLLLTG  ADHB_HUMAN    3    NLSINPMLL         0.643         47.55  16.00  <=SB
+   297             DRB1*01:01     SQNLSINPMLLLTGR  ADHB_HUMAN    2    NLSINPMLL         0.627         56.65  32.00  <=WB
+   298             DRB1*01:01     QNLSINPMLLLTGRT  ADHB_HUMAN    2    LSINPMLLL         0.623         59.05  32.00  <=WB
+   299             DRB1*01:01     NLSINPMLLLTGRTW  ADHB_HUMAN    5    PMLLLTGRT         0.628         55.89  32.00  <=WB
+   300             DRB1*01:01     LSINPMLLLTGRTWK  ADHB_HUMAN    4    PMLLLTGRT         0.638         50.12  32.00  <=WB
+   301             DRB1*01:01     SINPMLLLTGRTWKG  ADHB_HUMAN    3    PMLLLTGRT         0.646         46.32  16.00  <=SB
+   302             DRB1*01:01     INPMLLLTGRTWKGA  ADHB_HUMAN    2    PMLLLTGRT         0.635         51.99  32.00  <=WB
+   303             DRB1*01:01     NPMLLLTGRTWKGAV  ADHB_HUMAN    1    PMLLLTGRT         0.623         59.15  32.00  <=WB
+   304             DRB1*01:01     PMLLLTGRTWKGAVY  ADHB_HUMAN    3    LLTGRTWKG         0.626         56.99  32.00  <=WB
+   305             DRB1*01:01     MLLLTGRTWKGAVYG  ADHB_HUMAN    2    LLTGRTWKG         0.534        154.40  50.00  <=WB
+   306             DRB1*01:01     LLLTGRTWKGAVYGG  ADHB_HUMAN    1    LLTGRTWKG         0.464        328.57  50.00  <=WB
+   307             DRB1*01:01     LLTGRTWKGAVYGGF  ADHB_HUMAN    0    LLTGRTWKG         0.379        828.35  50.00  
+   308             DRB1*01:01     LTGRTWKGAVYGGFK  ADHB_HUMAN    2    GRTWKGAVY         0.333       1362.94  50.00  
+   309             DRB1*01:01     TGRTWKGAVYGGFKS  ADHB_HUMAN    4    WKGAVYGGF         0.346       1189.24  50.00  
+   310             DRB1*01:01     GRTWKGAVYGGFKSK  ADHB_HUMAN    3    WKGAVYGGF         0.361       1004.29  50.00  
+   311             DRB1*01:01     RTWKGAVYGGFKSKE  ADHB_HUMAN    2    WKGAVYGGF         0.353       1102.32  50.00  
+   312             DRB1*01:01     TWKGAVYGGFKSKEG  ADHB_HUMAN    3    GAVYGGFKS         0.356       1060.56  50.00  
+   313             DRB1*01:01     WKGAVYGGFKSKEGI  ADHB_HUMAN    5    YGGFKSKEG         0.388        752.63  50.00  
+   314             DRB1*01:01     KGAVYGGFKSKEGIP  ADHB_HUMAN    4    YGGFKSKEG         0.391        731.08  50.00  
+   315             DRB1*01:01     GAVYGGFKSKEGIPK  ADHB_HUMAN    3    YGGFKSKEG         0.435        449.55  50.00  <=WB
+   316             DRB1*01:01     AVYGGFKSKEGIPKL  ADHB_HUMAN    2    YGGFKSKEG         0.457        356.17  50.00  <=WB
+   317             DRB1*01:01     VYGGFKSKEGIPKLV  ADHB_HUMAN    4    FKSKEGIPK         0.513        194.44  50.00  <=WB
+   318             DRB1*01:01     YGGFKSKEGIPKLVA  ADHB_HUMAN    3    FKSKEGIPK         0.544        139.23  50.00  <=WB
+   319             DRB1*01:01     GGFKSKEGIPKLVAD  ADHB_HUMAN    2    FKSKEGIPK         0.483        267.53  50.00  <=WB
+   320             DRB1*01:01     GFKSKEGIPKLVADF  ADHB_HUMAN    1    FKSKEGIPK         0.462        339.08  50.00  <=WB
+   321             DRB1*01:01     FKSKEGIPKLVADFM  ADHB_HUMAN    0    FKSKEGIPK         0.425        501.99  50.00  
+   322             DRB1*01:01     KSKEGIPKLVADFMA  ADHB_HUMAN    5    IPKLVADFM         0.404        629.49  50.00  
+   323             DRB1*01:01     SKEGIPKLVADFMAK  ADHB_HUMAN    4    IPKLVADFM         0.444        409.83  50.00  <=WB
+   324             DRB1*01:01     KEGIPKLVADFMAKK  ADHB_HUMAN    3    IPKLVADFM         0.489        251.68  50.00  <=WB
+   325             DRB1*01:01     EGIPKLVADFMAKKF  ADHB_HUMAN    3    PKLVADFMA         0.505        212.52  50.00  <=WB
+   326             DRB1*01:01     GIPKLVADFMAKKFS  ADHB_HUMAN    3    KLVADFMAK         0.517        185.55  50.00  <=WB
+   327             DRB1*01:01     IPKLVADFMAKKFSL  ADHB_HUMAN    3    LVADFMAKK         0.539        145.86  50.00  <=WB
+   328             DRB1*01:01     PKLVADFMAKKFSLD  ADHB_HUMAN    2    LVADFMAKK         0.510        199.71  50.00  <=WB
+   329             DRB1*01:01     KLVADFMAKKFSLDA  ADHB_HUMAN    4    DFMAKKFSL         0.511        198.84  50.00  <=WB
+   330             DRB1*01:01     LVADFMAKKFSLDAL  ADHB_HUMAN    3    DFMAKKFSL         0.538        147.66  50.00  <=WB
+   331             DRB1*01:01     VADFMAKKFSLDALI  ADHB_HUMAN    3    FMAKKFSLD         0.553        126.04  32.00  <=WB
+   332             DRB1*01:01     ADFMAKKFSLDALIT  ADHB_HUMAN    2    FMAKKFSLD         0.562        114.18  32.00  <=WB
+   333             DRB1*01:01     DFMAKKFSLDALITH  ADHB_HUMAN    5    KFSLDALIT         0.566        109.34  32.00  <=WB
+   334             DRB1*01:01     FMAKKFSLDALITHV  ADHB_HUMAN    4    KFSLDALIT         0.593         81.39  32.00  <=WB
+   335             DRB1*01:01     MAKKFSLDALITHVL  ADHB_HUMAN    3    KFSLDALIT         0.657         40.71  15.00  <=SB
+   336             DRB1*01:01     AKKFSLDALITHVLP  ADHB_HUMAN    5    LDALITHVL         0.653         42.73  15.00  <=SB
+   337             DRB1*01:01     KKFSLDALITHVLPF  ADHB_HUMAN    4    LDALITHVL         0.676         33.41  15.00  <=SB
+   338             DRB1*01:01     KFSLDALITHVLPFE  ADHB_HUMAN    3    LDALITHVL         0.667         36.69  15.00  <=SB
+   339             DRB1*01:01     FSLDALITHVLPFEK  ADHB_HUMAN    2    LDALITHVL         0.597         77.94  32.00  <=WB
+   340             DRB1*01:01     SLDALITHVLPFEKI  ADHB_HUMAN    1    LDALITHVL         0.565        110.62  32.00  <=WB
+   341             DRB1*01:01     LDALITHVLPFEKIN  ADHB_HUMAN    0    LDALITHVL         0.545        137.64  50.00  <=WB
+   342             DRB1*01:01     DALITHVLPFEKINE  ADHB_HUMAN    3    ITHVLPFEK         0.506        208.45  50.00  <=WB
+   343             DRB1*01:01     ALITHVLPFEKINEG  ADHB_HUMAN    2    ITHVLPFEK         0.503        216.48  50.00  <=WB
+   344             DRB1*01:01     LITHVLPFEKINEGF  ADHB_HUMAN    1    ITHVLPFEK         0.454        367.36  50.00  <=WB
+   345             DRB1*01:01     ITHVLPFEKINEGFD  ADHB_HUMAN    0    ITHVLPFEK         0.379        827.73  50.00  
+   346             DRB1*01:01     THVLPFEKINEGFDL  ADHB_HUMAN    0    THVLPFEKI         0.326       1469.46  50.00  
+   347             DRB1*01:01     HVLPFEKINEGFDLL  ADHB_HUMAN    3    PFEKINEGF         0.340       1256.42  50.00  
+   348             DRB1*01:01     VLPFEKINEGFDLLH  ADHB_HUMAN    3    FEKINEGFD         0.356       1056.65  50.00  
+   349             DRB1*01:01     LPFEKINEGFDLLHS  ADHB_HUMAN    3    EKINEGFDL         0.360       1017.74  50.00  
+   350             DRB1*01:01     PFEKINEGFDLLHSG  ADHB_HUMAN    3    KINEGFDLL         0.342       1236.90  50.00  
+   351             DRB1*01:01     FEKINEGFDLLHSGK  ADHB_HUMAN    3    INEGFDLLH         0.361       1011.32  50.00  
+   352             DRB1*01:01     EKINEGFDLLHSGKS  ADHB_HUMAN    6    FDLLHSGKS         0.520        180.19  50.00  <=WB
+   353             DRB1*01:01     KINEGFDLLHSGKSI  ADHB_HUMAN    5    FDLLHSGKS         0.614         65.01  32.00  <=WB
+   354             DRB1*01:01     INEGFDLLHSGKSIR  ADHB_HUMAN    4    FDLLHSGKS         0.685         30.30  15.00  <=SB
+   355             DRB1*01:01     NEGFDLLHSGKSIRT  ADHB_HUMAN    3    FDLLHSGKS         0.723         20.09   7.00  <=SB
+   356             DRB1*01:01     EGFDLLHSGKSIRTV  ADHB_HUMAN    2    FDLLHSGKS         0.728         18.98   6.00  <=SB
+   357             DRB1*01:01     GFDLLHSGKSIRTVL  ADHB_HUMAN    4    LHSGKSIRT         0.756         14.08   4.00  <=SB
+   358             DRB1*01:01     FDLLHSGKSIRTVLT  ADHB_HUMAN    3    LHSGKSIRT         0.764         12.86   4.00  <=SB
+   359             DRB1*01:01     DLLHSGKSIRTVLTF  ADHB_HUMAN    2    LHSGKSIRT         0.686         29.82  15.00  <=SB
+-------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 45 Number of weak binders: 144
+-------------------------------------------------------------------------------------------------------------------------------------------

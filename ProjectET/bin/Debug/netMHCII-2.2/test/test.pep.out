@@ -1,0 +1,33 @@
+
+	NetMHCII version 2.2.
+
+Strong binder threshold  50.00. Weak binder threshold 500.00.
+
+------------------------------------------------------------------------------------------------
+      Allele  pos          peptide       core 1-log50k(aff) affinity(nM)  MeasuredAff Bind Level  %Random     Identity
+------------------------------------------------------------------------------------------------
+HLA-DRB10101    0  AANWILRGTSFVYVP  NWILRGTSF         0.719         20.9        0.188         SB    16.00      PEPLIST
+HLA-DRB10101    1  AGDLGRDELMELASD  GDLGRDELM         0.237       3848.3        0.030               50.00      PEPLIST
+HLA-DRB10101    2  ALLIIPPKIHISIEL  LLIIPPKIH         0.574        100.6        0.787         WB    32.00      PEPLIST
+HLA-DRB10101    3  ASRELERFALNPGLL  ERFALNPGL         0.575         99.5        0.571         WB    32.00      PEPLIST
+HLA-DRB10101    4 AYAAQGYKVLVLNPSVAA  YKVLVLNPS         0.850          5.0        0.623         SB     0.90      PEPLIST
+HLA-DRB10101    5  CHFITKETPDRLTDQ  ITKETPDRL         0.408        605.4        0.760               50.00      PEPLIST
+HLA-DRB10101    6  CQFLKVEKSQLLNEF  LKVEKSQLL         0.822          6.9        0.570         SB     4.00      PEPLIST
+HLA-DRB10101    7  DCIMTSYQYLIIQNT  YQYLIIQNT         0.718         21.2        0.808         SB    16.00      PEPLIST
+HLA-DRB10101    8  DIVIYSKYGGTEIKY  YSKYGGTEI         0.516        188.9        0.074         WB    50.00      PEPLIST
+HLA-DRB10101    9  DSKHQLDMIITAVNS  DMIITAVNS         0.553        125.9        0.438         WB    50.00      PEPLIST
+HLA-DRB10101   10 EDPYWGNGDRHSDYQPLGTQDQSLY  YQPLGTQDQ         0.777         11.1        0.149         SB     8.00      PEPLIST
+HLA-DRB10101   11  EHDLERGPPGPRRPP  HDLERGPPG         0.259       3021.6        0.149               50.00      PEPLIST
+HLA-DRB10101   12  EIPSFRWTQSLRRGL  FRWTQSLRR         0.761         13.2        0.458         SB     8.00      PEPLIST
+HLA-DRB10101   13  ELGEWVFSAIKSPQA  FSAIKSPQA         0.686         29.7        0.168         SB    16.00      PEPLIST
+HLA-DRB10101   14 ERFALNPSLLETTEGCQQI  FALNPSLLE         0.563        113.7        0.374         WB    50.00      PEPLIST
+HLA-DRB10101   15  EYLILSARDVLAVVS  YLILSARDV         0.876          3.8        0.138         SB     0.05      PEPLIST
+HLA-DRB10101   16  FIHFFTWGTMFVPKY  FIHFFTWGT         0.684         30.5        0.449         SB    16.00      PEPLIST
+HLA-DRB10101   17  FMRMAWGGSYIALDS  FMRMAWGGS         0.704         24.7        0.147         SB    16.00      PEPLIST
+HLA-DRB10101   18  FSLECIMDVGEIQNK  FSLECIMDV         0.430        474.9        0.489         WB    50.00      PEPLIST
+HLA-DRB10101   19  GFVGLCRTLGSKCVR  CRTLGSKCV         0.742         16.3        0.320         SB    16.00      PEPLIST
+------------------------------------------------------------------------------------------------
+
+Allele: HLA-DRB10101. Number of high binders 11. Number of weak binders 6. Number of peptides 20
+
+------------------------------------------------------------------------------------------------

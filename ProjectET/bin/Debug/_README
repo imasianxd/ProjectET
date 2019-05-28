@@ -1,0 +1,23 @@
+>>PROGRAM SETUP
+1. Ensure that you have mono installed on your linux machine. Easiest way to check of by typing 'mono' into a terminal. If the error returned is 'No command 'mono' found...', you need to install it by typing "sudo apt-get install mono-complete" and follow on screen prompts.
+
+>>ANALYSIS SETUP
+There are three files to change for the analysis:
+1. accession.txt > input the SwissProt or NCBI protein accession here. Each accession should be on a new line.
+2. Protein_Accession_Dictionary.txt > Please name the accession with a name, input it here in the follwoing format: "[accession]>[name]". e.g. A1B2C3>myProtein. Each name pair should be on a new line.
+3. Debug_Settings.json > if you would like to modify the population coverage cutoff, change the 0.1 in "cutoff:" where 0<x<1. e.g. 0.1 would only allow the top 10% coverage through. 
+
+>>RUNNING THE PROGRAM
+Open a local terminal and navigate to the directory.
+Within the terminal, type "mono ProjectET.exe", without quotations and press enter.
+The program should now begin the epitope prediction. a "Finished" will prompt when the program finish running.
+The result of the analysis can be found in ./Results with a summarized report found at ./Results/test.html
+
+>>RESETTING THE PROGRAM
+open a local terminal and navigate to the directory
+within the terminal, type "./clean.sh", without quotaations and press enter.
+follow onscreen directions.
+
+>>ERROR HANDELING
+All handled errors will be logged to ../Errorlog.txt.
+Unhandled errors will display on the terminal with a line ending in "Press any key to continue", please take a screenshot and email to me.

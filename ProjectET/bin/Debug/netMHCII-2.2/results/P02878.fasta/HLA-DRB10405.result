@@ -1,0 +1,71 @@
+# .//Linux_x86_64/bin/netMHCII -a HLA-DRB10405 -f ../Protein_Sequence/P02878.fasta
+# Thu Nov  3 11:29:34 2016
+# User: j
+# PWD : /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/netMHCII-2.2
+# Host: Linux J 4.2.0-30-generic x86_64
+# -a       HLA-DRB10405         Allele name
+# -f       ../Protein_Sequence/P02878.fasta File name with input
+# Command line parameters set to:
+#	[-a filename]        HLA-DRB10405         Allele name
+#	[-d filename]        .//Linux_x86_64      Directory for executables and data
+#	[-t float]           -99.900002           Threshold for output
+#	[-s]                 0                    Sort output on descending affinity
+#	[-w]                 0                    w option for webface
+#	[-f filename]        ../Protein_Sequence/P02878.fasta File name with input
+#	[-tdir filename]     ../netMHCIITemp      Temporary directory
+#	[-wt float]          500.000000           Threshold for weak binders
+#	[-st float]          50.000000            Threshold for strong binders
+#	[-l int]             15                   Peptide length
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode
+#	[-list]              0                    List alleles covered by NetMHCII method
+#	[-p]                 0                    Use peptide input
+#	[-xP1]               0                    Exclude P1 amino acids encoding
+#	[-thrfmt filename]   .//Linux_x86_64/data/threshold%s/%s.thr Format for threshold filenames
+#	[-exthr]             0                    Exclude % Threshold calibration
+# Input is in FSA format
+
+# Peptide length 15
+	NetMHCII version 2.2.
+
+Strong binder threshold  50.00. Weak binder threshold 500.00.
+
+------------------------------------------------------------------------------------------------
+      Allele  pos          peptide       core 1-log50k(aff) affinity(nM) Bind Level  %Random     Identity
+------------------------------------------------------------------------------------------------
+HLA-DRB10405    0  LVPCAWAGNVCGEKR  LVPCAWAGN        0.1669       8214.9               50.00   sp|P02878|
+HLA-DRB10405    1  VPCAWAGNVCGEKRA  CAWAGNVCG        0.1305      12176.9               50.00   sp|P02878|
+HLA-DRB10405    2  PCAWAGNVCGEKRAY  AGNVCGEKR        0.1001      16932.7               50.00   sp|P02878|
+HLA-DRB10405    3  CAWAGNVCGEKRAYC  VCGEKRAYC        0.1006      16837.7               50.00   sp|P02878|
+HLA-DRB10405    4  AWAGNVCGEKRAYCC  VCGEKRAYC        0.0870      19495.3               50.00   sp|P02878|
+HLA-DRB10405    5  WAGNVCGEKRAYCCS  VCGEKRAYC        0.0761      21956.4               50.00   sp|P02878|
+HLA-DRB10405    6  AGNVCGEKRAYCCSD  EKRAYCCSD        0.0997      16998.9               50.00   sp|P02878|
+HLA-DRB10405    7  GNVCGEKRAYCCSDP  KRAYCCSDP        0.1229      13225.4               50.00   sp|P02878|
+HLA-DRB10405    8  NVCGEKRAYCCSDPG  RAYCCSDPG        0.2368       3859.0               50.00   sp|P02878|
+HLA-DRB10405    9  VCGEKRAYCCSDPGR  RAYCCSDPG        0.2621       2934.6               50.00   sp|P02878|
+HLA-DRB10405   10  CGEKRAYCCSDPGRY  RAYCCSDPG        0.3345       1340.2               50.00   sp|P02878|
+HLA-DRB10405   11  GEKRAYCCSDPGRYC  RAYCCSDPG        0.3582       1036.8               50.00   sp|P02878|
+HLA-DRB10405   12  EKRAYCCSDPGRYCP  RAYCCSDPG        0.3519       1110.5               50.00   sp|P02878|
+HLA-DRB10405   13  KRAYCCSDPGRYCPW  RAYCCSDPG        0.3349       1334.5               50.00   sp|P02878|
+HLA-DRB10405   14  RAYCCSDPGRYCPWQ  RAYCCSDPG        0.3003       1940.8               50.00   sp|P02878|
+HLA-DRB10405   15  AYCCSDPGRYCPWQV  YCCSDPGRY        0.2125       5017.5               50.00   sp|P02878|
+HLA-DRB10405   16  YCCSDPGRYCPWQVV  PGRYCPWQV        0.2001       5735.3               50.00   sp|P02878|
+HLA-DRB10405   17  CCSDPGRYCPWQVVC  PGRYCPWQV        0.1771       7356.6               50.00   sp|P02878|
+HLA-DRB10405   18  CSDPGRYCPWQVVCY  YCPWQVVCY        0.2053       5424.7               50.00   sp|P02878|
+HLA-DRB10405   19  SDPGRYCPWQVVCYE  YCPWQVVCY        0.2161       4826.8               50.00   sp|P02878|
+HLA-DRB10405   20  DPGRYCPWQVVCYES  YCPWQVVCY        0.2267       4303.4               50.00   sp|P02878|
+HLA-DRB10405   21  PGRYCPWQVVCYESS  WQVVCYESS        0.3952        694.7               50.00   sp|P02878|
+HLA-DRB10405   22  GRYCPWQVVCYESSE  WQVVCYESS        0.4151        560.3               32.00   sp|P02878|
+HLA-DRB10405   23  RYCPWQVVCYESSEI  WQVVCYESS        0.4612        340.3         WB    32.00   sp|P02878|
+HLA-DRB10405   24  YCPWQVVCYESSEIC  WQVVCYESS        0.4802        277.2         WB    32.00   sp|P02878|
+HLA-DRB10405   25  CPWQVVCYESSEICS  WQVVCYESS        0.4687        313.8         WB    32.00   sp|P02878|
+HLA-DRB10405   26  PWQVVCYESSEICSK  WQVVCYESS        0.4473        395.3         WB    32.00   sp|P02878|
+HLA-DRB10405   27  WQVVCYESSEICSKK  WQVVCYESS        0.4198        532.6               32.00   sp|P02878|
+HLA-DRB10405   28  QVVCYESSEICSKKC  VVCYESSEI        0.2962       2028.4               50.00   sp|P02878|
+HLA-DRB10405   29  VVCYESSEICSKKCG  VVCYESSEI        0.2643       2864.5               50.00   sp|P02878|
+HLA-DRB10405   30  VCYESSEICSKKCGK  YESSEICSK        0.1701       7935.5               50.00   sp|P02878|
+------------------------------------------------------------------------------------------------
+
+Allele: HLA-DRB10405. Number of high binders 0. Number of weak binders 4. Number of peptides 31
+
+------------------------------------------------------------------------------------------------

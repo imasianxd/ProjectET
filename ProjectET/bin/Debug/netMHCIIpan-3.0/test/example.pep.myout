@@ -1,0 +1,29 @@
+# NetMHCIIpan version 3.0
+
+# Input is in PEPTIDE format
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+
+
+
+# Allele: DRB1*01:01
+-------------------------------------------------------------------------------------------------------------------------------------------
+   pos                 Allele           peptide    Identity  Pos         Core 1-log50k(aff)  Affinity(nM)  %Rank Exp_Binding  BindingLevel
+-------------------------------------------------------------------------------------------------------------------------------------------
+     0             DRB1*01:01       AAAGAEAGKATTE    Sequence    1    AAGAEAGKA         0.182       6996.49  50.00        0.000 
+     1             DRB1*01:01     AALAAAAGVPPADKY    Sequence    2    LAAAAGVPP         0.605         72.11  32.00        0.300 <=WB
+     2             DRB1*01:01        EKPGNRNPYENL    Sequence    3    GNRNPYENL         0.104      16279.63  50.00        0.670 
+     3             DRB1*01:01     STWLLKPGAGIMIFD    Sequence    2    WLLKPGAGI         0.740         16.59   5.00        0.000 <=SB
+     4             DRB1*01:01     KSVPLEMLLINLTTI    Sequence    4    LEMLLINLT         0.740         16.71   5.00        0.560 <=SB
+     5             DRB1*01:01     KTKEDLFGKKNLIPS    Sequence    5    LFGKKNLIP         0.288       2220.53  50.00        0.670 
+     6             DRB1*01:01     KIYHKCDNACIGSIR    Sequence    2    YHKCDNACI         0.433        461.43  50.00        0.940 <=WB
+     7             DRB1*01:01     PCLFMRTVSHVILHG    Sequence    3    FMRTVSHVI         0.763         13.05   4.00        0.345 <=SB
+     8             DRB1*01:01     GAATVAAGAATTAAG    Sequence    4    VAAGAATTA         0.489        252.24  50.00        0.000 <=WB
+-------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 3 Number of weak binders: 3
+-------------------------------------------------------------------------------------------------------------------------------------------

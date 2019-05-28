@@ -1,0 +1,137 @@
+.de Id
+.ds Rv \\$3
+.ds Dt \\$4
+..
+.Id $Header: example.1,v 1.2 94/02/15 13:28:25 rapacki Exp $
+.TH NetMHCIIpan 1 \" -*- nroff -*-
+.SH NAME
+NetMHCIIpan \- Prediction of binding of peptides to any known MHC class II molecule.
+.SH SYNOPSIS
+.B NetMHCIIpan
+[\fB\-a\fP \fIval\fP]
+[\fB\-affF\fP \fIfloat\fP]
+[\fB\-affS\fP \fIfloat\fP]
+[\fB\-affW\fP \fIfloat\fP]
+[\fB\-cha\fP \fIname\fP]
+[\fB\-chb\fP \fIname\fP]
+[\fB\-choose\fP]
+[\fB\-dirty\fP]
+[\fB\-f\fP \fIfilename\fP]
+[\fB\-fast\fP]
+[\fB\-filter\fP \fIint\fP]
+[\fB\-h\fP]
+[\fB\-hlaseq\fP \fIfilename\fP]
+[\fB\-hlaseqA\fP \fIfilename\fP]
+[\fB\-inptype\fP \fIint\fP]
+[\fB\-length\fP \fIint_array\fP]
+[\fB\-list\fP]
+[\fB\-rankF \fP \fIfloat\fP]
+[\fB\-rankS \fP \fIfloat\fP]
+[\fB\-rankW \fP \fIfloat\fP]
+[\fB\-rdir\fP \fIdirname\fP]
+[\fB\-s\fP]
+[\fB\-tdir\fP \fIdirname\fP]
+[\fB\-u\fP]
+[\fB\-xls\fP]
+[\fB\-xlsfile\fP \fIfilename\fP]
+
+.SH DESCRIPTION
+.B NetMHCIIpan 3.0
+server predicts binding of peptides to all three human MHC class II isotypes, HLA-DR, HLA-DP and HLA-DQ, as well as mouse molecules. The method uses artificial neural networks (ANNs) and is trained on quantitative binding data covering 24 HLA-DR, 5 HLA-DP, 6 HLA- DQ and 2 mouse (H-2) molecules. 
+
+The input is taken from \fIfile\fP(s). Use \fB--\fP for
+\fIstdin\fP. The output is plain text; it will go to \fIstdout\fP.
+The required input format is \fBFASTA\fP or \fBPEPTIDE\fP.
+
+.SH OPTIONS
+.TP
+.B "\-a value"
+MHC allele name (use comma separate names without spaces for multiple allele).
+.TP
+.B "\-affF float"
+Threshold for filtering output (IC50). Used only when filter is 1. Default 500.
+.TP
+.B "\-affS float"
+Threshold for strong binders (IC50). Default 50.000.
+.TP
+.B "\-affW float"
+Threshold for weak binders (IC50). Default 500.000.
+.TP
+.B "\-cha name"
+Alpha chain name. Used only when -choose option is used.
+.TP
+.B "\-chb name"
+Beta chain name. Used only when -choose option is used.
+.TP
+.B "\-choose name"
+Choose alpha and beta chains separately.
+.TP
+.B "\-dirty"
+Dirty mode. Keeps all temporary files.
+.TP
+.B "\-f filename"
+Take the input from \fIfile\fP. 
+.TP
+.B "\-fast"
+Use fast mode (10 best networks).
+.TP
+.B "\-filter int"
+Filter output [1]. Default [0].
+.TP
+.B "-h"
+Help.
+.TP
+.B "\-hlaseq filename"
+File with full length MHC beta chain sequence (used alone for HLA-DR).
+.TP
+.B "\-hlaseqA filename"
+File with full length MHC alpha chain sequence (used with -hlaseq option).
+.TP
+.B "\-inptype int"
+Input type [0] FASTA [1] Peptide. Default if FASTA.
+.TP
+.B "\-length int_array"
+Peptide length from a range [9-19] (use comma separate numbers without spaces for multiple lengths). Default is 15.
+Input type [0] FASTA [1] Peptide. Default if FASTA.
+.TP
+.B "\-list"
+Print the list of possible alleles.
+.TP
+.B "\-rankF float"
+Threshold for filtering output (\%Rank). Used only when filter is 1. Ignored if -hlaseq option was used. Default is 2.
+.TP
+.B "\-rankS float"
+Threshold for strong binders (\%Rank). Default 0.5.
+.TP
+.B "\-rankW float"
+Threshold for weak binders (\%Rank). Default 2. 
+.TP
+.B "-rdir dirname"
+netMHCIIpan directory
+.TP
+.B "\-s"
+Sort output in descending affinity. Default is no sorting.
+.TP
+.B "\-tdir dirname"
+Temporary directory.
+.TP
+.B "\-u"
+Print unique binding core only.
+.TP
+.B "\-xls"
+Save output to xls file.
+.TP
+.B "\-xlsfile filename"
+File name for xls output. Default is NETMHCIIpan_out.xls.
+
+.SH AUTHOR
+
+Edita Karosiene, edita@cbs.dtu.dk, April 2014.
+.br
+Last updated in April 2014 (v. 3.0).
+.SH FILES
+\fB/usr/cbs/bio/bin/netMHCIIpan\fP           executable
+.br
+\fB/usr/cbs/bio/src/netMHCIIpan-3.0\fP       software home
+.SH SEE ALSO
+fasta (1),

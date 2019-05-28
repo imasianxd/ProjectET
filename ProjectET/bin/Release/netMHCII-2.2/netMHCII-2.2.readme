@@ -1,0 +1,114 @@
+
+
+   NetMHCII 2.2            INSTALLATION INSTRUCTIONS
+
+
+   DESCRIPTION
+
+   NetMHCII 2.2  predicts binding of peptides to a number of different HLA-DR
+   alleles using position specific weight matrices (PSSM). Predictions can be
+   obtained for 14 HLA-DR alleles covering the 9 HLA-DR supertypes, and five 
+   mouse  H2-IA alleles.  The method is described in detail  in the following
+   article:
+
+   NN-align. An artificial neural network-based alignment algorithm for MHC 
+   class II peptide binding prediction.
+   Morten Nielsen, and Ole Lund.
+   BMC Bioinformatics 10:296, 2009.
+
+   More information about the method can be found at:
+   
+      http://www.cbs.dtu.dk/services/NetMHCII/
+
+
+   DOWNLOAD
+
+   The NetMHCII 2.2 package  is a property  of Center for Biological Sequence
+   Analysis.  It may be downloaded  only  by special agreement.  For academic
+   users there is a download site at:
+
+        http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?netMHCII
+
+   Other users are requested to contact software@cbs.dtu.dk.
+
+
+   PRE-INSTALLATION
+
+   NetMHCII 2.2 will run on the most common UNIX platforms e.g. Linux, Darwin
+   etc. The package consists of two files:
+  
+      netMHCII-2.2.readme         this file
+      netMHCII-2.2.<unix>.tar.Z   compressed TAR archive
+
+   where 'unix' is the UNIX platform on which you are about to install. After
+   installation the software will occupy less than 8 MB of diskspace.
+
+
+   INSTALLATION
+
+   1. Uncompress and untar the package:
+
+      cat netMHCII-2.2.<unix>.tar.Z | uncompress | tar xvf -
+
+      This will produce a directory 'netMHCII-2.2'.
+
+   ##########################################################################
+   2. From the CBS WWW site download the file:
+
+      http://www.cbs.dtu.dk/services/NetMHCII/data.tar.gz
+
+      It should be 72607370 bytes. Put it in the 'netMHCII-2.2' directory and
+      then gunzip and untar it:
+      
+      gunzip -c data.tar.gz | tar xvf -
+
+      This will produce a directory 'data' (~ 230MB). It is necessary for the
+      NetMHCII 2.2 software  to operate;  once it is installed you may delete
+      the 'data.tar.gz' file; it will not be needed.
+
+   3. In the script 'netMHCII' in 'netMHCII-2.2/' locate the section starting
+      with "GENERAL SETTINGS: CUSTOMIZE TO YOUR SITE".  Set the following two
+      variables:
+
+      NMHOME	full path to the 'netMHCII-2.2' directory on your system
+      TMPDIR	e.g. /var/tmp
+
+      Make sure  that TMPDIR has the sticky bit set  (the long listing should
+      render 'drwxrwxrwt ...'). If not, set it:
+
+      chmod 1777 $TMPDIR
+
+      The setting of the variables  UNIX and AR  should not be changed unless
+      the 'uname' program on your system is not standard.
+
+   4. Still in the 'netMHCII-2.2' directory test the software:
+
+      ./netMHCII test/test.fsa | grep -v "#" >test.fsa.out
+      ./netMHCII -p test/test.pep | grep -v "#" >test.pep.out
+
+      The resulting files 'test.fsa.out' and 'test.pep.out' must be identical
+      to the files 'test.fsa.out' and 'test.pep.out' in the 'test' directory.
+
+   5. a. Copy or link the 'netMHCII' script to a directory in the user path.
+
+      b. Copy the 'netMHCII.1' file  to a location in your manual system.  If
+         you need a compiled version try running:
+
+         man -d netMHCII.1 | compress >netMHCII.Z
+
+         or:
+
+         neqn netMHCII.1 | tbl | nroff -man | col | compress >netMHCII.Z
+
+   6. Enjoy ...
+
+
+   PROBLEMS
+
+   Contact packages@cbs.dtu.dk in case of problems.
+   
+   Questions on the scientific aspects of the NetMHCII method  should be sent
+   to Morten Nielsen, mniel@cbs.dtu.dk.
+
+   CBS, 17 September 2010
+   K. Rapacki

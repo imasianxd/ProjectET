@@ -1,0 +1,382 @@
+# /home/j/Desktop/netMHC/netMHCII-2.2/Linux_x86_64/bin/netMHCII -a H-2-IAd -f ../proteins/167782135.fasta
+# Fri Oct  9 13:14:06 2015
+# User: j
+# PWD : /home/j/Desktop/netMHC/netMHCII-2.2
+# Host: Linux ubuntu 3.16.0-30-generic x86_64
+# -a       H-2-IAd              Allele name
+# -f       ../proteins/167782135.fasta File name with input
+# Command line parameters set to:
+#	[-a filename]        H-2-IAd              Allele name
+#	[-d filename]        /home/j/Desktop/netMHC/netMHCII-2.2/Linux_x86_64 Directory for executables and data
+#	[-t float]           -99.900002           Threshold for output
+#	[-s]                 0                    Sort output on descending affinity
+#	[-w]                 0                    w option for webface
+#	[-f filename]        ../proteins/167782135.fasta File name with input
+#	[-tdir filename]     /home/j/Desktop/netMHCIITemp Temporary directory
+#	[-wt float]          500.000000           Threshold for weak binders
+#	[-st float]          50.000000            Threshold for strong binders
+#	[-l int]             15                   Peptide length
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode
+#	[-list]              0                    List alleles covered by NetMHCII method
+#	[-p]                 0                    Use peptide input
+#	[-xP1]               0                    Exclude P1 amino acids encoding
+#	[-thrfmt filename]   /home/j/Desktop/netMHC/netMHCII-2.2/Linux_x86_64/data/threshold%s/%s.thr Format for threshold filenames
+#	[-exthr]             0                    Exclude % Threshold calibration
+# Input is in FSA format
+
+# Peptide length 15
+	NetMHCII version 2.2.
+
+Strong binder threshold  50.00. Weak binder threshold 500.00.
+
+------------------------------------------------------------------------------------------------
+      Allele  pos          peptide       core 1-log50k(aff) affinity(nM) Bind Level  %Random     Identity
+------------------------------------------------------------------------------------------------
+     H-2-IAd    0  MVDAAVLEKLEAGFA  VDAAVLEKL        0.2392       3759.1               32.00   gi|1677821
+     H-2-IAd    1  VDAAVLEKLEAGFAK  VDAAVLEKL        0.2587       3043.7               32.00   gi|1677821
+     H-2-IAd    2  DAAVLEKLEAGFAKL  LEKLEAGFA        0.2187       4693.1               32.00   gi|1677821
+     H-2-IAd    3  AAVLEKLEAGFAKLA  LEKLEAGFA        0.2473       3442.5               32.00   gi|1677821
+     H-2-IAd    4  AVLEKLEAGFAKLAA  LEKLEAGFA        0.2250       4381.9               32.00   gi|1677821
+     H-2-IAd    5  VLEKLEAGFAKLAAS  LEKLEAGFA        0.2244       4410.8               32.00   gi|1677821
+     H-2-IAd    6  LEKLEAGFAKLAASD  LEKLEAGFA        0.2354       3917.6               32.00   gi|1677821
+     H-2-IAd    7  EKLEAGFAKLAASDS  FAKLAASDS        0.2194       4657.0               32.00   gi|1677821
+     H-2-IAd    8  KLEAGFAKLAASDSK  FAKLAASDS        0.2623       2925.5               32.00   gi|1677821
+     H-2-IAd    9  LEAGFAKLAASDSKS  FAKLAASDS        0.3052       1840.5               16.00   gi|1677821
+     H-2-IAd   10  EAGFAKLAASDSKSL  FAKLAASDS        0.3065       1814.2               16.00   gi|1677821
+     H-2-IAd   11  AGFAKLAASDSKSLL  FAKLAASDS        0.3178       1605.4               16.00   gi|1677821
+     H-2-IAd   12  GFAKLAASDSKSLLK  FAKLAASDS        0.3021       1902.3               16.00   gi|1677821
+     H-2-IAd   13  FAKLAASDSKSLLKK  FAKLAASDS        0.3017       1910.6               16.00   gi|1677821
+     H-2-IAd   14  AKLAASDSKSLLKKY  DSKSLLKKY        0.1883       6517.4               50.00   gi|1677821
+     H-2-IAd   15  KLAASDSKSLLKKYL  DSKSLLKKY        0.1890       6466.5               50.00   gi|1677821
+     H-2-IAd   16  LAASDSKSLLKKYLT  DSKSLLKKY        0.2161       4827.6               32.00   gi|1677821
+     H-2-IAd   17  AASDSKSLLKKYLTK  DSKSLLKKY        0.2355       3911.4               32.00   gi|1677821
+     H-2-IAd   18  ASDSKSLLKKYLTKE  DSKSLLKKY        0.2413       3674.4               32.00   gi|1677821
+     H-2-IAd   19  SDSKSLLKKYLTKEV  DSKSLLKKY        0.2517       3282.1               32.00   gi|1677821
+     H-2-IAd   20  DSKSLLKKYLTKEVF  KKYLTKEVF        0.2888       2196.3               32.00   gi|1677821
+     H-2-IAd   21  SKSLLKKYLTKEVFD  KKYLTKEVF        0.2948       2059.5               16.00   gi|1677821
+     H-2-IAd   22  KSLLKKYLTKEVFDN  KKYLTKEVF        0.3212       1547.4               16.00   gi|1677821
+     H-2-IAd   23  SLLKKYLTKEVFDNL  KKYLTKEVF        0.3418       1237.8               16.00   gi|1677821
+     H-2-IAd   24  LLKKYLTKEVFDNLK  KKYLTKEVF        0.3509       1122.9               16.00   gi|1677821
+     H-2-IAd   25  LKKYLTKEVFDNLKT  KKYLTKEVF        0.3532       1094.3               16.00   gi|1677821
+     H-2-IAd   26  KKYLTKEVFDNLKTK  KKYLTKEVF        0.2930       2099.1               16.00   gi|1677821
+     H-2-IAd   27  KYLTKEVFDNLKTKK  LTKEVFDNL        0.0834      20289.6               50.00   gi|1677821
+     H-2-IAd   28  YLTKEVFDNLKTKKT  FDNLKTKKT        0.1382      11212.5               50.00   gi|1677821
+     H-2-IAd   29  LTKEVFDNLKTKKTP  FDNLKTKKT        0.1352      11580.6               50.00   gi|1677821
+     H-2-IAd   30  TKEVFDNLKTKKTPS  FDNLKTKKT        0.1253      12882.5               50.00   gi|1677821
+     H-2-IAd   31  KEVFDNLKTKKTPSF  FDNLKTKKT        0.1363      11438.9               50.00   gi|1677821
+     H-2-IAd   32  EVFDNLKTKKTPSFG  FDNLKTKKT        0.1451      10397.8               50.00   gi|1677821
+     H-2-IAd   33  VFDNLKTKKTPSFGS  LKTKKTPSF        0.1616       8699.8               50.00   gi|1677821
+     H-2-IAd   34  FDNLKTKKTPSFGST  LKTKKTPSF        0.2002       5731.3               50.00   gi|1677821
+     H-2-IAd   35  DNLKTKKTPSFGSTL  LKTKKTPSF        0.1467      10223.1               50.00   gi|1677821
+     H-2-IAd   36  NLKTKKTPSFGSTLL  LKTKKTPSF        0.1513       9723.1               50.00   gi|1677821
+     H-2-IAd   37  LKTKKTPSFGSTLLD  LKTKKTPSF        0.1583       9019.4               50.00   gi|1677821
+     H-2-IAd   38  KTKKTPSFGSTLLDV  KTKKTPSFG        0.0648      24814.8               50.00   gi|1677821
+     H-2-IAd   39  TKKTPSFGSTLLDVI  FGSTLLDVI        0.1064      15812.1               50.00   gi|1677821
+     H-2-IAd   40  KKTPSFGSTLLDVIQ  FGSTLLDVI        0.1680       8116.9               50.00   gi|1677821
+     H-2-IAd   41  KTPSFGSTLLDVIQS  FGSTLLDVI        0.2064       5360.6               50.00   gi|1677821
+     H-2-IAd   42  TPSFGSTLLDVIQSG  FGSTLLDVI        0.2305       4130.6               32.00   gi|1677821
+     H-2-IAd   43  PSFGSTLLDVIQSGL  FGSTLLDVI        0.2366       3863.3               32.00   gi|1677821
+     H-2-IAd   44  SFGSTLLDVIQSGLE  FGSTLLDVI        0.2422       3639.8               32.00   gi|1677821
+     H-2-IAd   45  FGSTLLDVIQSGLEN  FGSTLLDVI        0.2326       4036.8               32.00   gi|1677821
+     H-2-IAd   46  GSTLLDVIQSGLENH  STLLDVIQS        0.1436      10568.3               50.00   gi|1677821
+     H-2-IAd   47  STLLDVIQSGLENHD  STLLDVIQS        0.1276      12566.2               50.00   gi|1677821
+     H-2-IAd   48  TLLDVIQSGLENHDS  TLLDVIQSG        0.1063      15827.2               50.00   gi|1677821
+     H-2-IAd   49  LLDVIQSGLENHDSG  LDVIQSGLE        0.0963      17639.0               50.00   gi|1677821
+     H-2-IAd   50  LDVIQSGLENHDSGV  LDVIQSGLE        0.0902      18850.4               50.00   gi|1677821
+     H-2-IAd   51  DVIQSGLENHDSGVG  QSGLENHDS        0.0641      25002.4               50.00   gi|1677821
+     H-2-IAd   52  VIQSGLENHDSGVGI  QSGLENHDS        0.0617      25645.7               50.00   gi|1677821
+     H-2-IAd   53  IQSGLENHDSGVGIY  NHDSGVGIY        0.0654      24650.5               50.00   gi|1677821
+     H-2-IAd   54  QSGLENHDSGVGIYA  NHDSGVGIY        0.1215      13425.1               50.00   gi|1677821
+     H-2-IAd   55  SGLENHDSGVGIYAP  NHDSGVGIY        0.1366      11400.1               50.00   gi|1677821
+     H-2-IAd   56  GLENHDSGVGIYAPD  NHDSGVGIY        0.1669       8215.7               50.00   gi|1677821
+     H-2-IAd   57  LENHDSGVGIYAPDA  NHDSGVGIY        0.2025       5588.3               50.00   gi|1677821
+     H-2-IAd   58  ENHDSGVGIYAPDAE  NHDSGVGIY        0.2021       5613.1               50.00   gi|1677821
+     H-2-IAd   59  NHDSGVGIYAPDAEA  NHDSGVGIY        0.2063       5363.8               50.00   gi|1677821
+     H-2-IAd   60  HDSGVGIYAPDAEAY  DSGVGIYAP        0.1437      10566.5               50.00   gi|1677821
+     H-2-IAd   61  DSGVGIYAPDAEAYA  DSGVGIYAP        0.1151      14392.2               50.00   gi|1677821
+     H-2-IAd   62  SGVGIYAPDAEAYAV  IYAPDAEAY        0.1131      14700.2               50.00   gi|1677821
+     H-2-IAd   63  GVGIYAPDAEAYAVF  IYAPDAEAY        0.1283      12469.9               50.00   gi|1677821
+     H-2-IAd   64  VGIYAPDAEAYAVFA  IYAPDAEAY        0.1207      13552.7               50.00   gi|1677821
+     H-2-IAd   65  GIYAPDAEAYAVFAD  IYAPDAEAY        0.1310      12115.2               50.00   gi|1677821
+     H-2-IAd   66  IYAPDAEAYAVFADL  IYAPDAEAY        0.1344      11674.6               50.00   gi|1677821
+     H-2-IAd   67  YAPDAEAYAVFADLF  AYAVFADLF        0.1355      11545.7               50.00   gi|1677821
+     H-2-IAd   68  APDAEAYAVFADLFD  AYAVFADLF        0.1547       9379.5               50.00   gi|1677821
+     H-2-IAd   69  PDAEAYAVFADLFDP  AYAVFADLF        0.1736       7641.1               50.00   gi|1677821
+     H-2-IAd   70  DAEAYAVFADLFDPI  AYAVFADLF        0.1970       5931.5               50.00   gi|1677821
+     H-2-IAd   71  AEAYAVFADLFDPII  AYAVFADLF        0.1784       7255.0               50.00   gi|1677821
+     H-2-IAd   72  EAYAVFADLFDPIIE  AYAVFADLF        0.1724       7740.2               50.00   gi|1677821
+     H-2-IAd   73  AYAVFADLFDPIIED  AYAVFADLF        0.1593       8919.3               50.00   gi|1677821
+     H-2-IAd   74  YAVFADLFDPIIEDY  FADLFDPII        0.0778      21543.7               50.00   gi|1677821
+     H-2-IAd   75  AVFADLFDPIIEDYH  FADLFDPII        0.0668      24267.6               50.00   gi|1677821
+     H-2-IAd   76  VFADLFDPIIEDYHG  FADLFDPII        0.0721      22911.4               50.00   gi|1677821
+     H-2-IAd   77  FADLFDPIIEDYHGG  LFDPIIEDY        0.0644      24902.5               50.00   gi|1677821
+     H-2-IAd   78  ADLFDPIIEDYHGGF  LFDPIIEDY        0.0411      32065.3               50.00   gi|1677821
+     H-2-IAd   79  DLFDPIIEDYHGGFK  LFDPIIEDY        0.0375      33334.9               50.00   gi|1677821
+     H-2-IAd   80  LFDPIIEDYHGGFKK  LFDPIIEDY        0.0376      33279.1               50.00   gi|1677821
+     H-2-IAd   81  FDPIIEDYHGGFKKT  FDPIIEDYH        0.0159      42090.7               50.00   gi|1677821
+     H-2-IAd   82  DPIIEDYHGGFKKTD  DYHGGFKKT        0.0138      43044.9               50.00   gi|1677821
+     H-2-IAd   83  PIIEDYHGGFKKTDK  DYHGGFKKT        0.0141      42937.5               50.00   gi|1677821
+     H-2-IAd   84  IIEDYHGGFKKTDKH  GGFKKTDKH        0.0263      37636.0               50.00   gi|1677821
+     H-2-IAd   85  IEDYHGGFKKTDKHP  GGFKKTDKH        0.0409      32128.1               50.00   gi|1677821
+     H-2-IAd   86  EDYHGGFKKTDKHPP  GGFKKTDKH        0.0807      20884.7               50.00   gi|1677821
+     H-2-IAd   87  DYHGGFKKTDKHPPK  GGFKKTDKH        0.0949      17902.2               50.00   gi|1677821
+     H-2-IAd   88  YHGGFKKTDKHPPKD  FKKTDKHPP        0.0973      17439.5               50.00   gi|1677821
+     H-2-IAd   89  HGGFKKTDKHPPKDW  FKKTDKHPP        0.1008      16796.7               50.00   gi|1677821
+     H-2-IAd   90  GGFKKTDKHPPKDWG  FKKTDKHPP        0.1019      16600.0               50.00   gi|1677821
+     H-2-IAd   91  GFKKTDKHPPKDWGD  FKKTDKHPP        0.0692      23655.5               50.00   gi|1677821
+     H-2-IAd   92  FKKTDKHPPKDWGDV  FKKTDKHPP        0.0500      29118.7               50.00   gi|1677821
+     H-2-IAd   93  KKTDKHPPKDWGDVD  TDKHPPKDW        0.0104      44695.6               50.00   gi|1677821
+     H-2-IAd   94  KTDKHPPKDWGDVDT  HPPKDWGDV        0.0142      42866.9               50.00   gi|1677821
+     H-2-IAd   95  TDKHPPKDWGDVDTL  KDWGDVDTL        0.0305      35950.3               50.00   gi|1677821
+     H-2-IAd   96  DKHPPKDWGDVDTLG  KDWGDVDTL        0.0401      32415.8               50.00   gi|1677821
+     H-2-IAd   97  KHPPKDWGDVDTLGN  KDWGDVDTL        0.0496      29219.0               50.00   gi|1677821
+     H-2-IAd   98  HPPKDWGDVDTLGNL  KDWGDVDTL        0.0920      18484.4               50.00   gi|1677821
+     H-2-IAd   99  PPKDWGDVDTLGNLD  KDWGDVDTL        0.0895      18985.5               50.00   gi|1677821
+     H-2-IAd  100  PKDWGDVDTLGNLDP  KDWGDVDTL        0.0934      18206.5               50.00   gi|1677821
+     H-2-IAd  101  KDWGDVDTLGNLDPA  KDWGDVDTL        0.0843      20091.2               50.00   gi|1677821
+     H-2-IAd  102  DWGDVDTLGNLDPAG  GDVDTLGNL        0.0628      25347.0               50.00   gi|1677821
+     H-2-IAd  103  WGDVDTLGNLDPAGE  GDVDTLGNL        0.0553      27476.5               50.00   gi|1677821
+     H-2-IAd  104  GDVDTLGNLDPAGEY  GDVDTLGNL        0.0629      25306.4               50.00   gi|1677821
+     H-2-IAd  105  DVDTLGNLDPAGEYI  DTLGNLDPA        0.0375      33327.0               50.00   gi|1677821
+     H-2-IAd  106  VDTLGNLDPAGEYII  DTLGNLDPA        0.0405      32248.3               50.00   gi|1677821
+     H-2-IAd  107  DTLGNLDPAGEYIIS  DTLGNLDPA        0.0411      32061.8               50.00   gi|1677821
+     H-2-IAd  108  TLGNLDPAGEYIIST  GNLDPAGEY        0.0503      29000.8               50.00   gi|1677821
+     H-2-IAd  109  LGNLDPAGEYIISTR  AGEYIISTR        0.1012      16734.5               50.00   gi|1677821
+     H-2-IAd  110  GNLDPAGEYIISTRV  AGEYIISTR        0.1297      12292.5               50.00   gi|1677821
+     H-2-IAd  111  NLDPAGEYIISTRVR  EYIISTRVR        0.1422      10731.0               50.00   gi|1677821
+     H-2-IAd  112  LDPAGEYIISTRVRC  EYIISTRVR        0.1826       6929.6               50.00   gi|1677821
+     H-2-IAd  113  DPAGEYIISTRVRCG  EYIISTRVR        0.2275       4267.3               32.00   gi|1677821
+     H-2-IAd  114  PAGEYIISTRVRCGR  EYIISTRVR        0.2577       3075.1               32.00   gi|1677821
+     H-2-IAd  115  AGEYIISTRVRCGRS  EYIISTRVR        0.2700       2692.4               32.00   gi|1677821
+     H-2-IAd  116  GEYIISTRVRCGRSM  EYIISTRVR        0.2232       4469.4               32.00   gi|1677821
+     H-2-IAd  117  EYIISTRVRCGRSMQ  EYIISTRVR        0.2210       4578.5               32.00   gi|1677821
+     H-2-IAd  118  YIISTRVRCGRSMQG  YIISTRVRC        0.1799       7140.3               50.00   gi|1677821
+     H-2-IAd  119  IISTRVRCGRSMQGY  IISTRVRCG        0.1631       8565.6               50.00   gi|1677821
+     H-2-IAd  120  ISTRVRCGRSMQGYP  RCGRSMQGY        0.1718       7796.1               50.00   gi|1677821
+     H-2-IAd  121  STRVRCGRSMQGYPF  RCGRSMQGY        0.2356       3908.7               32.00   gi|1677821
+     H-2-IAd  122  TRVRCGRSMQGYPFN  RCGRSMQGY        0.2620       2936.8               32.00   gi|1677821
+     H-2-IAd  123  RVRCGRSMQGYPFNP  RCGRSMQGY        0.2721       2633.9               32.00   gi|1677821
+     H-2-IAd  124  VRCGRSMQGYPFNPC  RCGRSMQGY        0.2887       2199.6               32.00   gi|1677821
+     H-2-IAd  125  RCGRSMQGYPFNPCL  GRSMQGYPF        0.2846       2298.5               32.00   gi|1677821
+     H-2-IAd  126  CGRSMQGYPFNPCLT  GRSMQGYPF        0.2224       4508.1               32.00   gi|1677821
+     H-2-IAd  127  GRSMQGYPFNPCLTE  GRSMQGYPF        0.2133       4973.2               50.00   gi|1677821
+     H-2-IAd  128  RSMQGYPFNPCLTEA  RSMQGYPFN        0.1054      15982.2               50.00   gi|1677821
+     H-2-IAd  129  SMQGYPFNPCLTEAQ  FNPCLTEAQ        0.0752      22149.9               50.00   gi|1677821
+     H-2-IAd  130  MQGYPFNPCLTEAQY  FNPCLTEAQ        0.0863      19653.3               50.00   gi|1677821
+     H-2-IAd  131  QGYPFNPCLTEAQYK  FNPCLTEAQ        0.0784      21403.8               50.00   gi|1677821
+     H-2-IAd  132  GYPFNPCLTEAQYKE  FNPCLTEAQ        0.0771      21706.3               50.00   gi|1677821
+     H-2-IAd  133  YPFNPCLTEAQYKEM  LTEAQYKEM        0.0811      20801.5               50.00   gi|1677821
+     H-2-IAd  134  PFNPCLTEAQYKEME  LTEAQYKEM        0.0931      18257.0               50.00   gi|1677821
+     H-2-IAd  135  FNPCLTEAQYKEMED  LTEAQYKEM        0.0861      19694.6               50.00   gi|1677821
+     H-2-IAd  136  NPCLTEAQYKEMEDK  LTEAQYKEM        0.1044      16157.5               50.00   gi|1677821
+     H-2-IAd  137  PCLTEAQYKEMEDKV  LTEAQYKEM        0.1215      13427.7               50.00   gi|1677821
+     H-2-IAd  138  CLTEAQYKEMEDKVS  YKEMEDKVS        0.1951       6057.9               50.00   gi|1677821
+     H-2-IAd  139  LTEAQYKEMEDKVSS  YKEMEDKVS        0.2351       3930.3               32.00   gi|1677821
+     H-2-IAd  140  TEAQYKEMEDKVSST  YKEMEDKVS        0.2171       4771.6               32.00   gi|1677821
+     H-2-IAd  141  EAQYKEMEDKVSSTL  YKEMEDKVS        0.2348       3940.1               32.00   gi|1677821
+     H-2-IAd  142  AQYKEMEDKVSSTLS  YKEMEDKVS        0.2387       3777.8               32.00   gi|1677821
+     H-2-IAd  143  QYKEMEDKVSSTLSG  YKEMEDKVS        0.2279       4248.8               32.00   gi|1677821
+     H-2-IAd  144  YKEMEDKVSSTLSGL  YKEMEDKVS        0.2449       3532.2               32.00   gi|1677821
+     H-2-IAd  145  KEMEDKVSSTLSGLE  EDKVSSTLS        0.1231      13195.1               50.00   gi|1677821
+     H-2-IAd  146  EMEDKVSSTLSGLEA  SSTLSGLEA        0.1522       9632.9               50.00   gi|1677821
+     H-2-IAd  147  MEDKVSSTLSGLEAE  KVSSTLSGL        0.1652       8372.7               50.00   gi|1677821
+     H-2-IAd  148  EDKVSSTLSGLEAEP  SSTLSGLEA        0.1666       8245.2               50.00   gi|1677821
+     H-2-IAd  149  DKVSSTLSGLEAEPK  SSTLSGLEA        0.1974       5908.8               50.00   gi|1677821
+     H-2-IAd  150  KVSSTLSGLEAEPKG  SSTLSGLEA        0.1808       7070.1               50.00   gi|1677821
+     H-2-IAd  151  VSSTLSGLEAEPKGQ  SSTLSGLEA        0.1255      12859.6               50.00   gi|1677821
+     H-2-IAd  152  SSTLSGLEAEPKGQF  SSTLSGLEA        0.1315      12049.9               50.00   gi|1677821
+     H-2-IAd  153  STLSGLEAEPKGQFY  STLSGLEAE        0.1019      16608.1               50.00   gi|1677821
+     H-2-IAd  154  TLSGLEAEPKGQFYL  LSGLEAEPK        0.0972      17476.4               50.00   gi|1677821
+     H-2-IAd  155  LSGLEAEPKGQFYLL  LSGLEAEPK        0.1009      16779.3               50.00   gi|1677821
+     H-2-IAd  156  SGLEAEPKGQFYLLT  LEAEPKGQF        0.0674      24123.9               50.00   gi|1677821
+     H-2-IAd  157  GLEAEPKGQFYLLTG  LEAEPKGQF        0.0887      19145.3               50.00   gi|1677821
+     H-2-IAd  158  LEAEPKGQFYLLTGM  LEAEPKGQF        0.0950      17881.3               50.00   gi|1677821
+     H-2-IAd  159  EAEPKGQFYLLTGMT  QFYLLTGMT        0.1125      14807.5               50.00   gi|1677821
+     H-2-IAd  160  AEPKGQFYLLTGMTK  QFYLLTGMT        0.1239      13079.6               50.00   gi|1677821
+     H-2-IAd  161  EPKGQFYLLTGMTKE  QFYLLTGMT        0.1343      11694.0               50.00   gi|1677821
+     H-2-IAd  162  PKGQFYLLTGMTKEV  QFYLLTGMT        0.1600       8852.7               50.00   gi|1677821
+     H-2-IAd  163  KGQFYLLTGMTKEVQ  QFYLLTGMT        0.1605       8805.9               50.00   gi|1677821
+     H-2-IAd  164  GQFYLLTGMTKEVQQ  QFYLLTGMT        0.1483      10050.1               50.00   gi|1677821
+     H-2-IAd  165  QFYLLTGMTKEVQQK  QFYLLTGMT        0.1488       9999.2               50.00   gi|1677821
+     H-2-IAd  166  FYLLTGMTKEVQQKL  MTKEVQQKL        0.1226      13269.3               50.00   gi|1677821
+     H-2-IAd  167  YLLTGMTKEVQQKLI  MTKEVQQKL        0.1547       9372.2               50.00   gi|1677821
+     H-2-IAd  168  LLTGMTKEVQQKLID  MTKEVQQKL        0.1911       6325.2               50.00   gi|1677821
+     H-2-IAd  169  LTGMTKEVQQKLIDD  MTKEVQQKL        0.2078       5277.7               50.00   gi|1677821
+     H-2-IAd  170  TGMTKEVQQKLIDDH  MTKEVQQKL        0.2263       4320.6               32.00   gi|1677821
+     H-2-IAd  171  GMTKEVQQKLIDDHF  MTKEVQQKL        0.2357       3901.6               32.00   gi|1677821
+     H-2-IAd  172  MTKEVQQKLIDDHFL  MTKEVQQKL        0.2390       3766.6               32.00   gi|1677821
+     H-2-IAd  173  TKEVQQKLIDDHFLF  TKEVQQKLI        0.1972       5922.3               50.00   gi|1677821
+     H-2-IAd  174  KEVQQKLIDDHFLFK  VQQKLIDDH        0.1292      12353.4               50.00   gi|1677821
+     H-2-IAd  175  EVQQKLIDDHFLFKE  VQQKLIDDH        0.1115      14960.8               50.00   gi|1677821
+     H-2-IAd  176  VQQKLIDDHFLFKEG  VQQKLIDDH        0.1084      15479.8               50.00   gi|1677821
+     H-2-IAd  177  QQKLIDDHFLFKEGD  QQKLIDDHF        0.0519      28521.6               50.00   gi|1677821
+     H-2-IAd  178  QKLIDDHFLFKEGDR  QKLIDDHFL        0.0414      31945.8               50.00   gi|1677821
+     H-2-IAd  179  KLIDDHFLFKEGDRF  FLFKEGDRF        0.0259      37790.2               50.00   gi|1677821
+     H-2-IAd  180  LIDDHFLFKEGDRFL  FLFKEGDRF        0.0341      34565.7               50.00   gi|1677821
+     H-2-IAd  181  IDDHFLFKEGDRFLQ  FLFKEGDRF        0.0482      29684.0               50.00   gi|1677821
+     H-2-IAd  182  DDHFLFKEGDRFLQA  FLFKEGDRF        0.0687      23783.1               50.00   gi|1677821
+     H-2-IAd  183  DHFLFKEGDRFLQAA  FLFKEGDRF        0.0802      20984.2               50.00   gi|1677821
+     H-2-IAd  184  HFLFKEGDRFLQAAN  FLFKEGDRF        0.0839      20181.2               50.00   gi|1677821
+     H-2-IAd  185  FLFKEGDRFLQAANA  FLFKEGDRF        0.1063      15826.5               50.00   gi|1677821
+     H-2-IAd  186  LFKEGDRFLQAANAC  RFLQAANAC        0.1146      14475.9               50.00   gi|1677821
+     H-2-IAd  187  FKEGDRFLQAANACR  RFLQAANAC        0.1175      14029.4               50.00   gi|1677821
+     H-2-IAd  188  KEGDRFLQAANACRF  RFLQAANAC        0.1380      11229.9               50.00   gi|1677821
+     H-2-IAd  189  EGDRFLQAANACRFW  RFLQAANAC        0.1506       9797.6               50.00   gi|1677821
+     H-2-IAd  190  GDRFLQAANACRFWP  RFLQAANAC        0.1555       9296.3               50.00   gi|1677821
+     H-2-IAd  191  DRFLQAANACRFWPT  RFLQAANAC        0.2032       5548.7               50.00   gi|1677821
+     H-2-IAd  192  RFLQAANACRFWPTG  RFLQAANAC        0.1841       6819.5               50.00   gi|1677821
+     H-2-IAd  193  FLQAANACRFWPTGR  LQAANACRF        0.1454      10366.7               50.00   gi|1677821
+     H-2-IAd  194  LQAANACRFWPTGRG  LQAANACRF        0.1755       7485.5               50.00   gi|1677821
+     H-2-IAd  195  QAANACRFWPTGRGI  CRFWPTGRG        0.1454      10374.3               50.00   gi|1677821
+     H-2-IAd  196  AANACRFWPTGRGIY  CRFWPTGRG        0.1579       9052.8               50.00   gi|1677821
+     H-2-IAd  197  ANACRFWPTGRGIYH  CRFWPTGRG        0.1516       9694.7               50.00   gi|1677821
+     H-2-IAd  198  NACRFWPTGRGIYHN  CRFWPTGRG        0.1383      11196.8               50.00   gi|1677821
+     H-2-IAd  199  ACRFWPTGRGIYHND  CRFWPTGRG        0.1520       9655.8               50.00   gi|1677821
+     H-2-IAd  200  CRFWPTGRGIYHNDA  CRFWPTGRG        0.1512       9739.8               50.00   gi|1677821
+     H-2-IAd  201  RFWPTGRGIYHNDAK  FWPTGRGIY        0.0761      21951.2               50.00   gi|1677821
+     H-2-IAd  202  FWPTGRGIYHNDAKT  FWPTGRGIY        0.0712      23129.9               50.00   gi|1677821
+     H-2-IAd  203  WPTGRGIYHNDAKTF  IYHNDAKTF        0.0761      21940.0               50.00   gi|1677821
+     H-2-IAd  204  PTGRGIYHNDAKTFL  IYHNDAKTF        0.0795      21151.2               50.00   gi|1677821
+     H-2-IAd  205  TGRGIYHNDAKTFLV  IYHNDAKTF        0.1006      16838.4               50.00   gi|1677821
+     H-2-IAd  206  GRGIYHNDAKTFLVW  IYHNDAKTF        0.1451      10401.9               50.00   gi|1677821
+     H-2-IAd  207  RGIYHNDAKTFLVWC  IYHNDAKTF        0.1525       9601.6               50.00   gi|1677821
+     H-2-IAd  208  GIYHNDAKTFLVWCN  IYHNDAKTF        0.1830       6900.4               50.00   gi|1677821
+     H-2-IAd  209  IYHNDAKTFLVWCNE  IYHNDAKTF        0.1879       6545.8               50.00   gi|1677821
+     H-2-IAd  210  YHNDAKTFLVWCNEE  HNDAKTFLV        0.1110      15041.3               50.00   gi|1677821
+     H-2-IAd  211  HNDAKTFLVWCNEED  HNDAKTFLV        0.1125      14807.7               50.00   gi|1677821
+     H-2-IAd  212  NDAKTFLVWCNEEDH  NDAKTFLVW        0.0796      21126.1               50.00   gi|1677821
+     H-2-IAd  213  DAKTFLVWCNEEDHL  AKTFLVWCN        0.0574      26861.9               50.00   gi|1677821
+     H-2-IAd  214  AKTFLVWCNEEDHLR  AKTFLVWCN        0.0532      28127.5               50.00   gi|1677821
+     H-2-IAd  215  KTFLVWCNEEDHLRI  FLVWCNEED        0.0329      35023.1               50.00   gi|1677821
+     H-2-IAd  216  TFLVWCNEEDHLRII  NEEDHLRII        0.0391      32747.2               50.00   gi|1677821
+     H-2-IAd  217  FLVWCNEEDHLRIIS  NEEDHLRII        0.0566      27107.7               50.00   gi|1677821
+     H-2-IAd  218  LVWCNEEDHLRIISM  NEEDHLRII        0.0939      18096.3               50.00   gi|1677821
+     H-2-IAd  219  VWCNEEDHLRIISMQ  NEEDHLRII        0.1632       8548.8               50.00   gi|1677821
+     H-2-IAd  220  WCNEEDHLRIISMQM  HLRIISMQM        0.2024       5596.0               50.00   gi|1677821
+     H-2-IAd  221  CNEEDHLRIISMQMG  LRIISMQMG        0.3329       1363.2               16.00   gi|1677821
+     H-2-IAd  222  NEEDHLRIISMQMGG  LRIISMQMG        0.3291       1421.5               16.00   gi|1677821
+     H-2-IAd  223  EEDHLRIISMQMGGD  LRIISMQMG        0.3533       1093.6               16.00   gi|1677821
+     H-2-IAd  224  EDHLRIISMQMGGDL  LRIISMQMG        0.3628        986.2                8.00   gi|1677821
+     H-2-IAd  225  DHLRIISMQMGGDLG  LRIISMQMG        0.3751        863.7                8.00   gi|1677821
+     H-2-IAd  226  HLRIISMQMGGDLGQ  LRIISMQMG        0.3456       1188.4               16.00   gi|1677821
+     H-2-IAd  227  LRIISMQMGGDLGQV  LRIISMQMG        0.3569       1051.6                8.00   gi|1677821
+     H-2-IAd  228  RIISMQMGGDLGQVY  ISMQMGGDL        0.2455       3509.0               32.00   gi|1677821
+     H-2-IAd  229  IISMQMGGDLGQVYR  ISMQMGGDL        0.2473       3441.6               32.00   gi|1677821
+     H-2-IAd  230  ISMQMGGDLGQVYRR  ISMQMGGDL        0.2589       3038.2               32.00   gi|1677821
+     H-2-IAd  231  SMQMGGDLGQVYRRL  SMQMGGDLG        0.1961       5988.8               50.00   gi|1677821
+     H-2-IAd  232  MQMGGDLGQVYRRLV  QMGGDLGQV        0.1377      11271.3               50.00   gi|1677821
+     H-2-IAd  233  QMGGDLGQVYRRLVT  QMGGDLGQV        0.1464      10260.8               50.00   gi|1677821
+     H-2-IAd  234  MGGDLGQVYRRLVTA  LGQVYRRLV        0.1361      11472.6               50.00   gi|1677821
+     H-2-IAd  235  GGDLGQVYRRLVTAV  LGQVYRRLV        0.1432      10613.8               50.00   gi|1677821
+     H-2-IAd  236  GDLGQVYRRLVTAVN  LGQVYRRLV        0.1693       8004.0               50.00   gi|1677821
+     H-2-IAd  237  DLGQVYRRLVTAVND  LGQVYRRLV        0.1741       7599.3               50.00   gi|1677821
+     H-2-IAd  238  LGQVYRRLVTAVNDI  LGQVYRRLV        0.2056       5407.5               50.00   gi|1677821
+     H-2-IAd  239  GQVYRRLVTAVNDIE  RLVTAVNDI        0.1925       6227.6               50.00   gi|1677821
+     H-2-IAd  240  QVYRRLVTAVNDIEK  RLVTAVNDI        0.2120       5042.3               50.00   gi|1677821
+     H-2-IAd  241  VYRRLVTAVNDIEKR  RLVTAVNDI        0.2272       4280.2               32.00   gi|1677821
+     H-2-IAd  242  YRRLVTAVNDIEKRI  RLVTAVNDI        0.2002       5730.8               50.00   gi|1677821
+     H-2-IAd  243  RRLVTAVNDIEKRIP  RLVTAVNDI        0.1687       8060.8               50.00   gi|1677821
+     H-2-IAd  244  RLVTAVNDIEKRIPF  RLVTAVNDI        0.1572       9124.5               50.00   gi|1677821
+     H-2-IAd  245  LVTAVNDIEKRIPFS  TAVNDIEKR        0.0697      23529.9               50.00   gi|1677821
+     H-2-IAd  246  VTAVNDIEKRIPFSH  TAVNDIEKR        0.0799      21060.1               50.00   gi|1677821
+     H-2-IAd  247  TAVNDIEKRIPFSHD  TAVNDIEKR        0.0793      21200.5               50.00   gi|1677821
+     H-2-IAd  248  AVNDIEKRIPFSHDD  VNDIEKRIP        0.0593      26311.6               50.00   gi|1677821
+     H-2-IAd  249  VNDIEKRIPFSHDDR  DIEKRIPFS        0.0607      25916.3               50.00   gi|1677821
+     H-2-IAd  250  NDIEKRIPFSHDDRL  DIEKRIPFS        0.0582      26638.7               50.00   gi|1677821
+     H-2-IAd  251  DIEKRIPFSHDDRLG  DIEKRIPFS        0.0376      33277.6               50.00   gi|1677821
+     H-2-IAd  252  IEKRIPFSHDDRLGF  IEKRIPFSH        0.0172      41515.4               50.00   gi|1677821
+     H-2-IAd  253  EKRIPFSHDDRLGFL  SHDDRLGFL        0.0268      37424.0               50.00   gi|1677821
+     H-2-IAd  254  KRIPFSHDDRLGFLT  SHDDRLGFL        0.0339      34665.0               50.00   gi|1677821
+     H-2-IAd  255  RIPFSHDDRLGFLTF  SHDDRLGFL        0.0299      36199.4               50.00   gi|1677821
+     H-2-IAd  256  IPFSHDDRLGFLTFC  SHDDRLGFL        0.0309      35772.3               50.00   gi|1677821
+     H-2-IAd  257  PFSHDDRLGFLTFCP  SHDDRLGFL        0.0340      34598.7               50.00   gi|1677821
+     H-2-IAd  258  FSHDDRLGFLTFCPT  SHDDRLGFL        0.0391      32736.6               50.00   gi|1677821
+     H-2-IAd  259  SHDDRLGFLTFCPTN  SHDDRLGFL        0.0433      31309.7               50.00   gi|1677821
+     H-2-IAd  260  HDDRLGFLTFCPTNL  LGFLTFCPT        0.0458      30453.7               50.00   gi|1677821
+     H-2-IAd  261  DDRLGFLTFCPTNLG  LGFLTFCPT        0.0434      31257.2               50.00   gi|1677821
+     H-2-IAd  262  DRLGFLTFCPTNLGT  LGFLTFCPT        0.0425      31564.8               50.00   gi|1677821
+     H-2-IAd  263  RLGFLTFCPTNLGTT  LGFLTFCPT        0.0702      23396.9               50.00   gi|1677821
+     H-2-IAd  264  LGFLTFCPTNLGTTV  FCPTNLGTT        0.0693      23613.1               50.00   gi|1677821
+     H-2-IAd  265  GFLTFCPTNLGTTVR  FCPTNLGTT        0.0739      22482.9               50.00   gi|1677821
+     H-2-IAd  266  FLTFCPTNLGTTVRA  FCPTNLGTT        0.1090      15381.2               50.00   gi|1677821
+     H-2-IAd  267  LTFCPTNLGTTVRAS  TNLGTTVRA        0.1375      11296.9               50.00   gi|1677821
+     H-2-IAd  268  TFCPTNLGTTVRASV  FCPTNLGTT        0.1622       8646.3               50.00   gi|1677821
+     H-2-IAd  269  FCPTNLGTTVRASVH  TNLGTTVRA        0.1937       6151.8               50.00   gi|1677821
+     H-2-IAd  270  CPTNLGTTVRASVHI  NLGTTVRAS        0.1875       6572.8               50.00   gi|1677821
+     H-2-IAd  271  PTNLGTTVRASVHIK  NLGTTVRAS        0.1943       6109.4               50.00   gi|1677821
+     H-2-IAd  272  TNLGTTVRASVHIKV  VRASVHIKV        0.2723       2625.8               32.00   gi|1677821
+     H-2-IAd  273  NLGTTVRASVHIKVP  RASVHIKVP        0.3194       1577.5               16.00   gi|1677821
+     H-2-IAd  274  LGTTVRASVHIKVPK  RASVHIKVP        0.3568       1052.5                8.00   gi|1677821
+     H-2-IAd  275  GTTVRASVHIKVPKL  RASVHIKVP        0.4752        292.4         WB     2.00   gi|1677821
+     H-2-IAd  276  TTVRASVHIKVPKLA  RASVHIKVP        0.5181        183.8         WB     0.90   gi|1677821
+     H-2-IAd  277  TVRASVHIKVPKLAA  SVHIKVPKL        0.5397        145.6         WB     0.60   gi|1677821
+     H-2-IAd  278  VRASVHIKVPKLAAD  SVHIKVPKL        0.5527        126.4         WB     0.50   gi|1677821
+     H-2-IAd  279  RASVHIKVPKLAADK  SVHIKVPKL        0.5144        191.4         WB     0.90   gi|1677821
+     H-2-IAd  280  ASVHIKVPKLAADKA  SVHIKVPKL        0.5197        180.7         WB     0.90   gi|1677821
+     H-2-IAd  281  SVHIKVPKLAADKAK  SVHIKVPKL        0.4933        240.5         WB     1.25   gi|1677821
+     H-2-IAd  282  VHIKVPKLAADKAKL  VPKLAADKA        0.2985       1977.5               16.00   gi|1677821
+     H-2-IAd  283  HIKVPKLAADKAKLE  VPKLAADKA        0.2759       2525.8               32.00   gi|1677821
+     H-2-IAd  284  IKVPKLAADKAKLEE  VPKLAADKA        0.2624       2925.4               32.00   gi|1677821
+     H-2-IAd  285  KVPKLAADKAKLEEV  VPKLAADKA        0.2872       2236.9               32.00   gi|1677821
+     H-2-IAd  286  VPKLAADKAKLEEVA  VPKLAADKA        0.3454       1191.6               16.00   gi|1677821
+     H-2-IAd  287  PKLAADKAKLEEVAG  ADKAKLEEV        0.3061       1822.5               16.00   gi|1677821
+     H-2-IAd  288  KLAADKAKLEEVAGK  ADKAKLEEV        0.3083       1780.2               16.00   gi|1677821
+     H-2-IAd  289  LAADKAKLEEVAGKY  ADKAKLEEV        0.3102       1742.3               16.00   gi|1677821
+     H-2-IAd  290  AADKAKLEEVAGKYN  ADKAKLEEV        0.3076       1793.4               16.00   gi|1677821
+     H-2-IAd  291  ADKAKLEEVAGKYNL  ADKAKLEEV        0.3162       1633.3               16.00   gi|1677821
+     H-2-IAd  292  DKAKLEEVAGKYNLQ  KLEEVAGKY        0.2567       3108.9               32.00   gi|1677821
+     H-2-IAd  293  KAKLEEVAGKYNLQV  KLEEVAGKY        0.1892       6457.7               50.00   gi|1677821
+     H-2-IAd  294  AKLEEVAGKYNLQVR  KLEEVAGKY        0.1950       6060.3               50.00   gi|1677821
+     H-2-IAd  295  KLEEVAGKYNLQVRG  KLEEVAGKY        0.2177       4743.8               32.00   gi|1677821
+     H-2-IAd  296  LEEVAGKYNLQVRGT  KYNLQVRGT        0.2393       3753.0               32.00   gi|1677821
+     H-2-IAd  297  EEVAGKYNLQVRGTR  KYNLQVRGT        0.2614       2954.9               32.00   gi|1677821
+     H-2-IAd  298  EVAGKYNLQVRGTRG  KYNLQVRGT        0.2859       2266.8               32.00   gi|1677821
+     H-2-IAd  299  VAGKYNLQVRGTRGE  KYNLQVRGT        0.3137       1679.3               16.00   gi|1677821
+     H-2-IAd  300  AGKYNLQVRGTRGEH  KYNLQVRGT        0.3171       1617.0               16.00   gi|1677821
+     H-2-IAd  301  GKYNLQVRGTRGEHT  KYNLQVRGT        0.2810       2390.0               32.00   gi|1677821
+     H-2-IAd  302  KYNLQVRGTRGEHTE  KYNLQVRGT        0.2384       3791.2               32.00   gi|1677821
+     H-2-IAd  303  YNLQVRGTRGEHTEA  YNLQVRGTR        0.0717      23006.8               50.00   gi|1677821
+     H-2-IAd  304  NLQVRGTRGEHTEAE  NLQVRGTRG        0.0477      29857.3               50.00   gi|1677821
+     H-2-IAd  305  LQVRGTRGEHTEAEG  VRGTRGEHT        0.0367      33600.0               50.00   gi|1677821
+     H-2-IAd  306  QVRGTRGEHTEAEGG  VRGTRGEHT        0.0468      30140.6               50.00   gi|1677821
+     H-2-IAd  307  VRGTRGEHTEAEGGV  VRGTRGEHT        0.0589      26429.7               50.00   gi|1677821
+     H-2-IAd  308  RGTRGEHTEAEGGVY  HTEAEGGVY        0.1450      10419.7               50.00   gi|1677821
+     H-2-IAd  309  GTRGEHTEAEGGVYD  HTEAEGGVY        0.1959       6004.1               50.00   gi|1677821
+     H-2-IAd  310  TRGEHTEAEGGVYDI  HTEAEGGVY        0.2264       4316.0               32.00   gi|1677821
+     H-2-IAd  311  RGEHTEAEGGVYDIS  HTEAEGGVY        0.2680       2750.7               32.00   gi|1677821
+     H-2-IAd  312  GEHTEAEGGVYDISN  HTEAEGGVY        0.2729       2609.6               32.00   gi|1677821
+     H-2-IAd  313  EHTEAEGGVYDISNK  HTEAEGGVY        0.2659       2816.0               32.00   gi|1677821
+     H-2-IAd  314  HTEAEGGVYDISNKR  HTEAEGGVY        0.2643       2864.1               32.00   gi|1677821
+     H-2-IAd  315  TEAEGGVYDISNKRR  EAEGGVYDI        0.0726      22794.5               50.00   gi|1677821
+     H-2-IAd  316  EAEGGVYDISNKRRM  EAEGGVYDI        0.0568      27041.5               50.00   gi|1677821
+     H-2-IAd  317  AEGGVYDISNKRRMG  VYDISNKRR        0.0408      32158.0               50.00   gi|1677821
+     H-2-IAd  318  EGGVYDISNKRRMGL  VYDISNKRR        0.0442      30992.2               50.00   gi|1677821
+     H-2-IAd  319  GGVYDISNKRRMGLT  SNKRRMGLT        0.0708      23230.4               50.00   gi|1677821
+     H-2-IAd  320  GVYDISNKRRMGLTE  VYDISNKRR        0.1079      15554.0               50.00   gi|1677821
+     H-2-IAd  321  VYDISNKRRMGLTEY  KRRMGLTEY        0.1831       6896.7               50.00   gi|1677821
+     H-2-IAd  322  YDISNKRRMGLTEYD  KRRMGLTEY        0.2507       3320.0               32.00   gi|1677821
+     H-2-IAd  323  DISNKRRMGLTEYDA  KRRMGLTEY        0.3285       1430.2               16.00   gi|1677821
+     H-2-IAd  324  ISNKRRMGLTEYDAV  KRRMGLTEY        0.3688        924.4                8.00   gi|1677821
+     H-2-IAd  325  SNKRRMGLTEYDAVK  KRRMGLTEY        0.3757        858.4                8.00   gi|1677821
+     H-2-IAd  326  NKRRMGLTEYDAVKE  KRRMGLTEY        0.3956        692.2                8.00   gi|1677821
+     H-2-IAd  327  KRRMGLTEYDAVKEM  KRRMGLTEY        0.3890        742.9                8.00   gi|1677821
+     H-2-IAd  328  RRMGLTEYDAVKEMN  TEYDAVKEM        0.2267       4302.1               32.00   gi|1677821
+     H-2-IAd  329  RMGLTEYDAVKEMND  TEYDAVKEM        0.2088       5222.9               50.00   gi|1677821
+     H-2-IAd  330  MGLTEYDAVKEMNDG  TEYDAVKEM        0.1895       6433.9               50.00   gi|1677821
+     H-2-IAd  331  GLTEYDAVKEMNDGI  TEYDAVKEM        0.1827       6924.9               50.00   gi|1677821
+     H-2-IAd  332  LTEYDAVKEMNDGIA  TEYDAVKEM        0.2335       3996.8               32.00   gi|1677821
+     H-2-IAd  333  TEYDAVKEMNDGIAE  TEYDAVKEM        0.2105       5125.9               50.00   gi|1677821
+     H-2-IAd  334  EYDAVKEMNDGIAEL  VKEMNDGIA        0.1319      12002.6               50.00   gi|1677821
+     H-2-IAd  335  YDAVKEMNDGIAELI  VKEMNDGIA        0.1346      11659.9               50.00   gi|1677821
+     H-2-IAd  336  DAVKEMNDGIAELIK  VKEMNDGIA        0.1386      11166.4               50.00   gi|1677821
+     H-2-IAd  337  AVKEMNDGIAELIKL  VKEMNDGIA        0.1424      10709.0               50.00   gi|1677821
+     H-2-IAd  338  VKEMNDGIAELIKLE  VKEMNDGIA        0.1436      10572.7               50.00   gi|1677821
+     H-2-IAd  339  KEMNDGIAELIKLES  MNDGIAELI        0.1152      14383.8               50.00   gi|1677821
+     H-2-IAd  340  EMNDGIAELIKLESS  AELIKLESS        0.1542       9430.7               50.00   gi|1677821
+     H-2-IAd  341  MNDGIAELIKLESSL  AELIKLESS        0.1793       7188.9               50.00   gi|1677821
+------------------------------------------------------------------------------------------------
+
+Allele: H-2-IAd. Number of high binders 0. Number of weak binders 7. Number of peptides 342
+
+------------------------------------------------------------------------------------------------

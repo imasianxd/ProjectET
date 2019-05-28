@@ -1,0 +1,23 @@
+rm -rf ./modified_results
+mkdir ./modified_results
+declare -i c1=`cat alleles.list | wc -l`
+declare -i c2=`ls ../Modified_Protein_Sequence | wc -l`
+declare -i total
+total=c1*c2
+declare -i count
+count=0
+for p in `ls ../Modified_Protein_Sequence`; 
+do rm -rf ./modified_results//$p; 
+mkdir ./modified_results//$p; 
+done;
+for protein in `ls ../Modified_Protein_Sequence`; 
+do
+count=$count+1;
+for allele in `cat ./alleles.list`; 
+do 
+count=$count+1;
+percent=$(echo "scale=5; $count/$total" | bc); 
+echo "predicting modified peptide binding affinity $protein" for allele $allele;
+./netMHCII -a $allele -p -f ../Modified_Protein_Sequence/$protein > ./modified_results/$protein/$allele.result; 
+done; 
+done;

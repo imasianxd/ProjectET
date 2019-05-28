@@ -1,0 +1,13 @@
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/ProjectET.exe.mdb
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/ProjectET.exe
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/obj/x86/Debug/ProjectET.exe
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/obj/x86/Debug/ProjectET.exe.mdb
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Mono.Security.v2.0.0.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Newtonsoft.Json.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Npgsql.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/EPPlus.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Jia.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Microsoft.Office.Interop.Excel.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/OxyPlot.dll
+/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Renci.SshNet.dll

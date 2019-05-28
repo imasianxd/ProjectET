@@ -1,0 +1,19 @@
+>>SETUP
+There are two files to change for the analysis:
+1. Protein_Accession_Dictionary.txt > input the SwissProt or NCBI protein accession here. Each accession should be on a new line. Please name the accession with a name, input it here in the follwoing format: "[accession]>[name]". e.g. A1B2C3>myProtein. Each name pair should be on a new line.
+2. Debug_Settings.json > if you would like to modify the population coverage cutoff, change the 0.1 in "cutoff:" where 0<x<1. e.g. 0.1 would only allow the top 10% coverage through. 
+
+>>RUNNING THE PROGRAM
+Open a local terminal and navigate to the directory.
+Within the terminal, type "mono ProjectET.exe", without quotations and press enter.
+The program should now begin the epitope prediction. a "Finished" will prompt when the program finish running.
+The result of the analysis can be found in ./Results with a summarized report found at ./Results/test.html
+
+>>CLEANING THE DIRECTORY
+***WARNING, BACK UP ALL THE ANALYSIS BEFORE DOING THIS***
+Open a local terminal and navigate to the directory.
+Within the terminal, type ./clean.sh and follow on screen directions.
+
+>>ERROR HANDELING
+All handled errors will be logged to ../Errorlog.txt.
+Unhandled errors will display on the terminal with a line ending in "Press any key to continue", please take a screenshot and email to me.

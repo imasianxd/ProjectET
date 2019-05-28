@@ -1,0 +1,382 @@
+# NetMHCIIpan version 3.0
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Use user MHC pseudo sequence QEFFIASGAAVDAIMWLFLECYDLQRATYHVGFT USER_DEF
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+
+
+
+
+# Allele: USER_DEF
+-------------------------------------------------------------------------------------------------------------------------------------------
+   pos                 Allele           peptide    Identity  Pos         Core 1-log50k(aff)  Affinity(nM)   BindingLevel
+-------------------------------------------------------------------------------------------------------------------------------------------
+     0               USER_DEF     STAGKVIKCKAAVLW  ADHB_HUMAN    5    VIKCKAAVL         0.644         47.25  <=SB
+     1               USER_DEF     TAGKVIKCKAAVLWE  ADHB_HUMAN    4    VIKCKAAVL         0.672         34.82  <=SB
+     2               USER_DEF     AGKVIKCKAAVLWEV  ADHB_HUMAN    3    VIKCKAAVL         0.705         24.31  <=SB
+     3               USER_DEF     GKVIKCKAAVLWEVK  ADHB_HUMAN    2    VIKCKAAVL         0.673         34.28  <=SB
+     4               USER_DEF     KVIKCKAAVLWEVKK  ADHB_HUMAN    1    VIKCKAAVL         0.629         55.27  <=WB
+     5               USER_DEF     VIKCKAAVLWEVKKP  ADHB_HUMAN    0    VIKCKAAVL         0.549        131.98  <=WB
+     6               USER_DEF     IKCKAAVLWEVKKPF  ADHB_HUMAN    0    IKCKAAVLW         0.418        542.39  
+     7               USER_DEF     KCKAAVLWEVKKPFS  ADHB_HUMAN    1    CKAAVLWEV         0.371        900.44  
+     8               USER_DEF     CKAAVLWEVKKPFSI  ADHB_HUMAN    6    WEVKKPFSI         0.445        404.42  <=WB
+     9               USER_DEF     KAAVLWEVKKPFSIE  ADHB_HUMAN    5    WEVKKPFSI         0.463        334.01  <=WB
+    10               USER_DEF     AAVLWEVKKPFSIED  ADHB_HUMAN    4    WEVKKPFSI         0.465        327.17  <=WB
+    11               USER_DEF     AVLWEVKKPFSIEDV  ADHB_HUMAN    3    WEVKKPFSI         0.502        218.60  <=WB
+    12               USER_DEF     VLWEVKKPFSIEDVE  ADHB_HUMAN    2    WEVKKPFSI         0.457        357.06  <=WB
+    13               USER_DEF     LWEVKKPFSIEDVEV  ADHB_HUMAN    1    WEVKKPFSI         0.411        585.39  
+    14               USER_DEF     WEVKKPFSIEDVEVA  ADHB_HUMAN    0    WEVKKPFSI         0.401        655.18  
+    15               USER_DEF     EVKKPFSIEDVEVAP  ADHB_HUMAN    5    FSIEDVEVA         0.372        891.10  
+    16               USER_DEF     VKKPFSIEDVEVAPP  ADHB_HUMAN    4    FSIEDVEVA         0.392        721.74  
+    17               USER_DEF     KKPFSIEDVEVAPPK  ADHB_HUMAN    3    FSIEDVEVA         0.419        538.80  
+    18               USER_DEF     KPFSIEDVEVAPPKA  ADHB_HUMAN    2    FSIEDVEVA         0.374        869.48  
+    19               USER_DEF     PFSIEDVEVAPPKAY  ADHB_HUMAN    1    FSIEDVEVA         0.363        987.32  
+    20               USER_DEF     FSIEDVEVAPPKAYE  ADHB_HUMAN    0    FSIEDVEVA         0.350       1129.25  
+    21               USER_DEF     SIEDVEVAPPKAYEV  ADHB_HUMAN    4    VEVAPPKAY         0.397        681.76  
+    22               USER_DEF     IEDVEVAPPKAYEVR  ADHB_HUMAN    3    VEVAPPKAY         0.425        503.78  
+    23               USER_DEF     EDVEVAPPKAYEVRI  ADHB_HUMAN    2    VEVAPPKAY         0.389        743.50  
+    24               USER_DEF     DVEVAPPKAYEVRIK  ADHB_HUMAN    1    VEVAPPKAY         0.386        767.73  
+    25               USER_DEF     VEVAPPKAYEVRIKM  ADHB_HUMAN    2    VAPPKAYEV         0.364        969.87  
+    26               USER_DEF     EVAPPKAYEVRIKMV  ADHB_HUMAN    6    AYEVRIKMV         0.396        687.29  
+    27               USER_DEF     VAPPKAYEVRIKMVA  ADHB_HUMAN    5    AYEVRIKMV         0.441        423.88  <=WB
+    28               USER_DEF     APPKAYEVRIKMVAV  ADHB_HUMAN    4    AYEVRIKMV         0.499        226.15  <=WB
+    29               USER_DEF     PPKAYEVRIKMVAVG  ADHB_HUMAN    3    AYEVRIKMV         0.523        173.89  <=WB
+    30               USER_DEF     PKAYEVRIKMVAVGI  ADHB_HUMAN    6    RIKMVAVGI         0.583         91.04  <=WB
+    31               USER_DEF     KAYEVRIKMVAVGIC  ADHB_HUMAN    5    RIKMVAVGI         0.602         74.38  <=WB
+    32               USER_DEF     AYEVRIKMVAVGICR  ADHB_HUMAN    4    RIKMVAVGI         0.632         53.41  <=WB
+    33               USER_DEF     YEVRIKMVAVGICRT  ADHB_HUMAN    3    RIKMVAVGI         0.667         36.66  <=SB
+    34               USER_DEF     EVRIKMVAVGICRTD  ADHB_HUMAN    2    RIKMVAVGI         0.642         48.10  <=SB
+    35               USER_DEF     VRIKMVAVGICRTDD  ADHB_HUMAN    1    RIKMVAVGI         0.621         60.31  <=WB
+    36               USER_DEF     RIKMVAVGICRTDDH  ADHB_HUMAN    0    RIKMVAVGI         0.593         81.68  <=WB
+    37               USER_DEF     IKMVAVGICRTDDHV  ADHB_HUMAN    2    MVAVGICRT         0.474        295.04  <=WB
+    38               USER_DEF     KMVAVGICRTDDHVV  ADHB_HUMAN    1    MVAVGICRT         0.407        609.54  
+    39               USER_DEF     MVAVGICRTDDHVVS  ADHB_HUMAN    0    MVAVGICRT         0.334       1347.51  
+    40               USER_DEF     VAVGICRTDDHVVSG  ADHB_HUMAN    4    ICRTDDHVV         0.292       2132.30  
+    41               USER_DEF     AVGICRTDDHVVSGN  ADHB_HUMAN    3    ICRTDDHVV         0.309       1765.82  
+    42               USER_DEF     VGICRTDDHVVSGNL  ADHB_HUMAN    2    ICRTDDHVV         0.296       2026.93  
+    43               USER_DEF     GICRTDDHVVSGNLV  ADHB_HUMAN    6    DHVVSGNLV         0.348       1154.28  
+    44               USER_DEF     ICRTDDHVVSGNLVT  ADHB_HUMAN    5    DHVVSGNLV         0.383        789.30  
+    45               USER_DEF     CRTDDHVVSGNLVTP  ADHB_HUMAN    4    DHVVSGNLV         0.389        745.16  
+    46               USER_DEF     RTDDHVVSGNLVTPL  ADHB_HUMAN    3    DHVVSGNLV         0.466        324.05  <=WB
+    47               USER_DEF     TDDHVVSGNLVTPLP  ADHB_HUMAN    2    DHVVSGNLV         0.435        452.79  <=WB
+    48               USER_DEF     DDHVVSGNLVTPLPV  ADHB_HUMAN    1    DHVVSGNLV         0.462        338.91  <=WB
+    49               USER_DEF     DHVVSGNLVTPLPVI  ADHB_HUMAN    3    VSGNLVTPL         0.518        184.88  <=WB
+    50               USER_DEF     HVVSGNLVTPLPVIL  ADHB_HUMAN    4    GNLVTPLPV         0.583         91.30  <=WB
+    51               USER_DEF     VVSGNLVTPLPVILG  ADHB_HUMAN    3    GNLVTPLPV         0.620         61.14  <=WB
+    52               USER_DEF     VSGNLVTPLPVILGH  ADHB_HUMAN    4    LVTPLPVIL         0.640         49.00  <=SB
+    53               USER_DEF     SGNLVTPLPVILGHE  ADHB_HUMAN    3    LVTPLPVIL         0.641         48.57  <=SB
+    54               USER_DEF     GNLVTPLPVILGHEA  ADHB_HUMAN    3    VTPLPVILG         0.636         51.18  <=WB
+    55               USER_DEF     NLVTPLPVILGHEAA  ADHB_HUMAN    2    VTPLPVILG         0.594         80.71  <=WB
+    56               USER_DEF     LVTPLPVILGHEAAG  ADHB_HUMAN    1    VTPLPVILG         0.548        133.04  <=WB
+    57               USER_DEF     VTPLPVILGHEAAGI  ADHB_HUMAN    3    LPVILGHEA         0.590         84.48  <=WB
+    58               USER_DEF     TPLPVILGHEAAGIV  ADHB_HUMAN    5    ILGHEAAGI         0.632         53.65  <=WB
+    59               USER_DEF     PLPVILGHEAAGIVE  ADHB_HUMAN    4    ILGHEAAGI         0.651         43.66  <=SB
+    60               USER_DEF     LPVILGHEAAGIVES  ADHB_HUMAN    3    ILGHEAAGI         0.679         32.12  <=SB
+    61               USER_DEF     PVILGHEAAGIVESV  ADHB_HUMAN    2    ILGHEAAGI         0.628         56.02  <=WB
+    62               USER_DEF     VILGHEAAGIVESVG  ADHB_HUMAN    1    ILGHEAAGI         0.577         97.46  <=WB
+    63               USER_DEF     ILGHEAAGIVESVGE  ADHB_HUMAN    0    ILGHEAAGI         0.488        255.36  <=WB
+    64               USER_DEF     LGHEAAGIVESVGEG  ADHB_HUMAN    0    LGHEAAGIV         0.322       1528.29  
+    65               USER_DEF     GHEAAGIVESVGEGV  ADHB_HUMAN    6    IVESVGEGV         0.306       1828.26  
+    66               USER_DEF     HEAAGIVESVGEGVT  ADHB_HUMAN    5    IVESVGEGV         0.344       1213.99  
+    67               USER_DEF     EAAGIVESVGEGVTT  ADHB_HUMAN    4    IVESVGEGV         0.393        711.87  
+    68               USER_DEF     AAGIVESVGEGVTTV  ADHB_HUMAN    3    IVESVGEGV         0.464        331.66  <=WB
+    69               USER_DEF     AGIVESVGEGVTTVK  ADHB_HUMAN    2    IVESVGEGV         0.412        582.55  
+    70               USER_DEF     GIVESVGEGVTTVKP  ADHB_HUMAN    1    IVESVGEGV         0.361       1003.34  
+    71               USER_DEF     IVESVGEGVTTVKPG  ADHB_HUMAN    0    IVESVGEGV         0.322       1527.00  
+    72               USER_DEF     VESVGEGVTTVKPGD  ADHB_HUMAN    2    SVGEGVTTV         0.183       6933.42  
+    73               USER_DEF     ESVGEGVTTVKPGDK  ADHB_HUMAN    1    SVGEGVTTV         0.166       8305.55  
+    74               USER_DEF     SVGEGVTTVKPGDKV  ADHB_HUMAN    0    SVGEGVTTV         0.181       7026.08  
+    75               USER_DEF     VGEGVTTVKPGDKVI  ADHB_HUMAN    4    VTTVKPGDK         0.221       4577.36  
+    76               USER_DEF     GEGVTTVKPGDKVIP  ADHB_HUMAN    3    VTTVKPGDK         0.229       4205.36  
+    77               USER_DEF     EGVTTVKPGDKVIPL  ADHB_HUMAN    3    TTVKPGDKV         0.258       3063.36  
+    78               USER_DEF     GVTTVKPGDKVIPLF  ADHB_HUMAN    3    TVKPGDKVI         0.279       2452.12  
+    79               USER_DEF     VTTVKPGDKVIPLFT  ADHB_HUMAN    6    GDKVIPLFT         0.296       2024.48  
+    80               USER_DEF     TTVKPGDKVIPLFTP  ADHB_HUMAN    5    GDKVIPLFT         0.284       2316.41  
+    81               USER_DEF     TVKPGDKVIPLFTPQ  ADHB_HUMAN    4    GDKVIPLFT         0.327       1450.03  
+    82               USER_DEF     VKPGDKVIPLFTPQC  ADHB_HUMAN    5    KVIPLFTPQ         0.388        753.41  
+    83               USER_DEF     KPGDKVIPLFTPQCG  ADHB_HUMAN    5    VIPLFTPQC         0.419        535.27  
+    84               USER_DEF     PGDKVIPLFTPQCGK  ADHB_HUMAN    4    VIPLFTPQC         0.474        297.79  <=WB
+    85               USER_DEF     GDKVIPLFTPQCGKC  ADHB_HUMAN    3    VIPLFTPQC         0.494        238.18  <=WB
+    86               USER_DEF     DKVIPLFTPQCGKCR  ADHB_HUMAN    2    VIPLFTPQC         0.496        232.62  <=WB
+    87               USER_DEF     KVIPLFTPQCGKCRV  ADHB_HUMAN    1    VIPLFTPQC         0.511        198.32  <=WB
+    88               USER_DEF     VIPLFTPQCGKCRVC  ADHB_HUMAN    4    FTPQCGKCR         0.487        257.85  <=WB
+    89               USER_DEF     IPLFTPQCGKCRVCK  ADHB_HUMAN    3    FTPQCGKCR         0.477        286.56  <=WB
+    90               USER_DEF     PLFTPQCGKCRVCKN  ADHB_HUMAN    2    FTPQCGKCR         0.410        594.10  
+    91               USER_DEF     LFTPQCGKCRVCKNP  ADHB_HUMAN    1    FTPQCGKCR         0.368        928.65  
+    92               USER_DEF     FTPQCGKCRVCKNPE  ADHB_HUMAN    0    FTPQCGKCR         0.258       3071.96  
+    93               USER_DEF     TPQCGKCRVCKNPES  ADHB_HUMAN    6    CRVCKNPES         0.194       6127.20  
+    94               USER_DEF     PQCGKCRVCKNPESN  ADHB_HUMAN    5    CRVCKNPES         0.215       4877.24  
+    95               USER_DEF     QCGKCRVCKNPESNY  ADHB_HUMAN    4    CRVCKNPES         0.274       2590.81  
+    96               USER_DEF     CGKCRVCKNPESNYC  ADHB_HUMAN    3    CRVCKNPES         0.304       1870.61  
+    97               USER_DEF     GKCRVCKNPESNYCL  ADHB_HUMAN    2    CRVCKNPES         0.311       1720.50  
+    98               USER_DEF     KCRVCKNPESNYCLK  ADHB_HUMAN    1    CRVCKNPES         0.315       1657.66  
+    99               USER_DEF     CRVCKNPESNYCLKN  ADHB_HUMAN    4    KNPESNYCL         0.293       2089.68  
+   100               USER_DEF     RVCKNPESNYCLKND  ADHB_HUMAN    3    KNPESNYCL         0.261       2962.10  
+   101               USER_DEF     VCKNPESNYCLKNDL  ADHB_HUMAN    2    KNPESNYCL         0.233       4004.60  
+   102               USER_DEF     CKNPESNYCLKNDLG  ADHB_HUMAN    6    NYCLKNDLG         0.269       2712.87  
+   103               USER_DEF     KNPESNYCLKNDLGN  ADHB_HUMAN    5    NYCLKNDLG         0.302       1900.43  
+   104               USER_DEF     NPESNYCLKNDLGNP  ADHB_HUMAN    4    NYCLKNDLG         0.304       1870.34  
+   105               USER_DEF     PESNYCLKNDLGNPR  ADHB_HUMAN    3    NYCLKNDLG         0.367        943.67  
+   106               USER_DEF     ESNYCLKNDLGNPRG  ADHB_HUMAN    2    NYCLKNDLG         0.374        878.51  
+   107               USER_DEF     SNYCLKNDLGNPRGT  ADHB_HUMAN    1    NYCLKNDLG         0.382        800.91  
+   108               USER_DEF     NYCLKNDLGNPRGTL  ADHB_HUMAN    3    LKNDLGNPR         0.394        702.79  
+   109               USER_DEF     YCLKNDLGNPRGTLQ  ADHB_HUMAN    2    LKNDLGNPR         0.345       1201.64  
+   110               USER_DEF     CLKNDLGNPRGTLQD  ADHB_HUMAN    1    LKNDLGNPR         0.297       2006.01  
+   111               USER_DEF     LKNDLGNPRGTLQDG  ADHB_HUMAN    0    LKNDLGNPR         0.272       2630.92  
+   112               USER_DEF     KNDLGNPRGTLQDGT  ADHB_HUMAN    3    LGNPRGTLQ         0.213       4984.64  
+   113               USER_DEF     NDLGNPRGTLQDGTR  ADHB_HUMAN    2    LGNPRGTLQ         0.175       7498.71  
+   114               USER_DEF     DLGNPRGTLQDGTRR  ADHB_HUMAN    1    LGNPRGTLQ         0.170       7911.62  
+   115               USER_DEF     LGNPRGTLQDGTRRF  ADHB_HUMAN    6    TLQDGTRRF         0.200       5756.87  
+   116               USER_DEF     GNPRGTLQDGTRRFT  ADHB_HUMAN    5    TLQDGTRRF         0.228       4253.87  
+   117               USER_DEF     NPRGTLQDGTRRFTC  ADHB_HUMAN    4    TLQDGTRRF         0.252       3272.76  
+   118               USER_DEF     PRGTLQDGTRRFTCR  ADHB_HUMAN    3    TLQDGTRRF         0.273       2600.02  
+   119               USER_DEF     RGTLQDGTRRFTCRG  ADHB_HUMAN    2    TLQDGTRRF         0.260       3000.09  
+   120               USER_DEF     GTLQDGTRRFTCRGK  ADHB_HUMAN    1    TLQDGTRRF         0.225       4401.40  
+   121               USER_DEF     TLQDGTRRFTCRGKP  ADHB_HUMAN    0    TLQDGTRRF         0.196       6009.80  
+   122               USER_DEF     LQDGTRRFTCRGKPI  ADHB_HUMAN    6    RFTCRGKPI         0.247       3467.87  
+   123               USER_DEF     QDGTRRFTCRGKPIH  ADHB_HUMAN    5    RFTCRGKPI         0.318       1599.60  
+   124               USER_DEF     DGTRRFTCRGKPIHH  ADHB_HUMAN    4    RFTCRGKPI         0.366        951.15  
+   125               USER_DEF     GTRRFTCRGKPIHHF  ADHB_HUMAN    3    RFTCRGKPI         0.457        355.63  <=WB
+   126               USER_DEF     TRRFTCRGKPIHHFL  ADHB_HUMAN    3    FTCRGKPIH         0.502        219.02  <=WB
+   127               USER_DEF     RRFTCRGKPIHHFLG  ADHB_HUMAN    4    CRGKPIHHF         0.501        220.77  <=WB
+   128               USER_DEF     RFTCRGKPIHHFLGT  ADHB_HUMAN    3    CRGKPIHHF         0.491        247.33  <=WB
+   129               USER_DEF     FTCRGKPIHHFLGTS  ADHB_HUMAN    2    CRGKPIHHF         0.459        349.06  <=WB
+   130               USER_DEF     TCRGKPIHHFLGTST  ADHB_HUMAN    6    IHHFLGTST         0.582         91.92  <=WB
+   131               USER_DEF     CRGKPIHHFLGTSTF  ADHB_HUMAN    5    IHHFLGTST         0.661         39.30  <=SB
+   132               USER_DEF     RGKPIHHFLGTSTFS  ADHB_HUMAN    4    IHHFLGTST         0.718         21.08  <=SB
+   133               USER_DEF     GKPIHHFLGTSTFSQ  ADHB_HUMAN    3    IHHFLGTST         0.755         14.16  <=SB
+   134               USER_DEF     KPIHHFLGTSTFSQY  ADHB_HUMAN    2    IHHFLGTST         0.747         15.45  <=SB
+   135               USER_DEF     PIHHFLGTSTFSQYT  ADHB_HUMAN    1    IHHFLGTST         0.728         19.07  <=SB
+   136               USER_DEF     IHHFLGTSTFSQYTV  ADHB_HUMAN    3    FLGTSTFSQ         0.711         22.74  <=SB
+   137               USER_DEF     HHFLGTSTFSQYTVV  ADHB_HUMAN    2    FLGTSTFSQ         0.636         51.55  <=WB
+   138               USER_DEF     HFLGTSTFSQYTVVD  ADHB_HUMAN    1    FLGTSTFSQ         0.578         96.22  <=WB
+   139               USER_DEF     FLGTSTFSQYTVVDE  ADHB_HUMAN    0    FLGTSTFSQ         0.484        264.71  <=WB
+   140               USER_DEF     LGTSTFSQYTVVDEN  ADHB_HUMAN    3    STFSQYTVV         0.363        983.96  
+   141               USER_DEF     GTSTFSQYTVVDENA  ADHB_HUMAN    3    TFSQYTVVD         0.367        939.54  
+   142               USER_DEF     TSTFSQYTVVDENAV  ADHB_HUMAN    3    FSQYTVVDE         0.393        710.27  
+   143               USER_DEF     STFSQYTVVDENAVA  ADHB_HUMAN    5    YTVVDENAV         0.409        601.43  
+   144               USER_DEF     TFSQYTVVDENAVAK  ADHB_HUMAN    4    YTVVDENAV         0.452        375.19  <=WB
+   145               USER_DEF     FSQYTVVDENAVAKI  ADHB_HUMAN    3    YTVVDENAV         0.511        199.28  <=WB
+   146               USER_DEF     SQYTVVDENAVAKID  ADHB_HUMAN    2    YTVVDENAV         0.465        325.47  <=WB
+   147               USER_DEF     QYTVVDENAVAKIDA  ADHB_HUMAN    3    VVDENAVAK         0.461        341.31  <=WB
+   148               USER_DEF     YTVVDENAVAKIDAA  ADHB_HUMAN    3    VDENAVAKI         0.441        422.21  <=WB
+   149               USER_DEF     TVVDENAVAKIDAAS  ADHB_HUMAN    2    VDENAVAKI         0.373        884.03  
+   150               USER_DEF     VVDENAVAKIDAASP  ADHB_HUMAN    1    VDENAVAKI         0.356       1060.53  
+   151               USER_DEF     VDENAVAKIDAASPL  ADHB_HUMAN    5    VAKIDAASP         0.418        541.00  
+   152               USER_DEF     DENAVAKIDAASPLE  ADHB_HUMAN    4    VAKIDAASP         0.456        358.23  <=WB
+   153               USER_DEF     ENAVAKIDAASPLEK  ADHB_HUMAN    3    VAKIDAASP         0.513        193.66  <=WB
+   154               USER_DEF     NAVAKIDAASPLEKV  ADHB_HUMAN    3    AKIDAASPL         0.527        166.90  <=WB
+   155               USER_DEF     AVAKIDAASPLEKVC  ADHB_HUMAN    2    AKIDAASPL         0.513        194.48  <=WB
+   156               USER_DEF     VAKIDAASPLEKVCL  ADHB_HUMAN    3    IDAASPLEK         0.507        208.13  <=WB
+   157               USER_DEF     AKIDAASPLEKVCLI  ADHB_HUMAN    2    IDAASPLEK         0.447        398.78  <=WB
+   158               USER_DEF     KIDAASPLEKVCLIG  ADHB_HUMAN    1    IDAASPLEK         0.388        749.63  
+   159               USER_DEF     IDAASPLEKVCLIGC  ADHB_HUMAN    0    IDAASPLEK         0.318       1605.11  
+   160               USER_DEF     DAASPLEKVCLIGCG  ADHB_HUMAN    3    SPLEKVCLI         0.274       2577.42  
+   161               USER_DEF     AASPLEKVCLIGCGF  ADHB_HUMAN    6    KVCLIGCGF         0.302       1900.51  
+   162               USER_DEF     ASPLEKVCLIGCGFS  ADHB_HUMAN    5    KVCLIGCGF         0.333       1361.61  
+   163               USER_DEF     SPLEKVCLIGCGFST  ADHB_HUMAN    6    CLIGCGFST         0.379        828.88  
+   164               USER_DEF     PLEKVCLIGCGFSTG  ADHB_HUMAN    5    CLIGCGFST         0.394        702.83  
+   165               USER_DEF     LEKVCLIGCGFSTGY  ADHB_HUMAN    4    CLIGCGFST         0.420        528.63  
+   166               USER_DEF     EKVCLIGCGFSTGYG  ADHB_HUMAN    3    CLIGCGFST         0.419        539.97  
+   167               USER_DEF     KVCLIGCGFSTGYGS  ADHB_HUMAN    2    CLIGCGFST         0.417        549.78  
+   168               USER_DEF     VCLIGCGFSTGYGSA  ADHB_HUMAN    1    CLIGCGFST         0.393        714.46  
+   169               USER_DEF     CLIGCGFSTGYGSAV  ADHB_HUMAN    6    FSTGYGSAV         0.479        279.54  <=WB
+   170               USER_DEF     LIGCGFSTGYGSAVN  ADHB_HUMAN    5    FSTGYGSAV         0.508        204.56  <=WB
+   171               USER_DEF     IGCGFSTGYGSAVNV  ADHB_HUMAN    4    FSTGYGSAV         0.576         98.08  <=WB
+   172               USER_DEF     GCGFSTGYGSAVNVA  ADHB_HUMAN    3    FSTGYGSAV         0.621         60.37  <=WB
+   173               USER_DEF     CGFSTGYGSAVNVAK  ADHB_HUMAN    2    FSTGYGSAV         0.598         77.10  <=WB
+   174               USER_DEF     GFSTGYGSAVNVAKV  ADHB_HUMAN    1    FSTGYGSAV         0.605         72.11  <=WB
+   175               USER_DEF     FSTGYGSAVNVAKVT  ADHB_HUMAN    4    YGSAVNVAK         0.622         59.50  <=WB
+   176               USER_DEF     STGYGSAVNVAKVTP  ADHB_HUMAN    3    YGSAVNVAK         0.597         78.03  <=WB
+   177               USER_DEF     TGYGSAVNVAKVTPG  ADHB_HUMAN    2    YGSAVNVAK         0.551        128.71  <=WB
+   178               USER_DEF     GYGSAVNVAKVTPGS  ADHB_HUMAN    1    YGSAVNVAK         0.498        227.55  <=WB
+   179               USER_DEF     YGSAVNVAKVTPGST  ADHB_HUMAN    0    YGSAVNVAK         0.463        334.60  <=WB
+   180               USER_DEF     GSAVNVAKVTPGSTC  ADHB_HUMAN    3    VNVAKVTPG         0.434        454.99  <=WB
+   181               USER_DEF     SAVNVAKVTPGSTCA  ADHB_HUMAN    2    VNVAKVTPG         0.433        462.74  <=WB
+   182               USER_DEF     AVNVAKVTPGSTCAV  ADHB_HUMAN    3    VAKVTPGST         0.457        356.15  <=WB
+   183               USER_DEF     VNVAKVTPGSTCAVF  ADHB_HUMAN    2    VAKVTPGST         0.417        546.01  
+   184               USER_DEF     NVAKVTPGSTCAVFG  ADHB_HUMAN    4    VTPGSTCAV         0.383        796.04  
+   185               USER_DEF     VAKVTPGSTCAVFGL  ADHB_HUMAN    3    VTPGSTCAV         0.400        661.87  
+   186               USER_DEF     AKVTPGSTCAVFGLG  ADHB_HUMAN    2    VTPGSTCAV         0.342       1235.00  
+   187               USER_DEF     KVTPGSTCAVFGLGG  ADHB_HUMAN    1    VTPGSTCAV         0.315       1652.89  
+   188               USER_DEF     VTPGSTCAVFGLGGV  ADHB_HUMAN    3    GSTCAVFGL         0.304       1865.92  
+   189               USER_DEF     TPGSTCAVFGLGGVG  ADHB_HUMAN    4    TCAVFGLGG         0.286       2271.78  
+   190               USER_DEF     PGSTCAVFGLGGVGL  ADHB_HUMAN    6    VFGLGGVGL         0.367        940.19  
+   191               USER_DEF     GSTCAVFGLGGVGLS  ADHB_HUMAN    5    VFGLGGVGL         0.440        426.51  <=WB
+   192               USER_DEF     STCAVFGLGGVGLSA  ADHB_HUMAN    5    FGLGGVGLS         0.496        233.43  <=WB
+   193               USER_DEF     TCAVFGLGGVGLSAV  ADHB_HUMAN    4    FGLGGVGLS         0.551        128.54  <=WB
+   194               USER_DEF     CAVFGLGGVGLSAVM  ADHB_HUMAN    3    FGLGGVGLS         0.583         90.69  <=WB
+   195               USER_DEF     AVFGLGGVGLSAVMG  ADHB_HUMAN    2    FGLGGVGLS         0.582         91.64  <=WB
+   196               USER_DEF     VFGLGGVGLSAVMGC  ADHB_HUMAN    1    FGLGGVGLS         0.553        125.97  <=WB
+   197               USER_DEF     FGLGGVGLSAVMGCK  ADHB_HUMAN    4    GVGLSAVMG         0.529        162.91  <=WB
+   198               USER_DEF     GLGGVGLSAVMGCKA  ADHB_HUMAN    3    GVGLSAVMG         0.566        109.70  <=WB
+   199               USER_DEF     LGGVGLSAVMGCKAA  ADHB_HUMAN    2    GVGLSAVMG         0.569        106.04  <=WB
+   200               USER_DEF     GGVGLSAVMGCKAAG  ADHB_HUMAN    4    LSAVMGCKA         0.560        117.23  <=WB
+   201               USER_DEF     GVGLSAVMGCKAAGA  ADHB_HUMAN    3    LSAVMGCKA         0.600         76.16  <=WB
+   202               USER_DEF     VGLSAVMGCKAAGAA  ADHB_HUMAN    2    LSAVMGCKA         0.594         80.79  <=WB
+   203               USER_DEF     GLSAVMGCKAAGAAR  ADHB_HUMAN    4    VMGCKAAGA         0.603         73.47  <=WB
+   204               USER_DEF     LSAVMGCKAAGAARI  ADHB_HUMAN    6    CKAAGAARI         0.685         30.25  <=SB
+   205               USER_DEF     SAVMGCKAAGAARII  ADHB_HUMAN    5    CKAAGAARI         0.708         23.50  <=SB
+   206               USER_DEF     AVMGCKAAGAARIIA  ADHB_HUMAN    4    CKAAGAARI         0.740         16.62  <=SB
+   207               USER_DEF     VMGCKAAGAARIIAV  ADHB_HUMAN    3    CKAAGAARI         0.765         12.67  <=SB
+   208               USER_DEF     MGCKAAGAARIIAVD  ADHB_HUMAN    2    CKAAGAARI         0.726         19.39  <=SB
+   209               USER_DEF     GCKAAGAARIIAVDI  ADHB_HUMAN    1    CKAAGAARI         0.676         33.27  <=SB
+   210               USER_DEF     CKAAGAARIIAVDIN  ADHB_HUMAN    0    CKAAGAARI         0.614         65.13  <=WB
+   211               USER_DEF     KAAGAARIIAVDINK  ADHB_HUMAN    4    AARIIAVDI         0.428        488.63  <=WB
+   212               USER_DEF     AAGAARIIAVDINKD  ADHB_HUMAN    3    AARIIAVDI         0.415        562.20  
+   213               USER_DEF     AGAARIIAVDINKDK  ADHB_HUMAN    2    AARIIAVDI         0.399        666.33  
+   214               USER_DEF     GAARIIAVDINKDKF  ADHB_HUMAN    4    IIAVDINKD         0.409        596.54  
+   215               USER_DEF     AARIIAVDINKDKFA  ADHB_HUMAN    3    IIAVDINKD         0.423        512.54  
+   216               USER_DEF     ARIIAVDINKDKFAK  ADHB_HUMAN    2    IIAVDINKD         0.373        880.56  
+   217               USER_DEF     RIIAVDINKDKFAKA  ADHB_HUMAN    1    IIAVDINKD         0.356       1060.98  
+   218               USER_DEF     IIAVDINKDKFAKAK  ADHB_HUMAN    3    VDINKDKFA         0.335       1334.15  
+   219               USER_DEF     IAVDINKDKFAKAKE  ADHB_HUMAN    4    INKDKFAKA         0.306       1830.80  
+   220               USER_DEF     AVDINKDKFAKAKEL  ADHB_HUMAN    3    INKDKFAKA         0.380        821.41  
+   221               USER_DEF     VDINKDKFAKAKELG  ADHB_HUMAN    5    DKFAKAKEL         0.388        752.66  
+   222               USER_DEF     DINKDKFAKAKELGA  ADHB_HUMAN    6    FAKAKELGA         0.491        246.47  <=WB
+   223               USER_DEF     INKDKFAKAKELGAT  ADHB_HUMAN    5    FAKAKELGA         0.555        123.02  <=WB
+   224               USER_DEF     NKDKFAKAKELGATE  ADHB_HUMAN    4    FAKAKELGA         0.570        104.68  <=WB
+   225               USER_DEF     KDKFAKAKELGATEC  ADHB_HUMAN    3    FAKAKELGA         0.584         90.56  <=WB
+   226               USER_DEF     DKFAKAKELGATECI  ADHB_HUMAN    2    FAKAKELGA         0.513        193.98  <=WB
+   227               USER_DEF     KFAKAKELGATECIN  ADHB_HUMAN    1    FAKAKELGA         0.474        294.93  <=WB
+   228               USER_DEF     FAKAKELGATECINP  ADHB_HUMAN    0    FAKAKELGA         0.382        799.61  
+   229               USER_DEF     AKAKELGATECINPQ  ADHB_HUMAN    3    KELGATECI         0.290       2178.57  
+   230               USER_DEF     KAKELGATECINPQD  ADHB_HUMAN    2    KELGATECI         0.261       2962.54  
+   231               USER_DEF     AKELGATECINPQDY  ADHB_HUMAN    1    KELGATECI         0.233       4000.96  
+   232               USER_DEF     KELGATECINPQDYK  ADHB_HUMAN    0    KELGATECI         0.219       4676.99  
+   233               USER_DEF     ELGATECINPQDYKK  ADHB_HUMAN    4    TECINPQDY         0.179       7246.51  
+   234               USER_DEF     LGATECINPQDYKKP  ADHB_HUMAN    3    TECINPQDY         0.179       7187.55  
+   235               USER_DEF     GATECINPQDYKKPI  ADHB_HUMAN    2    TECINPQDY         0.176       7481.13  
+   236               USER_DEF     ATECINPQDYKKPIQ  ADHB_HUMAN    3    CINPQDYKK         0.181       7025.55  
+   237               USER_DEF     TECINPQDYKKPIQE  ADHB_HUMAN    2    CINPQDYKK         0.170       7961.51  
+   238               USER_DEF     ECINPQDYKKPIQEV  ADHB_HUMAN    6    DYKKPIQEV         0.180       7102.59  
+   239               USER_DEF     CINPQDYKKPIQEVL  ADHB_HUMAN    6    YKKPIQEVL         0.284       2322.96  
+   240               USER_DEF     INPQDYKKPIQEVLK  ADHB_HUMAN    5    YKKPIQEVL         0.318       1607.55  
+   241               USER_DEF     NPQDYKKPIQEVLKE  ADHB_HUMAN    4    YKKPIQEVL         0.338       1295.42  
+   242               USER_DEF     PQDYKKPIQEVLKEM  ADHB_HUMAN    3    YKKPIQEVL         0.376        851.83  
+   243               USER_DEF     QDYKKPIQEVLKEMT  ADHB_HUMAN    2    YKKPIQEVL         0.362       1000.62  
+   244               USER_DEF     DYKKPIQEVLKEMTD  ADHB_HUMAN    1    YKKPIQEVL         0.334       1340.79  
+   245               USER_DEF     YKKPIQEVLKEMTDG  ADHB_HUMAN    0    YKKPIQEVL         0.322       1529.43  
+   246               USER_DEF     KKPIQEVLKEMTDGG  ADHB_HUMAN    3    IQEVLKEMT         0.251       3304.79  
+   247               USER_DEF     KPIQEVLKEMTDGGV  ADHB_HUMAN    6    LKEMTDGGV         0.305       1850.49  
+   248               USER_DEF     PIQEVLKEMTDGGVD  ADHB_HUMAN    5    LKEMTDGGV         0.308       1786.19  
+   249               USER_DEF     IQEVLKEMTDGGVDF  ADHB_HUMAN    4    LKEMTDGGV         0.370        909.52  
+   250               USER_DEF     QEVLKEMTDGGVDFS  ADHB_HUMAN    3    LKEMTDGGV         0.403        639.85  
+   251               USER_DEF     EVLKEMTDGGVDFSF  ADHB_HUMAN    2    LKEMTDGGV         0.360       1014.05  
+   252               USER_DEF     VLKEMTDGGVDFSFE  ADHB_HUMAN    1    LKEMTDGGV         0.333       1357.10  
+   253               USER_DEF     LKEMTDGGVDFSFEV  ADHB_HUMAN    0    LKEMTDGGV         0.293       2099.77  
+   254               USER_DEF     KEMTDGGVDFSFEVI  ADHB_HUMAN    2    MTDGGVDFS         0.232       4044.93  
+   255               USER_DEF     EMTDGGVDFSFEVIG  ADHB_HUMAN    5    GVDFSFEVI         0.223       4484.71  
+   256               USER_DEF     MTDGGVDFSFEVIGR  ADHB_HUMAN    6    DFSFEVIGR         0.259       3023.59  
+   257               USER_DEF     TDGGVDFSFEVIGRL  ADHB_HUMAN    6    FSFEVIGRL         0.428        484.85  <=WB
+   258               USER_DEF     DGGVDFSFEVIGRLD  ADHB_HUMAN    5    FSFEVIGRL         0.444        410.86  <=WB
+   259               USER_DEF     GGVDFSFEVIGRLDT  ADHB_HUMAN    4    FSFEVIGRL         0.486        259.01  <=WB
+   260               USER_DEF     GVDFSFEVIGRLDTM  ADHB_HUMAN    3    FSFEVIGRL         0.528        165.96  <=WB
+   261               USER_DEF     VDFSFEVIGRLDTMM  ADHB_HUMAN    2    FSFEVIGRL         0.520        179.15  <=WB
+   262               USER_DEF     DFSFEVIGRLDTMMA  ADHB_HUMAN    6    IGRLDTMMA         0.609         68.86  <=WB
+   263               USER_DEF     FSFEVIGRLDTMMAS  ADHB_HUMAN    5    IGRLDTMMA         0.653         42.75  <=SB
+   264               USER_DEF     SFEVIGRLDTMMASL  ADHB_HUMAN    4    IGRLDTMMA         0.718         21.18  <=SB
+   265               USER_DEF     FEVIGRLDTMMASLL  ADHB_HUMAN    3    IGRLDTMMA         0.774         11.56  <=SB
+   266               USER_DEF     EVIGRLDTMMASLLC  ADHB_HUMAN    2    IGRLDTMMA         0.759         13.51  <=SB
+   267               USER_DEF     VIGRLDTMMASLLCC  ADHB_HUMAN    4    LDTMMASLL         0.758         13.78  <=SB
+   268               USER_DEF     IGRLDTMMASLLCCH  ADHB_HUMAN    3    LDTMMASLL         0.749         15.11  <=SB
+   269               USER_DEF     GRLDTMMASLLCCHE  ADHB_HUMAN    2    LDTMMASLL         0.693         27.71  <=SB
+   270               USER_DEF     RLDTMMASLLCCHEA  ADHB_HUMAN    1    LDTMMASLL         0.652         43.24  <=SB
+   271               USER_DEF     LDTMMASLLCCHEAC  ADHB_HUMAN    0    LDTMMASLL         0.550        129.77  <=WB
+   272               USER_DEF     DTMMASLLCCHEACG  ADHB_HUMAN    0    DTMMASLLC         0.397        679.97  
+   273               USER_DEF     TMMASLLCCHEACGT  ADHB_HUMAN    3    ASLLCCHEA         0.366        950.82  
+   274               USER_DEF     MMASLLCCHEACGTS  ADHB_HUMAN    2    ASLLCCHEA         0.359       1031.19  
+   275               USER_DEF     MASLLCCHEACGTSV  ADHB_HUMAN    3    LLCCHEACG         0.392        716.32  
+   276               USER_DEF     ASLLCCHEACGTSVI  ADHB_HUMAN    3    LCCHEACGT         0.428        489.95  <=WB
+   277               USER_DEF     SLLCCHEACGTSVIV  ADHB_HUMAN    4    CHEACGTSV         0.451        379.88  <=WB
+   278               USER_DEF     LLCCHEACGTSVIVG  ADHB_HUMAN    3    CHEACGTSV         0.459        348.07  <=WB
+   279               USER_DEF     LCCHEACGTSVIVGV  ADHB_HUMAN    2    CHEACGTSV         0.412        579.23  
+   280               USER_DEF     CCHEACGTSVIVGVP  ADHB_HUMAN    1    CHEACGTSV         0.351       1116.76  
+   281               USER_DEF     CHEACGTSVIVGVPP  ADHB_HUMAN    0    CHEACGTSV         0.316       1640.14  
+   282               USER_DEF     HEACGTSVIVGVPPA  ADHB_HUMAN    6    SVIVGVPPA         0.323       1519.09  
+   283               USER_DEF     EACGTSVIVGVPPAS  ADHB_HUMAN    6    VIVGVPPAS         0.425        505.37  
+   284               USER_DEF     ACGTSVIVGVPPASQ  ADHB_HUMAN    6    IVGVPPASQ         0.567        108.36  <=WB
+   285               USER_DEF     CGTSVIVGVPPASQN  ADHB_HUMAN    5    IVGVPPASQ         0.629         55.29  <=WB
+   286               USER_DEF     GTSVIVGVPPASQNL  ADHB_HUMAN    4    IVGVPPASQ         0.715         21.84  <=SB
+   287               USER_DEF     TSVIVGVPPASQNLS  ADHB_HUMAN    3    IVGVPPASQ         0.728         18.98  <=SB
+   288               USER_DEF     SVIVGVPPASQNLSI  ADHB_HUMAN    2    IVGVPPASQ         0.687         29.62  <=SB
+   289               USER_DEF     VIVGVPPASQNLSIN  ADHB_HUMAN    1    IVGVPPASQ         0.630         54.92  <=WB
+   290               USER_DEF     IVGVPPASQNLSINP  ADHB_HUMAN    0    IVGVPPASQ         0.489        251.17  <=WB
+   291               USER_DEF     VGVPPASQNLSINPM  ADHB_HUMAN    6    SQNLSINPM         0.319       1580.50  
+   292               USER_DEF     GVPPASQNLSINPML  ADHB_HUMAN    5    SQNLSINPM         0.404        634.69  
+   293               USER_DEF     VPPASQNLSINPMLL  ADHB_HUMAN    6    NLSINPMLL         0.530        161.40  <=WB
+   294               USER_DEF     PPASQNLSINPMLLL  ADHB_HUMAN    5    NLSINPMLL         0.607         70.05  <=WB
+   295               USER_DEF     PASQNLSINPMLLLT  ADHB_HUMAN    3    QNLSINPML         0.638         50.35  <=WB
+   296               USER_DEF     ASQNLSINPMLLLTG  ADHB_HUMAN    3    NLSINPMLL         0.643         47.55  <=SB
+   297               USER_DEF     SQNLSINPMLLLTGR  ADHB_HUMAN    2    NLSINPMLL         0.627         56.65  <=WB
+   298               USER_DEF     QNLSINPMLLLTGRT  ADHB_HUMAN    2    LSINPMLLL         0.623         59.05  <=WB
+   299               USER_DEF     NLSINPMLLLTGRTW  ADHB_HUMAN    5    PMLLLTGRT         0.628         55.89  <=WB
+   300               USER_DEF     LSINPMLLLTGRTWK  ADHB_HUMAN    4    PMLLLTGRT         0.638         50.12  <=WB
+   301               USER_DEF     SINPMLLLTGRTWKG  ADHB_HUMAN    3    PMLLLTGRT         0.646         46.32  <=SB
+   302               USER_DEF     INPMLLLTGRTWKGA  ADHB_HUMAN    2    PMLLLTGRT         0.635         51.99  <=WB
+   303               USER_DEF     NPMLLLTGRTWKGAV  ADHB_HUMAN    1    PMLLLTGRT         0.623         59.15  <=WB
+   304               USER_DEF     PMLLLTGRTWKGAVY  ADHB_HUMAN    3    LLTGRTWKG         0.626         56.99  <=WB
+   305               USER_DEF     MLLLTGRTWKGAVYG  ADHB_HUMAN    2    LLTGRTWKG         0.534        154.40  <=WB
+   306               USER_DEF     LLLTGRTWKGAVYGG  ADHB_HUMAN    1    LLTGRTWKG         0.464        328.57  <=WB
+   307               USER_DEF     LLTGRTWKGAVYGGF  ADHB_HUMAN    0    LLTGRTWKG         0.379        828.35  
+   308               USER_DEF     LTGRTWKGAVYGGFK  ADHB_HUMAN    2    GRTWKGAVY         0.333       1362.94  
+   309               USER_DEF     TGRTWKGAVYGGFKS  ADHB_HUMAN    4    WKGAVYGGF         0.346       1189.24  
+   310               USER_DEF     GRTWKGAVYGGFKSK  ADHB_HUMAN    3    WKGAVYGGF         0.361       1004.29  
+   311               USER_DEF     RTWKGAVYGGFKSKE  ADHB_HUMAN    2    WKGAVYGGF         0.353       1102.32  
+   312               USER_DEF     TWKGAVYGGFKSKEG  ADHB_HUMAN    3    GAVYGGFKS         0.356       1060.56  
+   313               USER_DEF     WKGAVYGGFKSKEGI  ADHB_HUMAN    5    YGGFKSKEG         0.388        752.63  
+   314               USER_DEF     KGAVYGGFKSKEGIP  ADHB_HUMAN    4    YGGFKSKEG         0.391        731.08  
+   315               USER_DEF     GAVYGGFKSKEGIPK  ADHB_HUMAN    3    YGGFKSKEG         0.435        449.55  <=WB
+   316               USER_DEF     AVYGGFKSKEGIPKL  ADHB_HUMAN    2    YGGFKSKEG         0.457        356.17  <=WB
+   317               USER_DEF     VYGGFKSKEGIPKLV  ADHB_HUMAN    4    FKSKEGIPK         0.513        194.44  <=WB
+   318               USER_DEF     YGGFKSKEGIPKLVA  ADHB_HUMAN    3    FKSKEGIPK         0.544        139.23  <=WB
+   319               USER_DEF     GGFKSKEGIPKLVAD  ADHB_HUMAN    2    FKSKEGIPK         0.483        267.53  <=WB
+   320               USER_DEF     GFKSKEGIPKLVADF  ADHB_HUMAN    1    FKSKEGIPK         0.462        339.08  <=WB
+   321               USER_DEF     FKSKEGIPKLVADFM  ADHB_HUMAN    0    FKSKEGIPK         0.425        501.99  
+   322               USER_DEF     KSKEGIPKLVADFMA  ADHB_HUMAN    5    IPKLVADFM         0.404        629.49  
+   323               USER_DEF     SKEGIPKLVADFMAK  ADHB_HUMAN    4    IPKLVADFM         0.444        409.83  <=WB
+   324               USER_DEF     KEGIPKLVADFMAKK  ADHB_HUMAN    3    IPKLVADFM         0.489        251.68  <=WB
+   325               USER_DEF     EGIPKLVADFMAKKF  ADHB_HUMAN    3    PKLVADFMA         0.505        212.52  <=WB
+   326               USER_DEF     GIPKLVADFMAKKFS  ADHB_HUMAN    3    KLVADFMAK         0.517        185.55  <=WB
+   327               USER_DEF     IPKLVADFMAKKFSL  ADHB_HUMAN    3    LVADFMAKK         0.539        145.86  <=WB
+   328               USER_DEF     PKLVADFMAKKFSLD  ADHB_HUMAN    2    LVADFMAKK         0.510        199.71  <=WB
+   329               USER_DEF     KLVADFMAKKFSLDA  ADHB_HUMAN    4    DFMAKKFSL         0.511        198.84  <=WB
+   330               USER_DEF     LVADFMAKKFSLDAL  ADHB_HUMAN    3    DFMAKKFSL         0.538        147.66  <=WB
+   331               USER_DEF     VADFMAKKFSLDALI  ADHB_HUMAN    3    FMAKKFSLD         0.553        126.04  <=WB
+   332               USER_DEF     ADFMAKKFSLDALIT  ADHB_HUMAN    2    FMAKKFSLD         0.562        114.18  <=WB
+   333               USER_DEF     DFMAKKFSLDALITH  ADHB_HUMAN    5    KFSLDALIT         0.566        109.34  <=WB
+   334               USER_DEF     FMAKKFSLDALITHV  ADHB_HUMAN    4    KFSLDALIT         0.593         81.39  <=WB
+   335               USER_DEF     MAKKFSLDALITHVL  ADHB_HUMAN    3    KFSLDALIT         0.657         40.71  <=SB
+   336               USER_DEF     AKKFSLDALITHVLP  ADHB_HUMAN    5    LDALITHVL         0.653         42.73  <=SB
+   337               USER_DEF     KKFSLDALITHVLPF  ADHB_HUMAN    4    LDALITHVL         0.676         33.41  <=SB
+   338               USER_DEF     KFSLDALITHVLPFE  ADHB_HUMAN    3    LDALITHVL         0.667         36.69  <=SB
+   339               USER_DEF     FSLDALITHVLPFEK  ADHB_HUMAN    2    LDALITHVL         0.597         77.94  <=WB
+   340               USER_DEF     SLDALITHVLPFEKI  ADHB_HUMAN    1    LDALITHVL         0.565        110.62  <=WB
+   341               USER_DEF     LDALITHVLPFEKIN  ADHB_HUMAN    0    LDALITHVL         0.545        137.64  <=WB
+   342               USER_DEF     DALITHVLPFEKINE  ADHB_HUMAN    3    ITHVLPFEK         0.506        208.45  <=WB
+   343               USER_DEF     ALITHVLPFEKINEG  ADHB_HUMAN    2    ITHVLPFEK         0.503        216.48  <=WB
+   344               USER_DEF     LITHVLPFEKINEGF  ADHB_HUMAN    1    ITHVLPFEK         0.454        367.36  <=WB
+   345               USER_DEF     ITHVLPFEKINEGFD  ADHB_HUMAN    0    ITHVLPFEK         0.379        827.73  
+   346               USER_DEF     THVLPFEKINEGFDL  ADHB_HUMAN    0    THVLPFEKI         0.326       1469.46  
+   347               USER_DEF     HVLPFEKINEGFDLL  ADHB_HUMAN    3    PFEKINEGF         0.340       1256.42  
+   348               USER_DEF     VLPFEKINEGFDLLH  ADHB_HUMAN    3    FEKINEGFD         0.356       1056.65  
+   349               USER_DEF     LPFEKINEGFDLLHS  ADHB_HUMAN    3    EKINEGFDL         0.360       1017.74  
+   350               USER_DEF     PFEKINEGFDLLHSG  ADHB_HUMAN    3    KINEGFDLL         0.342       1236.90  
+   351               USER_DEF     FEKINEGFDLLHSGK  ADHB_HUMAN    3    INEGFDLLH         0.361       1011.32  
+   352               USER_DEF     EKINEGFDLLHSGKS  ADHB_HUMAN    6    FDLLHSGKS         0.520        180.19  <=WB
+   353               USER_DEF     KINEGFDLLHSGKSI  ADHB_HUMAN    5    FDLLHSGKS         0.614         65.01  <=WB
+   354               USER_DEF     INEGFDLLHSGKSIR  ADHB_HUMAN    4    FDLLHSGKS         0.685         30.30  <=SB
+   355               USER_DEF     NEGFDLLHSGKSIRT  ADHB_HUMAN    3    FDLLHSGKS         0.723         20.09  <=SB
+   356               USER_DEF     EGFDLLHSGKSIRTV  ADHB_HUMAN    2    FDLLHSGKS         0.728         18.98  <=SB
+   357               USER_DEF     GFDLLHSGKSIRTVL  ADHB_HUMAN    4    LHSGKSIRT         0.756         14.08  <=SB
+   358               USER_DEF     FDLLHSGKSIRTVLT  ADHB_HUMAN    3    LHSGKSIRT         0.764         12.86  <=SB
+   359               USER_DEF     DLLHSGKSIRTVLTF  ADHB_HUMAN    2    LHSGKSIRT         0.686         29.82  <=SB
+-------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 45 Number of weak binders: 144
+-------------------------------------------------------------------------------------------------------------------------------------------

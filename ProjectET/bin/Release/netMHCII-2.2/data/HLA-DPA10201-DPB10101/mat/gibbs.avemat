@@ -1,0 +1,29 @@
+# avemat --
+# Wed Nov 25 12:34:08 2009
+# mniel
+# /home/projects/mniel/netMHCII-2.2/data/HLA-DPA10201-DPB10101/mat
+# Linux interaction 2.6.16.54-0.2.12-default ia64
+# Command line parameters set to:
+#	[-n int]             50                   Number of matrix files to include in average
+#	[-ws int]            0                    [0] Don't inc sdev, [1] substract sdev [2] sigmod [3] sub toward 0.0
+#	[-ns float]          1.000000             Normalalizing factor for sdev
+# Read 5 elements on linelist --
+# Hmm matrix file L 9 /home/projects/mniel/BPeters_ClassII_Benchmark/NN-align/data_20112009/class_II_random_split_5cv//HLA-DPA10201-DPB10101/0.gibbs.avemat read. Alphabet ARNDCQEGHILKMFPSTWYV
+# Make MAT n 5 l 9 alen 20
+# Hmm matrix file L 9 /home/projects/mniel/BPeters_ClassII_Benchmark/NN-align/data_20112009/class_II_random_split_5cv//HLA-DPA10201-DPB10101/1.gibbs.avemat read. Alphabet ARNDCQEGHILKMFPSTWYV
+# Hmm matrix file L 9 /home/projects/mniel/BPeters_ClassII_Benchmark/NN-align/data_20112009/class_II_random_split_5cv//HLA-DPA10201-DPB10101/2.gibbs.avemat read. Alphabet ARNDCQEGHILKMFPSTWYV
+# Hmm matrix file L 9 /home/projects/mniel/BPeters_ClassII_Benchmark/NN-align/data_20112009/class_II_random_split_5cv//HLA-DPA10201-DPB10101/3.gibbs.avemat read. Alphabet ARNDCQEGHILKMFPSTWYV
+# Hmm matrix file L 9 /home/projects/mniel/BPeters_ClassII_Benchmark/NN-align/data_20112009/class_II_random_split_5cv//HLA-DPA10201-DPB10101/4.gibbs.avemat read. Alphabet ARNDCQEGHILKMFPSTWYV
+# Number of matrices 5 read from file --
+
+Last position-specific scoring matrix computed       
+          A     R     N     D     C     Q     E     G     H     I     L     K     M     F     P     S     T     W     Y     V 
+  1 A  -1.203  -1.578  -1.777  -2.062  -1.407  -1.438  -1.675  -2.045  -0.598   0.763   0.619  -1.585   0.522   1.689  -1.915  -1.459  -1.096   1.769   2.474   0.365 
+  2 A  -0.105  -0.264  -0.679  -0.560  -0.658  -0.068   0.057  -0.607  -0.620  -0.050   0.042   0.169   0.115   1.401  -0.731  -0.088  -0.099   0.483   0.281  -0.196 
+  3 A   1.104  -0.471   0.262  -0.232  -0.653  -0.117   0.014   0.126  -0.381  -0.462  -0.677   0.019  -0.470  -0.868   0.321   0.164   0.051   0.563  -0.155  -0.089 
+  4 A   0.856  -0.540   0.148  -0.415  -0.320  -0.277  -0.347  -0.056  -0.585   0.339  -0.300  -0.472  -0.395   0.164  -0.102   0.099   0.399  -0.506  -0.284  -0.012 
+  5 A  -0.257  -0.267   0.052  -0.281  -0.265   0.511  -0.031  -0.721  -0.464  -0.137   0.069  -0.189  -0.275   0.116   0.018  -0.044   1.081  -0.016  -0.089   0.017 
+  6 A  -0.252  -0.422  -0.303  -0.825  -0.951   1.239   0.061  -0.527  -0.258  -0.173   0.180   0.102  -0.029   0.758  -0.051   0.072  -0.281  -0.161   0.315  -0.168 
+  7 A   0.106  -0.422  -0.247  -0.688  -0.292  -0.267   0.523  -0.670  -0.514   0.182  -0.108  -0.169   0.040   1.371  -0.707  -0.164  -0.211   0.041   0.255  -0.137 
+  8 A  -0.218  -0.096  -0.158   0.105  -0.902   0.360   1.353  -0.840  -0.003  -0.385  -0.172   0.166  -0.195  -0.306   0.088   0.010   0.037  -0.180  -0.278  -0.339 
+  9 A   0.032  -0.449  -0.452  -0.789  -0.532  -0.349  -0.507  -0.492  -0.137  -0.043   0.186  -0.393  -0.079  -0.297   1.825  -0.219  -0.247   0.241   0.423   0.012 

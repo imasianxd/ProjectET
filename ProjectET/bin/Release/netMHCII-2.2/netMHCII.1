@@ -1,0 +1,123 @@
+.de Id
+.ds Rv \\$3
+.ds Dt \\$4
+..
+.Id $Header: example.1,v 1.2 94/02/15 13:28:25 rapacki Exp $
+.TH netMHCII 2.2 \" -*- nroff -*-
+.SH NAME
+netMHCII \- predict MHC class II peptide binding.
+.SH SYNOPSIS
+.B netMHCII 
+[\fB\-a\fP \fIlist\fP]
+[\fB\-d\fP \fIdir\fP]
+[\fB\-dirty\fP]
+[\fB\-exthr\fP]
+[\fB\-f\fP \fIfile\fP]
+[\fB\-h\fP]
+         [\fB\-l\fP \fI#\fP]
+[\fB\-list\fP]
+[\fB\-p\fP]
+[\fB\-s\fP]
+[\fB\-st\fP \fI#\fP]
+[\fB\-t\fP \fI#\fP]
+[\fB\-tdir\fP \fIdir\fP]
+         [\fB\-v\fP] [\fB\-wt\fP \fI#\fP] 
+[\fB\-xP1\fP]
+[\fIfile\fP ...]
+.SH DESCRIPTION
+.B netMHCII
+predicts binding of peptides to HLA-DR, HLA-DQ, HLA-DP and mouse MHC class II alleles using articial neuron networks.
+Predictions can be obtained for 14 HLA-DR alleles covering the 9 HLA-DR supertypes, six HLA-DQ, six HLA-DP, and two mouse H2 class II alleles.  The prediction values are given in nM IC50 values, and as a %-Rank to a set of 1000.000 random natural peptides. Strong and weak binding peptides are indicated in the output.  The server can be run in two modes. Default mode is with P1 amino acids preference. This option is recommended for accurate binding core identification.
+The other mode excludes P1 amino acids preference encoding, and is turned on selecting the Turn of P1 amino acid preference option.  This mode is recommended for accurate binding affinity prediction. 
+
+The input is taken from \fIfile\fP(s), use \fB--\fP for \fIstdin\fP. The
+required input format is \fBFASTA\fP. The output is plain text;  it will go
+to \fIstdout\fP.
+
+
+.SH OPTIONS
+.TP
+.BI "\-a list
+Predict binding to the alleles on the non-empty, comma-separated \fIlist\fP
+of allele names. The default is 'HLA-DRB1_0101'. Use \fB\-list\fP (see below) to see
+the complete allele list.
+.TP
+.BI "\-d " dir
+Use the binaries in \fIdir\fP. The default directory should be configured
+during installation.
+.TP
+.B "\-dirty"
+Dirty mode, do not delete the temporary files.
+.TP
+.BI "\-exthr"
+Exclude % Rank calibration in output
+.TP
+.BI "\-f file
+Take the input from \fIfile\fP. The default is \fIfile\fP (without any
+option flag).
+.TP
+.BI "\-l #
+Set the peptide length to #. The default is 15.
+.TP
+.B "\-list"
+List the MHC class II alleles covered by the current version of the method.
+.TP
+.BI "\-p"
+Use peptide sequences as input.
+.TP
+.B "\-s"
+Sort the output on descending affinity.
+.TP
+.BI "\-st #
+Set the threshold for strong binders to #. The default is 50.00.
+.TP
+.BI "\-t #
+Output only petides with a predicted affinity better than #. The default
+is -99.90.
+.TP
+.BI "\-tdir " dir
+Use the \fIdir\fP as temporary directory. The default is '/scratch'. This
+directory must be user writable.
+.TP
+.BI "\-thrfmt " file
+Format for threshold filenames.
+.TP
+.B "\-v"
+Verbose mode.
+.TP
+.BI "\-wt #
+Set the threshold for weak binders to #. The default is 500.00.
+.TP
+.BI "\-xP1 "
+Exclude P1 amino acid encoding
+.TP
+.I file ...
+The sequence file(s) to process, in \fBFASTA\fP
+format. Use '-- 'for \fIstdin\fP.
+.SH VERSION
+This manpage describes
+.netMHCII
+v. 2.2, from May 2010.
+.SH AUTHOR
+Morten Nielsen, mniel@cbs.dtu.dk, May 2010.
+.br
+Last updated in May 2010 (v. 2.2).
+.SH REFERENCE
+The method is described in detail in the following article:
+
+NN-align. An artificial neural network-based alignment algorithm for MHC class II peptide binding prediction.
+.br
+Morten Nielsen, and Ole Lund.
+.br
+BMC Bioinformatics \fB10\fP:296, \fB2009\fP.
+
+More information about the method can be found at:
+   
+.B    http://www.cbs.dtu.dk/services/NetMHCII/
+
+.SH FILES
+\fB/usr/cbs/bio/bin/netMHCII\fP           executable
+.br
+\fB/usr/cbs/bio/src/netMHCII-2.1\fP      software home
+.SH SEE ALSO
+fasta (1)

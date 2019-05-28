@@ -1,0 +1,24 @@
+rm -rf ./results
+mkdir ./results
+echo version 3.0
+declare -i c1=`cat alleles.list | wc -l`
+declare -i c2=`ls ../proteins | wc -l`
+declare -i total
+total=c1*c2
+declare -i count
+count=0
+for p in `ls ../proteins`; 
+do rm -rf ./results/$p; 
+mkdir ./results/$p; 
+done;
+for protein in `ls ../proteins`; 
+do
+count=$count+1;
+for allele in `cat ./alleles.list`; 
+do 
+count=$count+1;
+percent=$(echo "scale=5; $count/$total" | bc);
+echo "v3.0 predicting for protein $protein for allele $allele ($percent % Finished)"; 
+./netMHCIIpan -a $allele -f ../proteins/$protein > ./results/$protein/$allele.result; 
+done; 
+done;

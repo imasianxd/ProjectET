@@ -1,0 +1,360 @@
+3/31/2016 11:04:53 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	unexpected stepsCompleted, check debugSettings.json
+3/31/2016 11:05:33 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Check File Structure Failed
+3/31/2016 11:06:06 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/23:06:05.4741060/netMHCII-2.2_Results
+3/31/2016 11:06:06 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/23:06:05.4741060/netMHCIIpan-3.0_Results
+3/31/2016 11:06:31 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/23:06:05.4741060/iedb_Results
+4/1/2016 9:41:24 AM
+	[ERR] error while writing to file: System.IO.FileNotFoundException: Could not find file "/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Results/template.html".
+File name: '/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Results/template.html'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at Jia.Library.read (System.String filter, System.String path) [0x00000] in <filename unknown>:0 
+4/1/2016 9:45:11 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Check File Structure Failed
+4/1/2016 9:46:02 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Check File Structure Failed
+4/1/2016 9:48:41 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Check File Structure Failed
+4/1/2016 9:49:08 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/09:49:07.8938090/netMHCII-2.2_Results
+4/1/2016 9:49:08 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/09:49:07.8938090/netMHCIIpan-3.0_Results
+4/1/2016 9:49:34 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/09:49:07.8938090/iedb_Results
+4/14/2016 8:47:21 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/20:47:20.3333950/netMHCII-2.2_Results
+4/14/2016 8:47:21 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/20:47:20.3333950/netMHCIIpan-3.0_Results
+4/14/2016 8:47:45 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/20:47:20.3333950/iedb_Results
+4/14/2016 11:11:16 PM
+	[ERR] error while writing to file: System.IO.FileNotFoundException: Could not find file "/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Protein_Sequence/test.fasta".
+File name: '/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Protein_Sequence/test.fasta'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at Jia.Library.read (System.String filter, System.String path) [0x00000] in <filename unknown>:0 
+4/14/2016 11:49:03 PM
+	[ERR] error while writing to file: System.IO.FileNotFoundException: Could not find file "/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Results/template.html".
+File name: '/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Results/template.html'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at Jia.Library.read (System.String filter, System.String path) [0x00000] in <filename unknown>:0 
+4/14/2016 11:49:37 PM
+	[ERR] error while writing to file: System.IO.FileNotFoundException: Could not find file "/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Results/template.html".
+File name: '/home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Results/template.html'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at Jia.Library.read (System.String filter, System.String path) [0x00000] in <filename unknown>:0 
+4/15/2016 12:07:44 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/Client/ProjectET/ProjectET/bin/Debug/Old_Runs/00:07:43.7541590/netMHCII-2.2_Results
+4/19/2016 10:09:43 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/mark/Desktop/ProjectET_Source/ProjectET/bin/Debug/Old_Runs/22:09:40.6649450/netMHCII-2.2_Results
+4/19/2016 10:09:43 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/mark/Desktop/ProjectET_Source/ProjectET/bin/Debug/Old_Runs/22:09:40.6649450/netMHCIIpan-3.0_Results
+4/19/2016 10:09:49 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/mark/Desktop/ProjectET_Source/ProjectET/bin/Debug/Old_Runs/22:09:47.7438180/netMHCII-2.2_Results
+4/19/2016 10:09:50 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/mark/Desktop/ProjectET_Source/ProjectET/bin/Debug/Old_Runs/22:09:47.7438180/netMHCIIpan-3.0_Results
+4/19/2016 10:09:50 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/mark/Desktop/ProjectET_Source/ProjectET/bin/Debug/Old_Runs/22:09:47.7438180/iedb_Results
+4/19/2016 10:21:42 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Check File Structure Failed
+2016-05-17 6:24:39 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/18:24:35.7229500/netMHCII-2.2_Results
+2016-05-17 6:24:39 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/18:24:35.7229500/netMHCIIpan-3.0_Results
+2016-05-18 11:30:41 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	error getting data from php: System.Net.WebException: Error: NameResolutionFailure
+  at System.Net.HttpWebRequest.EndGetRequestStream (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.UploadValuesCore (System.Uri uri, System.String method, System.Collections.Specialized.NameValueCollection data, System.Object userToken) [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.UploadValues (System.Uri address, System.String method, System.Collections.Specialized.NameValueCollection data) [0x00000] in <filename unknown>:0 
+2016-06-08 12:21:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:21:59.4785750/netMHCII-2.2_modified_Results
+2016-06-08 12:23:01 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:23:00.8550220/netMHCII-2.2_modified_Results
+2016-06-08 12:23:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:23:58.9059120/netMHCII-2.2_modified_Results
+2016-06-08 12:24:21 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:24:20.4252740/netMHCII-2.2_modified_Results
+2016-06-08 12:24:46 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:24:45.7070370/netMHCII-2.2_modified_Results
+2016-06-08 12:25:40 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:25:40.3308660/netMHCII-2.2_modified_Results
+2016-06-08 12:35:36 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:35:35.9457460/netMHCII-2.2_modified_Results
+2016-06-08 12:37:45 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:37:45.1097620/netMHCII-2.2_modified_Results
+2016-06-08 12:38:12 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:38:11.5786230/netMHCII-2.2_modified_Results
+2016-06-08 12:42:45 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:42:44.8649000/netMHCII-2.2_modified_Results
+2016-06-08 2:58:07 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:58:07.1408340/netMHCII-2.2_modified_Results
+2016-06-09 11:44:41 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/11:44:32.6363340/netMHCII-2.2_Results
+2016-06-09 11:44:41 AM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/11:44:32.6363340/netMHCIIpan-3.0_Results
+2016-06-09 12:48:38 PM
+	[ERR] error while writing to file: System.IO.FileNotFoundException: Could not find file "/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Protein_Sequence/Self_Sequence1.fasta".
+File name: '/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Protein_Sequence/Self_Sequence1.fasta'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at Jia.Library.read (System.String filter, System.String path) [0x00000] in <filename unknown>:0 
+2016-06-09 12:50:53 PM
+	[ERR] error while writing to file: System.IO.FileNotFoundException: Could not find file "/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Protein_Sequence/Self_Sequence1.fasta".
+File name: '/home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Protein_Sequence/Self_Sequence1.fasta'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at Jia.Library.read (System.String filter, System.String path) [0x00000] in <filename unknown>:0 
+2016-06-09 12:52:52 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:52:50.1902590/netMHCII-2.2_Results
+2016-06-09 12:52:52 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:52:50.1902590/netMHCIIpan-3.0_Results
+2016-06-09 12:52:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:52:50.1902590/iedb_Results
+2016-06-13 2:09:32 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:09:29.8132180/netMHCII-2.2_Results
+2016-06-13 2:09:33 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:09:29.8132180/netMHCIIpan-3.0_Results
+2016-06-13 2:09:40 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:09:29.8132180/iedb_Results
+2016-06-13 2:11:08 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:11:07.1247160/netMHCII-2.2_Results
+2016-06-13 2:11:09 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:11:07.1247160/netMHCIIpan-3.0_Results
+2016-06-13 2:11:15 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:11:07.1247160/iedb_Results
+2016-06-13 2:14:56 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:14:54.5470290/netMHCII-2.2_Results
+2016-06-13 2:14:57 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:14:54.5470290/netMHCIIpan-3.0_Results
+2016-06-13 2:15:03 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:14:54.5470290/iedb_Results
+2016-06-13 2:17:25 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:17:23.6277610/netMHCII-2.2_Results
+2016-06-13 2:17:25 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:17:23.6277610/netMHCIIpan-3.0_Results
+2016-06-13 2:17:32 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:17:23.6277610/iedb_Results
+2016-06-13 2:22:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:22:56.4507890/netMHCII-2.2_Results
+2016-06-13 2:22:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:22:56.4507890/iedb_Results
+2016-06-13 2:22:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:22:56.4507890/netMHCIIpan-3.0_Results
+2016-06-13 2:28:11 PM
+	[ERR] error getting data from web: System.Net.WebException: The remote server returned an error: (400) Bad Request.
+  at System.Net.HttpWebRequest.CheckFinalStatus (System.Net.WebAsyncResult result) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.SetResponseData (System.Net.WebConnectionData data) [0x00000] in <filename unknown>:0 
+2016-06-13 2:28:37 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:28:33.9360020/netMHCII-2.2_Results
+2016-06-13 2:28:37 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:28:33.9360020/netMHCIIpan-3.0_Results
+2016-06-13 2:29:16 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:29:13.5536930/netMHCII-2.2_Results
+2016-06-13 2:29:16 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:29:13.5536930/netMHCIIpan-3.0_Results
+2016-06-13 2:29:22 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:29:13.5536930/iedb_Results
+2016-06-13 2:33:57 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:33:51.8964690/netMHCII-2.2_Results
+2016-06-13 2:33:57 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:33:51.8964690/netMHCIIpan-3.0_Results
+2016-06-13 2:34:04 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:33:51.8964690/iedb_Results
+2016-06-13 2:50:32 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:50:29.0003170/netMHCII-2.2_Results
+2016-06-13 2:50:32 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:50:29.0003170/netMHCIIpan-3.0_Results
+2016-06-13 2:50:39 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:50:29.0003170/iedb_Results
+2016-06-13 2:52:17 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:52:12.7509600/netMHCII-2.2_Results
+2016-06-13 2:52:17 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:52:12.7509600/netMHCIIpan-3.0_Results
+2016-06-13 2:52:23 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:52:12.7509600/iedb_Results
+2016-06-13 2:52:52 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/14:52:12.7509600/netMHCII-2.2_modified_Results
+2016-06-13 3:12:47 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/15:12:44.9383240/netMHCII-2.2_Results
+2016-06-13 3:12:47 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/15:12:44.9383240/netMHCIIpan-3.0_Results
+2016-06-13 3:12:53 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/15:12:44.9383240/iedb_Results
+2016-06-17 12:29:19 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:29:16.4893750/netMHCII-2.2_Results
+2016-06-17 12:29:19 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:29:16.4893750/netMHCIIpan-3.0_Results
+2016-06-17 12:29:28 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:29:16.4893750/iedb_Results
+2016-06-17 12:30:19 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:30:15.5688120/netMHCII-2.2_Results
+2016-06-17 12:30:20 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:30:15.5688120/netMHCIIpan-3.0_Results
+2016-06-17 12:30:28 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:30:15.5688120/iedb_Results
+2016-06-17 12:30:55 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:30:15.5688120/netMHCII-2.2_modified_Results
+2016-06-17 12:32:17 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:32:13.3564660/netMHCII-2.2_Results
+2016-06-17 12:32:17 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:32:13.3564660/netMHCIIpan-3.0_Results
+2016-06-17 12:34:30 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:34:02.6337670/netMHCII-2.2_Results
+2016-06-17 12:34:30 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:34:02.6337670/netMHCIIpan-3.0_Results
+2016-06-17 12:34:37 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:34:02.6337670/iedb_Results
+2016-06-17 12:35:54 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:35:51.8458870/netMHCII-2.2_Results
+2016-06-17 12:35:55 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:35:51.8458870/netMHCIIpan-3.0_Results
+2016-06-17 12:36:03 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:35:51.8458870/iedb_Results
+2016-06-17 12:36:28 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:35:51.8458870/netMHCII-2.2_modified_Results
+2016-06-17 12:40:56 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:40:41.7420240/netMHCII-2.2_Results
+2016-06-17 12:40:57 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:40:41.7420240/netMHCIIpan-3.0_Results
+2016-06-17 12:41:04 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:40:41.7420240/iedb_Results
+2016-06-17 12:41:29 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:40:41.7420240/netMHCII-2.2_modified_Results
+2016-06-17 12:41:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:40:41.7420240/netMHCII-2.2_modified_Results
+2016-06-17 12:45:23 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_Results
+2016-06-17 12:45:23 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCIIpan-3.0_Results
+2016-06-17 12:45:30 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/iedb_Results
+2016-06-17 12:45:57 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:46:03 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:46:11 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:46:20 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:47:09 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:47:19 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:47:28 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:47:32 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:45:19.1828210/netMHCII-2.2_modified_Results
+2016-06-17 12:51:36 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:51:35.5562720/netMHCII-2.2_Results
+2016-06-17 12:51:36 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:51:35.5562720/netMHCIIpan-3.0_Results
+2016-06-17 12:51:43 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:51:35.5562720/iedb_Results
+2016-06-17 12:52:12 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:51:35.5562720/netMHCII-2.2_modified_Results
+2016-06-17 12:54:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_Results
+2016-06-17 12:55:00 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCIIpan-3.0_Results
+2016-06-17 12:55:06 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/iedb_Results
+2016-06-17 12:55:33 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:55:44 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:55:53 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:56:02 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:56:49 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:56:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:57:07 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 12:57:13 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/12:53:54.9127270/netMHCII-2.2_modified_Results
+2016-06-17 1:03:04 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_Results
+2016-06-17 1:03:04 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCIIpan-3.0_Results
+2016-06-17 1:03:12 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/iedb_Results
+2016-06-17 1:03:37 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:03:42 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:03:51 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:03:59 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:04:49 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:04:58 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:05:05 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:05:10 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:03:03.3117830/netMHCII-2.2_modified_Results
+2016-06-17 1:09:54 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_Results
+2016-06-17 1:09:54 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCIIpan-3.0_Results
+2016-06-17 1:10:02 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/iedb_Results
+2016-06-17 1:10:28 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:10:33 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:10:41 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:10:50 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:11:40 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:11:49 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:11:57 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:12:03 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	deleted!! existing modified prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:09:53.7447110/netMHCII-2.2_modified_Results
+2016-06-17 1:20:02 PM
+	To reduce logging spam, please label with [INFO/WARN/ERR]	Moved existing prediction result to /home/j/Desktop/ProjectET_Source/projectET/ProjectET/bin/Debug/Old_Runs/13:20:01.8317830/netMHCII-2.2_Results

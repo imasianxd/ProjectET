@@ -1,0 +1,22 @@
+# NetMHCIIpan version 3.0
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Threshold for Strong binding peptides (IC50)	50.000 nM
+# Threshold for Weak binding peptides (IC50)	500.000 nM
+
+# Threshold for Strong binding peptides (%Rank)	0.5%
+# Threshold for Weak binding peptides (%Rank)	2%
+
+
+
+
+# Allele: DRB1*01:01
+-------------------------------------------------------------------------------------------------------------------------------------------
+   pos                 Allele           peptide    Identity  Pos         Core 1-log50k(aff)  Affinity(nM)  %Rank   BindingLevel
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 0
+-------------------------------------------------------------------------------------------------------------------------------------------
